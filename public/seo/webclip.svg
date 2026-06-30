@@ -1,0 +1,18 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="256" height="256" fill="#F7F5F3"/>
+<rect x="218.372" y="127.754" width="18.9857" height="18.9857" fill="black" stroke="black" stroke-width="2.47639"/>
+<circle cx="227.865" cy="137.246" r="8.25464" fill="#F7F5F3"/>
+<rect x="178.43" y="109.262" width="37.4764" height="37.4764" fill="black" stroke="black" stroke-width="2.47639"/>
+<rect x="179.668" y="110.5" width="35" height="35" rx="17.5" fill="#F7F5F3"/>
+<circle cx="197.169" cy="127.999" r="8.25464" fill="black"/>
+<circle cx="197.169" cy="127.999" r="8.25464" fill="black"/>
+<rect x="138.479" y="109.262" width="37.4764" height="37.4764" fill="black" stroke="black" stroke-width="2.47639"/>
+<path d="M174.717 120.735H162.336V145.499H174.717V145.5H139.717V145.499H152.099V120.735H139.717V110.5H174.717V120.735Z" fill="#F7F5F3"/>
+<rect x="98.5348" y="109.262" width="37.4764" height="37.4764" fill="black" stroke="black" stroke-width="2.47639"/>
+<path d="M134.774 120.735H122.393V145.499H134.774V145.5H99.7739V145.499H112.156V120.735H99.7739V110.5H134.774V120.735Z" fill="#F7F5F3"/>
+<rect x="58.5855" y="109.262" width="37.4764" height="37.4764" fill="black" stroke="black" stroke-width="2.47639"/>
+<path d="M94.8247 120.742H82.4438V135.188H94.8247V145.5H59.8247V135.188H72.2065V120.742H59.8247V110.5H94.8247V120.742Z" fill="#F7F5F3"/>
+<rect x="18.6417" y="109.262" width="37.4764" height="37.4764" fill="black" stroke="black" stroke-width="2.47639"/>
+<path d="M19.8799 110.5H37.3799C47.0449 110.5 54.8799 118.335 54.8799 128V128C54.8799 137.665 47.0448 145.5 37.3799 145.5H19.8799V110.5Z" fill="#F7F5F3"/>
+<circle cx="37.3806" cy="127.999" r="8.25464" fill="black"/>
+</svg>

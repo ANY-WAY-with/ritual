@@ -1,0 +1,602 @@
+{
+  "tag": "section",
+  "cls": "section bg-black",
+  "box": {
+    "w": 1440,
+    "h": 1186
+  },
+  "text": null,
+  "styles": {
+    "fontSize": "16px",
+    "fontWeight": "400",
+    "fontFamily": "\"ABC Social\", Arial, sans-serif",
+    "lineHeight": "16px",
+    "color": "rgb(247, 245, 243)",
+    "backgroundColor": "rgb(0, 0, 0)",
+    "width": "1440px",
+    "height": "1185.59px",
+    "display": "block",
+    "flexDirection": "row",
+    "border": "0px none rgb(247, 245, 243)",
+    "overflow": "hidden",
+    "position": "static",
+    "opacity": "1",
+    "objectFit": "fill",
+    "textAlign": "start"
+  },
+  "img": null,
+  "childCount": 1,
+  "children": [
+    {
+      "tag": "div",
+      "cls": "w-layout-blockcontainer max-width w-container",
+      "box": {
+        "w": 1440,
+        "h": 1186
+      },
+      "text": null,
+      "styles": {
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "fontFamily": "\"ABC Social\", Arial, sans-serif",
+        "lineHeight": "16px",
+        "color": "rgb(247, 245, 243)",
+        "width": "1440px",
+        "height": "1185.59px",
+        "maxWidth": "1440px",
+        "display": "block",
+        "flexDirection": "row",
+        "border": "0px none rgb(247, 245, 243)",
+        "overflow": "visible",
+        "position": "static",
+        "opacity": "1",
+        "objectFit": "fill",
+        "textAlign": "start"
+      },
+      "img": null,
+      "childCount": 2,
+      "children": [
+        {
+          "tag": "div",
+          "cls": "width-55 center padding-top-80 padding-bottom-60",
+          "box": {
+            "w": 792,
+            "h": 347
+          },
+          "text": null,
+          "styles": {
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "fontFamily": "\"ABC Social\", Arial, sans-serif",
+            "lineHeight": "16px",
+            "color": "rgb(247, 245, 243)",
+            "padding": "80px 0px 60px",
+            "paddingTop": "80px",
+            "paddingBottom": "60px",
+            "margin": "0px 324px",
+            "width": "792px",
+            "height": "346.594px",
+            "display": "block",
+            "flexDirection": "row",
+            "border": "0px none rgb(247, 245, 243)",
+            "overflow": "visible",
+            "position": "static",
+            "opacity": "1",
+            "objectFit": "fill",
+            "textAlign": "start"
+          },
+          "img": null,
+          "childCount": 2,
+          "children": [
+            {
+              "tag": "h2",
+              "cls": "text-center-align heading-l-5 margin-bottom-30",
+              "box": {
+                "w": 792,
+                "h": 106
+              },
+              "text": null,
+              "styles": {
+                "fontSize": "48px",
+                "fontWeight": "700",
+                "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                "lineHeight": "52.8px",
+                "color": "rgb(247, 245, 243)",
+                "margin": "20px 0px 30px",
+                "marginTop": "20px",
+                "marginBottom": "30px",
+                "width": "792px",
+                "height": "105.594px",
+                "display": "block",
+                "flexDirection": "row",
+                "border": "0px none rgb(247, 245, 243)",
+                "overflow": "visible",
+                "position": "static",
+                "opacity": "1",
+                "objectFit": "fill",
+                "textAlign": "center"
+              },
+              "img": null,
+              "childCount": 1,
+              "children": [
+                {
+                  "tag": "br",
+                  "cls": "",
+                  "box": {
+                    "w": 0,
+                    "h": 59
+                  },
+                  "text": null,
+                  "styles": {
+                    "fontSize": "48px",
+                    "fontWeight": "700",
+                    "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                    "lineHeight": "52.8px",
+                    "color": "rgb(247, 245, 243)",
+                    "display": "inline",
+                    "flexDirection": "row",
+                    "border": "0px none rgb(247, 245, 243)",
+                    "overflow": "visible",
+                    "position": "static",
+                    "opacity": "1",
+                    "objectFit": "fill",
+                    "textAlign": "center"
+                  },
+                  "img": null,
+                  "childCount": 0,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "cls": "flex center gap-2 wrap",
+              "box": {
+                "w": 792,
+                "h": 51
+              },
+              "text": null,
+              "styles": {
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                "lineHeight": "16px",
+                "color": "rgb(247, 245, 243)",
+                "width": "792px",
+                "height": "51px",
+                "display": "flex",
+                "flexDirection": "row",
+                "justifyContent": "center",
+                "alignItems": "center",
+                "gap": "2%",
+                "border": "0px none rgb(247, 245, 243)",
+                "overflow": "visible",
+                "position": "static",
+                "opacity": "1",
+                "objectFit": "fill",
+                "textAlign": "start"
+              },
+              "img": null,
+              "childCount": 1,
+              "children": [
+                {
+                  "tag": "a",
+                  "cls": "button minimize bg-yellow w-inline-block",
+                  "box": {
+                    "w": 258,
+                    "h": 51
+                  },
+                  "text": null,
+                  "styles": {
+                    "fontSize": "16px",
+                    "fontWeight": "700",
+                    "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                    "lineHeight": "16px",
+                    "letterSpacing": "0.12992px",
+                    "color": "rgb(0, 0, 0)",
+                    "backgroundColor": "rgb(255, 221, 51)",
+                    "padding": "15px 20px",
+                    "paddingTop": "15px",
+                    "paddingBottom": "15px",
+                    "paddingLeft": "20px",
+                    "paddingRight": "20px",
+                    "width": "257.578px",
+                    "height": "51px",
+                    "maxWidth": "100%",
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "justifyContent": "flex-start",
+                    "alignItems": "center",
+                    "gap": "8px",
+                    "borderRadius": "1000px",
+                    "border": "0px none rgb(0, 0, 0)",
+                    "overflow": "visible",
+                    "position": "static",
+                    "opacity": "1",
+                    "objectFit": "fill",
+                    "textAlign": "start"
+                  },
+                  "img": null,
+                  "childCount": 2,
+                  "children": [
+                    {
+                      "tag": "div",
+                      "cls": "",
+                      "box": {
+                        "w": 191,
+                        "h": 16
+                      },
+                      "text": "See the full Ditto platform",
+                      "styles": {
+                        "fontSize": "16px",
+                        "fontWeight": "700",
+                        "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                        "lineHeight": "16px",
+                        "letterSpacing": "0.12992px",
+                        "color": "rgb(0, 0, 0)",
+                        "width": "190.578px",
+                        "height": "16px",
+                        "display": "block",
+                        "flexDirection": "row",
+                        "border": "0px none rgb(0, 0, 0)",
+                        "overflow": "visible",
+                        "position": "static",
+                        "opacity": "1",
+                        "objectFit": "fill",
+                        "textAlign": "start"
+                      },
+                      "img": null,
+                      "childCount": 0,
+                      "children": []
+                    },
+                    {
+                      "tag": "div",
+                      "cls": "arrow-minimize w-embed",
+                      "box": {
+                        "w": 19,
+                        "h": 21
+                      },
+                      "text": null,
+                      "styles": {
+                        "fontSize": "16px",
+                        "fontWeight": "700",
+                        "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                        "lineHeight": "16px",
+                        "letterSpacing": "0.12992px",
+                        "color": "rgb(0, 0, 0)",
+                        "width": "19px",
+                        "height": "21px",
+                        "display": "block",
+                        "flexDirection": "row",
+                        "border": "0px none rgb(0, 0, 0)",
+                        "overflow": "visible",
+                        "position": "static",
+                        "opacity": "1",
+                        "objectFit": "fill",
+                        "textAlign": "start"
+                      },
+                      "img": null,
+                      "childCount": 1,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "cls": "image-grid-rebuild",
+          "box": {
+            "w": 1440,
+            "h": 839
+          },
+          "text": null,
+          "styles": {
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "fontFamily": "\"ABC Social\", Arial, sans-serif",
+            "lineHeight": "16px",
+            "color": "rgb(247, 245, 243)",
+            "padding": "50px 40px",
+            "paddingTop": "50px",
+            "paddingBottom": "50px",
+            "paddingLeft": "40px",
+            "paddingRight": "40px",
+            "width": "1440px",
+            "height": "839px",
+            "display": "grid",
+            "flexDirection": "row",
+            "gap": "20px",
+            "gridTemplateColumns": "670px 670px",
+            "gridTemplateRows": "739px",
+            "border": "0px none rgb(247, 245, 243)",
+            "overflow": "visible",
+            "position": "static",
+            "opacity": "1",
+            "objectFit": "fill",
+            "textAlign": "start"
+          },
+          "img": null,
+          "childCount": 2,
+          "children": [
+            {
+              "tag": "div",
+              "cls": "",
+              "box": {
+                "w": 670,
+                "h": 739
+              },
+              "text": null,
+              "styles": {
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                "lineHeight": "16px",
+                "color": "rgb(247, 245, 243)",
+                "width": "670px",
+                "height": "739px",
+                "display": "block",
+                "flexDirection": "row",
+                "border": "0px none rgb(247, 245, 243)",
+                "overflow": "visible",
+                "position": "static",
+                "opacity": "1",
+                "objectFit": "fill",
+                "textAlign": "start"
+              },
+              "img": null,
+              "childCount": 2,
+              "children": [
+                {
+                  "tag": "img",
+                  "cls": "margin-bottom-20",
+                  "box": {
+                    "w": 670,
+                    "h": 486
+                  },
+                  "text": null,
+                  "styles": {
+                    "fontSize": "16px",
+                    "fontWeight": "400",
+                    "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                    "lineHeight": "16px",
+                    "color": "rgb(247, 245, 243)",
+                    "margin": "0px 0px 20px",
+                    "marginBottom": "20px",
+                    "width": "670px",
+                    "height": "486px",
+                    "maxWidth": "100%",
+                    "display": "inline-block",
+                    "flexDirection": "row",
+                    "border": "0px none rgb(247, 245, 243)",
+                    "overflow": "clip",
+                    "position": "static",
+                    "opacity": "1",
+                    "objectFit": "fill",
+                    "textAlign": "start"
+                  },
+                  "img": {
+                    "src": "6a387ae685c2bc351ffd5bdb_Product%20Grid%201.png",
+                    "alt": "",
+                    "w": 1439,
+                    "h": 1044
+                  },
+                  "childCount": 0,
+                  "children": []
+                },
+                {
+                  "tag": "div",
+                  "cls": "div-block",
+                  "box": {
+                    "w": 670,
+                    "h": 233
+                  },
+                  "text": null,
+                  "styles": {
+                    "fontSize": "16px",
+                    "fontWeight": "400",
+                    "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                    "lineHeight": "16px",
+                    "color": "rgb(247, 245, 243)",
+                    "width": "670px",
+                    "height": "233px",
+                    "display": "grid",
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                    "gap": "20px",
+                    "gridTemplateColumns": "325px 325px",
+                    "gridTemplateRows": "233px",
+                    "border": "0px none rgb(247, 245, 243)",
+                    "overflow": "visible",
+                    "position": "static",
+                    "opacity": "1",
+                    "objectFit": "fill",
+                    "textAlign": "start"
+                  },
+                  "img": null,
+                  "childCount": 2,
+                  "children": [
+                    {
+                      "tag": "img",
+                      "cls": "",
+                      "box": {
+                        "w": 325,
+                        "h": 233
+                      },
+                      "text": null,
+                      "styles": {
+                        "fontSize": "16px",
+                        "fontWeight": "400",
+                        "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                        "lineHeight": "16px",
+                        "color": "rgb(247, 245, 243)",
+                        "width": "325px",
+                        "height": "233px",
+                        "maxWidth": "100%",
+                        "display": "block",
+                        "flexDirection": "row",
+                        "border": "0px none rgb(247, 245, 243)",
+                        "overflow": "clip",
+                        "position": "static",
+                        "opacity": "1",
+                        "objectFit": "fill",
+                        "textAlign": "start"
+                      },
+                      "img": {
+                        "src": "6a387ae3af1457eb379c9379_Product%20Grid%203.png",
+                        "alt": "",
+                        "w": 1439,
+                        "h": 1032
+                      },
+                      "childCount": 0,
+                      "children": []
+                    },
+                    {
+                      "tag": "img",
+                      "cls": "",
+                      "box": {
+                        "w": 325,
+                        "h": 233
+                      },
+                      "text": null,
+                      "styles": {
+                        "fontSize": "16px",
+                        "fontWeight": "400",
+                        "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                        "lineHeight": "16px",
+                        "color": "rgb(247, 245, 243)",
+                        "width": "325px",
+                        "height": "233px",
+                        "maxWidth": "100%",
+                        "display": "block",
+                        "flexDirection": "row",
+                        "border": "0px none rgb(247, 245, 243)",
+                        "overflow": "clip",
+                        "position": "static",
+                        "opacity": "1",
+                        "objectFit": "fill",
+                        "textAlign": "start"
+                      },
+                      "img": {
+                        "src": "6a387adf1ed34756ac6d2f45_Product%20Grid%204.png",
+                        "alt": "",
+                        "w": 1439,
+                        "h": 1032
+                      },
+                      "childCount": 0,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "cls": "",
+              "box": {
+                "w": 670,
+                "h": 739
+              },
+              "text": null,
+              "styles": {
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                "lineHeight": "16px",
+                "color": "rgb(247, 245, 243)",
+                "width": "670px",
+                "height": "739px",
+                "display": "block",
+                "flexDirection": "row",
+                "border": "0px none rgb(247, 245, 243)",
+                "overflow": "visible",
+                "position": "static",
+                "opacity": "1",
+                "objectFit": "fill",
+                "textAlign": "start"
+              },
+              "img": null,
+              "childCount": 2,
+              "children": [
+                {
+                  "tag": "img",
+                  "cls": "margin-bottom-20",
+                  "box": {
+                    "w": 670,
+                    "h": 486
+                  },
+                  "text": null,
+                  "styles": {
+                    "fontSize": "16px",
+                    "fontWeight": "400",
+                    "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                    "lineHeight": "16px",
+                    "color": "rgb(247, 245, 243)",
+                    "margin": "0px 0px 20px",
+                    "marginBottom": "20px",
+                    "width": "670px",
+                    "height": "486px",
+                    "maxWidth": "100%",
+                    "display": "inline-block",
+                    "flexDirection": "row",
+                    "border": "0px none rgb(247, 245, 243)",
+                    "overflow": "clip",
+                    "position": "static",
+                    "opacity": "1",
+                    "objectFit": "fill",
+                    "textAlign": "start"
+                  },
+                  "img": {
+                    "src": "6a387ae9d56b071a06caf76d_Product%20Grid%202.png",
+                    "alt": "",
+                    "w": 1439,
+                    "h": 1044
+                  },
+                  "childCount": 0,
+                  "children": []
+                },
+                {
+                  "tag": "img",
+                  "cls": "",
+                  "box": {
+                    "w": 670,
+                    "h": 233
+                  },
+                  "text": null,
+                  "styles": {
+                    "fontSize": "16px",
+                    "fontWeight": "400",
+                    "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                    "lineHeight": "16px",
+                    "color": "rgb(247, 245, 243)",
+                    "width": "670px",
+                    "height": "233px",
+                    "maxWidth": "100%",
+                    "display": "inline-block",
+                    "flexDirection": "row",
+                    "border": "0px none rgb(247, 245, 243)",
+                    "overflow": "clip",
+                    "position": "static",
+                    "opacity": "1",
+                    "objectFit": "fill",
+                    "textAlign": "start"
+                  },
+                  "img": {
+                    "src": "6a387aec6ef3c83be8ddc166_Product%20Grid%205.png",
+                    "alt": "",
+                    "w": 1439,
+                    "h": 500
+                  },
+                  "childCount": 0,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

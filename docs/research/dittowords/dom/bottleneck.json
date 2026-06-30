@@ -1,0 +1,130 @@
+{
+  "tag": "section",
+  "cls": "padding-bottom-60 padding-top-50",
+  "box": {
+    "w": 1440,
+    "h": 359
+  },
+  "text": null,
+  "styles": {
+    "fontSize": "16px",
+    "fontWeight": "400",
+    "fontFamily": "\"ABC Social\", Arial, sans-serif",
+    "lineHeight": "16px",
+    "color": "rgb(0, 0, 0)",
+    "padding": "50px 0px 60px",
+    "paddingTop": "50px",
+    "paddingBottom": "60px",
+    "width": "1440px",
+    "height": "358.562px",
+    "display": "block",
+    "flexDirection": "row",
+    "border": "0px none rgb(0, 0, 0)",
+    "overflow": "visible",
+    "position": "static",
+    "opacity": "1",
+    "objectFit": "fill",
+    "textAlign": "start"
+  },
+  "img": null,
+  "childCount": 1,
+  "children": [
+    {
+      "tag": "div",
+      "cls": "w-layout-blockcontainer max-width margin-top-50 margin-bottom-50 w-container",
+      "box": {
+        "w": 1440,
+        "h": 149
+      },
+      "text": null,
+      "styles": {
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "fontFamily": "\"ABC Social\", Arial, sans-serif",
+        "lineHeight": "16px",
+        "color": "rgb(0, 0, 0)",
+        "margin": "50px 0px",
+        "marginTop": "50px",
+        "marginBottom": "50px",
+        "width": "1440px",
+        "height": "148.562px",
+        "maxWidth": "1440px",
+        "display": "block",
+        "flexDirection": "row",
+        "border": "0px none rgb(0, 0, 0)",
+        "overflow": "visible",
+        "position": "static",
+        "opacity": "1",
+        "objectFit": "fill",
+        "textAlign": "start"
+      },
+      "img": null,
+      "childCount": 1,
+      "children": [
+        {
+          "tag": "div",
+          "cls": "width-70-rebuild center",
+          "box": {
+            "w": 1008,
+            "h": 99
+          },
+          "text": null,
+          "styles": {
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "fontFamily": "\"ABC Social\", Arial, sans-serif",
+            "lineHeight": "16px",
+            "color": "rgb(0, 0, 0)",
+            "margin": "0px 216px",
+            "width": "1008px",
+            "height": "98.5625px",
+            "display": "block",
+            "flexDirection": "row",
+            "border": "0px none rgb(0, 0, 0)",
+            "overflow": "visible",
+            "position": "static",
+            "opacity": "1",
+            "objectFit": "fill",
+            "textAlign": "start"
+          },
+          "img": null,
+          "childCount": 1,
+          "children": [
+            {
+              "tag": "h2",
+              "cls": "text-center-align heading-l-5-thin margin-bottom-30",
+              "box": {
+                "w": 1008,
+                "h": 99
+              },
+              "text": "Don\u2019t let copy be your bottleneck. Bring structure to your workflows, to write and ship faster.",
+              "styles": {
+                "fontSize": "44.8px",
+                "fontWeight": "700",
+                "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                "lineHeight": "49.28px",
+                "color": "rgb(0, 0, 0)",
+                "margin": "20px 0px 30px",
+                "marginTop": "20px",
+                "marginBottom": "30px",
+                "width": "1008px",
+                "height": "98.5625px",
+                "display": "block",
+                "flexDirection": "row",
+                "border": "0px none rgb(0, 0, 0)",
+                "overflow": "visible",
+                "position": "static",
+                "opacity": "1",
+                "objectFit": "fill",
+                "textAlign": "center"
+              },
+              "img": null,
+              "childCount": 0,
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

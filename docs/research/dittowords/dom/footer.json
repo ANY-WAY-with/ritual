@@ -1,0 +1,2106 @@
+{
+  "tag": "footer",
+  "cls": "footer",
+  "box": {
+    "w": 1440,
+    "h": 981
+  },
+  "text": null,
+  "styles": {
+    "fontSize": "16px",
+    "fontWeight": "400",
+    "fontFamily": "\"ABC Social\", Arial, sans-serif",
+    "lineHeight": "16px",
+    "color": "rgb(247, 245, 243)",
+    "backgroundColor": "rgb(0, 0, 0)",
+    "width": "1440px",
+    "height": "980.984px",
+    "display": "block",
+    "flexDirection": "row",
+    "border": "0px none rgb(247, 245, 243)",
+    "overflow": "hidden",
+    "position": "static",
+    "opacity": "1",
+    "objectFit": "fill",
+    "textAlign": "start"
+  },
+  "img": null,
+  "childCount": 1,
+  "children": [
+    {
+      "tag": "div",
+      "cls": "max-width",
+      "box": {
+        "w": 1440,
+        "h": 981
+      },
+      "text": null,
+      "styles": {
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "fontFamily": "\"ABC Social\", Arial, sans-serif",
+        "lineHeight": "16px",
+        "color": "rgb(247, 245, 243)",
+        "width": "1440px",
+        "height": "980.984px",
+        "maxWidth": "1440px",
+        "display": "block",
+        "flexDirection": "row",
+        "border": "0px none rgb(247, 245, 243)",
+        "overflow": "visible",
+        "position": "static",
+        "opacity": "1",
+        "objectFit": "fill",
+        "textAlign": "start"
+      },
+      "img": null,
+      "childCount": 1,
+      "children": [
+        {
+          "tag": "div",
+          "cls": "footer-padding",
+          "box": {
+            "w": 1440,
+            "h": 981
+          },
+          "text": null,
+          "styles": {
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "fontFamily": "\"ABC Social\", Arial, sans-serif",
+            "lineHeight": "16px",
+            "color": "rgb(247, 245, 243)",
+            "padding": "80px 60px 40px",
+            "paddingTop": "80px",
+            "paddingBottom": "40px",
+            "paddingLeft": "60px",
+            "paddingRight": "60px",
+            "width": "1440px",
+            "height": "980.984px",
+            "display": "block",
+            "flexDirection": "row",
+            "border": "0px none rgb(247, 245, 243)",
+            "overflow": "visible",
+            "position": "static",
+            "opacity": "1",
+            "objectFit": "fill",
+            "textAlign": "start"
+          },
+          "img": null,
+          "childCount": 5,
+          "children": [
+            {
+              "tag": "div",
+              "cls": "footer-grid-desktop",
+              "box": {
+                "w": 1320,
+                "h": 486
+              },
+              "text": null,
+              "styles": {
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                "lineHeight": "16px",
+                "color": "rgb(247, 245, 243)",
+                "width": "1320px",
+                "height": "485.797px",
+                "display": "grid",
+                "flexDirection": "row",
+                "gap": "5%",
+                "gridTemplateColumns": "280.5px 280.5px 280.5px 280.5px",
+                "gridTemplateRows": "485.797px",
+                "border": "0px none rgb(247, 245, 243)",
+                "overflow": "visible",
+                "position": "static",
+                "opacity": "1",
+                "objectFit": "fill",
+                "textAlign": "start"
+              },
+              "img": null,
+              "childCount": 4,
+              "children": [
+                {
+                  "tag": "div",
+                  "cls": "footer-link-container",
+                  "box": {
+                    "w": 281,
+                    "h": 486
+                  },
+                  "text": null,
+                  "styles": {
+                    "fontSize": "16px",
+                    "fontWeight": "400",
+                    "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                    "lineHeight": "16px",
+                    "color": "rgb(247, 245, 243)",
+                    "padding": "0px 0px 0px 14px",
+                    "paddingLeft": "14px",
+                    "width": "280.5px",
+                    "height": "485.797px",
+                    "display": "flex",
+                    "flexDirection": "column",
+                    "justifyContent": "flex-start",
+                    "alignItems": "flex-start",
+                    "gap": "20px",
+                    "overflow": "visible",
+                    "position": "static",
+                    "opacity": "1",
+                    "objectFit": "fill",
+                    "textAlign": "start"
+                  },
+                  "img": null,
+                  "childCount": 12,
+                  "children": [
+                    {
+                      "tag": "div",
+                      "cls": "paragraph-small text---graphite",
+                      "box": {
+                        "w": 72,
+                        "h": 20
+                      },
+                      "text": "Solutions",
+                      "styles": {
+                        "fontSize": "18px",
+                        "fontWeight": "400",
+                        "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                        "lineHeight": "19.8px",
+                        "color": "rgb(106, 101, 89)",
+                        "margin": "28px 0px 0px",
+                        "marginTop": "28px",
+                        "width": "72.0781px",
+                        "height": "19.7969px",
+                        "display": "block",
+                        "flexDirection": "row",
+                        "border": "0px none rgb(106, 101, 89)",
+                        "overflow": "visible",
+                        "position": "static",
+                        "opacity": "1",
+                        "objectFit": "fill",
+                        "textAlign": "start"
+                      },
+                      "img": null,
+                      "childCount": 0,
+                      "children": []
+                    },
+                    {
+                      "tag": "a",
+                      "cls": "footer-text-link",
+                      "box": {
+                        "w": 175,
+                        "h": 18
+                      },
+                      "text": "For Content Designers",
+                      "styles": {
+                        "fontSize": "18px",
+                        "fontWeight": "400",
+                        "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                        "lineHeight": "18px",
+                        "color": "rgb(247, 245, 243)",
+                        "width": "174.734px",
+                        "height": "18px",
+                        "display": "block",
+                        "flexDirection": "row",
+                        "border": "0px none rgb(247, 245, 243)",
+                        "overflow": "visible",
+                        "position": "static",
+                        "opacity": "1",
+                        "objectFit": "fill",
+                        "textAlign": "start"
+                      },
+                      "img": null,
+                      "childCount": 0,
+                      "children": []
+                    },
+                    {
+                      "tag": "a",
+                      "cls": "footer-text-link",
+                      "box": {
+                        "w": 117,
+                        "h": 18
+                      },
+                      "text": "For Developers",
+                      "styles": {
+                        "fontSize": "18px",
+                        "fontWeight": "400",
+                        "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                        "lineHeight": "18px",
+                        "color": "rgb(247, 245, 243)",
+                        "width": "116.703px",
+                        "height": "18px",
+                        "display": "block",
+                        "flexDirection": "row",
+                        "border": "0px none rgb(247, 245, 243)",
+                        "overflow": "visible",
+                        "position": "static",
+                        "opacity": "1",
+                        "objectFit": "fill",
+                        "textAlign": "start"
+                      },
+                      "img": null,
+                      "childCount": 0,
+                      "children": []
+                    },
+                    {
+                      "tag": "a",
+                      "cls": "footer-text-link",
+                      "box": {
+                        "w": 205,
+                        "h": 18
+                      },
+                      "text": "For Localization Managers",
+                      "styles": {
+                        "fontSize": "18px",
+                        "fontWeight": "400",
+                        "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                        "lineHeight": "18px",
+                        "color": "rgb(247, 245, 243)",
+                        "width": "205.328px",
+                        "height": "18px",
+                        "display": "block",
+                        "flexDirection": "row",
+                        "border": "0px none rgb(247, 245, 243)",
+                        "overflow": "visible",
+                        "position": "static",
+                        "opacity": "1",
+                        "objectFit": "fill",
+                        "textAlign": "start"
+                      },
+                      "img": null,
+                      "childCount": 0,
+                      "children": []
+                    },
+                    {
+                      "tag": "a",
+                      "cls": "footer-text-link margin-bottom-20",
+                      "box": {
+                        "w": 173,
+                        "h": 18
+                      },
+                      "text": "For Product Designers",
+                      "styles": {
+                        "fontSize": "18px",
+                        "fontWeight": "400",
+                        "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                        "lineHeight": "18px",
+                        "color": "rgb(247, 245, 243)",
+                        "margin": "0px 0px 20px",
+                        "marginBottom": "20px",
+                        "width": "173.422px",
+                        "height": "18px",
+                        "display": "block",
+                        "flexDirection": "row",
+                        "border": "0px none rgb(247, 245, 243)",
+                        "overflow": "visible",
+                        "position": "static",
+                        "opacity": "1",
+                        "objectFit": "fill",
+                        "textAlign": "start"
+                      },
+                      "img": null,
+                      "childCount": 0,
+                      "children": []
+                    },
+                    {
+                      "tag": "a",
+                      "cls": "footer-text-link",
+                      "box": {
+                        "w": 188,
+                        "h": 18
+                      },
+                      "text": "Build a Reusable Library",
+                      "styles": {
+                        "fontSize": "18px",
+                        "fontWeight": "400",
+                        "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                        "lineHeight": "18px",
+                        "color": "rgb(247, 245, 243)",
+                        "width": "187.516px",
+                        "height": "18px",
+                        "display": "block",
+                        "flexDirection": "row",
+                        "border": "0px none rgb(247, 245, 243)",
+                        "overflow": "visible",
+                        "position": "static",
+                        "opacity": "1",
+                        "objectFit": "fill",
+                        "textAlign": "start"
+                      },
+                      "img": null,
+                      "childCount": 0,
+                      "children": []
+                    },
+                    {
+                      "tag": "a",
+                      "cls": "footer-text-link",
+                      "box": {
+                        "w": 192,
+                        "h": 18
+                      },
+                      "text": "Centralize Copy Reviews",
+                      "styles": {
+                        "fontSize": "18px",
+                        "fontWeight": "400",
+                        "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                        "lineHeight": "18px",
+                        "color": "rgb(247, 245, 243)",
+                        "width": "191.75px",
+                        "height": "18px",
+                        "display": "block",
+                        "flexDirection": "row",
+                        "border": "0px none rgb(247, 245, 243)",
+                        "overflow": "visible",
+                        "position": "static",
+                        "opacity": "1",
+                        "objectFit": "fill",
+                        "textAlign": "start"
+                      },
+                      "img": null,
+                      "childCount": 0,
+                      "children": []
+                    },
+                    {
+                      "tag": "a",
+                      "cls": "footer-text-link",
+                      "box": {
+                        "w": 174,
+                        "h": 18
+                      },
+                      "text": "Localize Product Copy",
+                      "styles": {
+                        "fontSize": "18px",
+                        "fontWeight": "400",
+                        "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                        "lineHeight": "18px",
+                        "color": "rgb(247, 245, 243)",
+                        "width": "173.547px",
+                        "height": "18px",
+                        "display": "block",
+                        "flexDirection": "row",
+                        "border": "0px none rgb(247, 245, 243)",
+                        "overflow": "visible",
+                        "position": "static",
+                        "opacity": "1",
+                        "objectFit": "fill",
+                        "textAlign": "start"
+                      },
+                      "img": null,
+                      "childCount": 0,
+                      "children": []
+                    },
+                    {
+                      "tag": "a",
+                      "cls": "footer-text-link",
+                      "box": {
+                        "w": 208,
+                        "h": 18
+                      },
+                      "text": "Integrate with Engineering",
+                      "styles": {
+                        "fontSize": "18px",
+                        "fontWeight": "400",
+                        "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                        "lineHeight": "18px",
+                        "color": "rgb(247, 245, 243)",
+                        "width": "207.5px",
+                        "height": "18px",
+                        "display": "block",
+                        "flexDirection": "row",
+                        "border": "0px none rgb(247, 245, 243)",
+                        "overflow": "visible",
+                        "position": "static",
+                        "opacity": "1",
+                        "objectFit": "fill",
+                        "textAlign": "start"
+                      },
+                      "img": null,
+                      "childCount": 0,
+                      "children": []
+                    },
+                    {
+                      "tag": "a",
+                      "cls": "footer-text-link",
+                      "box": {
+                        "w": 166,
+                        "h": 18
+                      },
+                      "text": "Keep Designs in Sync",
+                      "styles": {
+                        "fontSize": "18px",
+                        "fontWeight": "400",
+                        "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                        "lineHeight": "18px",
+                        "color": "rgb(247, 245, 243)",
+                        "width": "165.719px",
+                        "height": "18px",
+                        "display": "block",
+                        "flexDirection": "row",
+                        "border": "0px none rgb(247, 245, 243)",
+                        "overflow": "visible",
+                        "position": "static",
+                        "opacity": "1",
+                        "objectFit": "fill",
+                        "textAlign": "start"
+                      },
+                      "img": null,
+                      "childCount": 0,
+                      "children": []
+                    },
+                    {
+                      "tag": "a",
+                      "cls": "footer-text-link",
+                      "box": {
+                        "w": 212,
+                        "h": 18
+                      },
+                      "text": "Build an AI Content System",
+                      "styles": {
+                        "fontSize": "18px",
+                        "fontWeight": "400",
+                        "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                        "lineHeight": "18px",
+                        "color": "rgb(247, 245, 243)",
+                        "width": "212.016px",
+                        "height": "18px",
+                        "display": "block",
+                        "flexDirection": "row",
+                        "border": "0px none rgb(247, 245, 243)",
+                        "overflow": "visible",
+                        "position": "static",
+                        "opacity": "1",
+                        "objectFit": "fill",
+                        "textAlign": "start"
+                      },
+                      "img": null,
+                      "childCount": 0,
+                      "children": []
+                    },
+                    {
+                      "tag": "a",
+                      "cls": "footer-text-link",
+                      "box": {
+                        "w": 169,
+                        "h": 18
+                      },
+                      "text": "For Financial Services",
+                      "styles": {
+                        "fontSize": "18px",
+                        "fontWeight": "400",
+                        "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                        "lineHeight": "18px",
+                        "color": "rgb(247, 245, 243)",
+                        "width": "168.797px",
+                        "height": "18px",
+                        "display": "block",
+                        "flexDirection": "row",
+                        "border": "0px none rgb(247, 245, 243)",
+                        "overflow": "visible",
+                        "position": "static",
+                        "opacity": "1",
+                        "objectFit": "fill",
+                        "textAlign": "start"
+                      },
+                      "img": null,
+                      "childCount": 0,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "cls": "footer-link-container",
+                  "box": {
+                    "w": 281,
+                    "h": 162
+                  },
+                  "text": null,
+                  "styles": {
+                    "fontSize": "16px",
+                    "fontWeight": "400",
+                    "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                    "lineHeight": "16px",
+                    "color": "rgb(247, 245, 243)",
+                    "padding": "0px 0px 0px 14px",
+                    "paddingLeft": "14px",
+                    "width": "280.5px",
+                    "height": "161.797px",
+                    "display": "flex",
+                    "flexDirection": "column",
+                    "justifyContent": "flex-start",
+                    "alignItems": "flex-start",
+                    "gap": "20px",
+                    "overflow": "visible",
+                    "position": "static",
+                    "opacity": "1",
+                    "objectFit": "fill",
+                    "textAlign": "start"
+                  },
+                  "img": null,
+                  "childCount": 4,
+                  "children": [
+                    {
+                      "tag": "div",
+                      "cls": "paragraph-small text---graphite",
+                      "box": {
+                        "w": 62,
+                        "h": 20
+                      },
+                      "text": "Product",
+                      "styles": {
+                        "fontSize": "18px",
+                        "fontWeight": "400",
+                        "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                        "lineHeight": "19.8px",
+                        "color": "rgb(106, 101, 89)",
+                        "margin": "28px 0px 0px",
+                        "marginTop": "28px",
+                        "width": "62.2031px",
+                        "height": "19.7969px",
+                        "display": "block",
+                        "flexDirection": "row",
+                        "border": "0px none rgb(106, 101, 89)",
+                        "overflow": "visible",
+                        "position": "static",
+                        "opacity": "1",
+                        "objectFit": "fill",
+                        "textAlign": "start"
+                      },
+                      "img": null,
+                      "childCount": 0,
+                      "children": []
+                    },
+                    {
+                      "tag": "a",
+                      "cls": "footer-text-link",
+                      "box": {
+                        "w": 116,
+                        "h": 18
+                      },
+                      "text": "Ditto Overview",
+                      "styles": {
+                        "fontSize": "18px",
+                        "fontWeight": "400",
+                        "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                        "lineHeight": "18px",
+                        "color": "rgb(247, 245, 243)",
+                        "width": "115.531px",
+                        "height": "18px",
+                        "display": "block",
+                        "flexDirection": "row",
+                        "border": "0px none rgb(247, 245, 243)",
+                        "overflow": "visible",
+                        "position": "static",
+                        "opacity": "1",
+                        "objectFit": "fill",
+                        "textAlign": "start"
+                      },
+                      "img": null,
+                      "childCount": 0,
+                      "children": []
+                    },
+                    {
+                      "tag": "a",
+                      "cls": "footer-text-link",
+                      "box": {
+                        "w": 81,
+                        "h": 18
+                      },
+                      "text": "Enterprise",
+                      "styles": {
+                        "fontSize": "18px",
+                        "fontWeight": "400",
+                        "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                        "lineHeight": "18px",
+                        "color": "rgb(247, 245, 243)",
+                        "width": "80.9219px",
+                        "height": "18px",
+                        "display": "block",
+                        "flexDirection": "row",
+                        "border": "0px none rgb(247, 245, 243)",
+                        "overflow": "visible",
+                        "position": "static",
+                        "opacity": "1",
+                        "objectFit": "fill",
+                        "textAlign": "start"
+                      },
+                      "img": null,
+                      "childCount": 0,
+                      "children": []
+                    },
+                    {
+                      "tag": "a",
+                      "cls": "footer-text-link",
+                      "box": {
+                        "w": 55,
+                        "h": 18
+                      },
+                      "text": "Pricing",
+                      "styles": {
+                        "fontSize": "18px",
+                        "fontWeight": "400",
+                        "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                        "lineHeight": "18px",
+                        "color": "rgb(247, 245, 243)",
+                        "width": "54.5781px",
+                        "height": "18px",
+                        "display": "block",
+                        "flexDirection": "row",
+                        "border": "0px none rgb(247, 245, 243)",
+                        "overflow": "visible",
+                        "position": "static",
+                        "opacity": "1",
+                        "objectFit": "fill",
+                        "textAlign": "start"
+                      },
+                      "img": null,
+                      "childCount": 0,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "cls": "footer-link-container",
+                  "box": {
+                    "w": 281,
+                    "h": 276
+                  },
+                  "text": null,
+                  "styles": {
+                    "fontSize": "16px",
+                    "fontWeight": "400",
+                    "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                    "lineHeight": "16px",
+                    "color": "rgb(247, 245, 243)",
+                    "padding": "0px 0px 0px 14px",
+                    "paddingLeft": "14px",
+                    "width": "280.5px",
+                    "height": "275.797px",
+                    "display": "flex",
+                    "flexDirection": "column",
+                    "justifyContent": "flex-start",
+                    "alignItems": "flex-start",
+                    "gap": "20px",
+                    "overflow": "visible",
+                    "position": "static",
+                    "opacity": "1",
+                    "objectFit": "fill",
+                    "textAlign": "start"
+                  },
+                  "img": null,
+                  "childCount": 7,
+                  "children": [
+                    {
+                      "tag": "div",
+                      "cls": "paragraph-small text---graphite",
+                      "box": {
+                        "w": 82,
+                        "h": 20
+                      },
+                      "text": "Resources",
+                      "styles": {
+                        "fontSize": "18px",
+                        "fontWeight": "400",
+                        "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                        "lineHeight": "19.8px",
+                        "color": "rgb(106, 101, 89)",
+                        "margin": "28px 0px 0px",
+                        "marginTop": "28px",
+                        "width": "81.7344px",
+                        "height": "19.7969px",
+                        "display": "block",
+                        "flexDirection": "row",
+                        "border": "0px none rgb(106, 101, 89)",
+                        "overflow": "visible",
+                        "position": "static",
+                        "opacity": "1",
+                        "objectFit": "fill",
+                        "textAlign": "start"
+                      },
+                      "img": null,
+                      "childCount": 0,
+                      "children": []
+                    },
+                    {
+                      "tag": "a",
+                      "cls": "footer-text-link",
+                      "box": {
+                        "w": 134,
+                        "h": 18
+                      },
+                      "text": "User Help Guides",
+                      "styles": {
+                        "fontSize": "18px",
+                        "fontWeight": "400",
+                        "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                        "lineHeight": "18px",
+                        "color": "rgb(247, 245, 243)",
+                        "width": "133.719px",
+                        "height": "18px",
+                        "display": "block",
+                        "flexDirection": "row",
+                        "border": "0px none rgb(247, 245, 243)",
+                        "overflow": "visible",
+                        "position": "static",
+                        "opacity": "1",
+                        "objectFit": "fill",
+                        "textAlign": "start"
+                      },
+                      "img": null,
+                      "childCount": 0,
+                      "children": []
+                    },
+                    {
+                      "tag": "a",
+                      "cls": "footer-text-link",
+                      "box": {
+                        "w": 205,
+                        "h": 18
+                      },
+                      "text": "Developer Documentation",
+                      "styles": {
+                        "fontSize": "18px",
+                        "fontWeight": "400",
+                        "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                        "lineHeight": "18px",
+                        "color": "rgb(247, 245, 243)",
+                        "width": "204.719px",
+                        "height": "18px",
+                        "display": "block",
+                        "flexDirection": "row",
+                        "border": "0px none rgb(247, 245, 243)",
+                        "overflow": "visible",
+                        "position": "static",
+                        "opacity": "1",
+                        "objectFit": "fill",
+                        "textAlign": "start"
+                      },
+                      "img": null,
+                      "childCount": 0,
+                      "children": []
+                    },
+                    {
+                      "tag": "a",
+                      "cls": "footer-text-link",
+                      "box": {
+                        "w": 35,
+                        "h": 18
+                      },
+                      "text": "Blog",
+                      "styles": {
+                        "fontSize": "18px",
+                        "fontWeight": "400",
+                        "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                        "lineHeight": "18px",
+                        "color": "rgb(247, 245, 243)",
+                        "width": "35.3594px",
+                        "height": "18px",
+                        "display": "block",
+                        "flexDirection": "row",
+                        "border": "0px none rgb(247, 245, 243)",
+                        "overflow": "visible",
+                        "position": "static",
+                        "opacity": "1",
+                        "objectFit": "fill",
+                        "textAlign": "start"
+                      },
+                      "img": null,
+                      "childCount": 0,
+                      "children": []
+                    },
+                    {
+                      "tag": "a",
+                      "cls": "footer-text-link",
+                      "box": {
+                        "w": 93,
+                        "h": 18
+                      },
+                      "text": "What's New",
+                      "styles": {
+                        "fontSize": "18px",
+                        "fontWeight": "400",
+                        "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                        "lineHeight": "18px",
+                        "color": "rgb(247, 245, 243)",
+                        "width": "93.1562px",
+                        "height": "18px",
+                        "display": "block",
+                        "flexDirection": "row",
+                        "border": "0px none rgb(247, 245, 243)",
+                        "overflow": "visible",
+                        "position": "static",
+                        "opacity": "1",
+                        "objectFit": "fill",
+                        "textAlign": "start"
+                      },
+                      "img": null,
+                      "childCount": 0,
+                      "children": []
+                    },
+                    {
+                      "tag": "a",
+                      "cls": "footer-text-link",
+                      "box": {
+                        "w": 47,
+                        "h": 18
+                      },
+                      "text": "Log In",
+                      "styles": {
+                        "fontSize": "18px",
+                        "fontWeight": "400",
+                        "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                        "lineHeight": "18px",
+                        "color": "rgb(247, 245, 243)",
+                        "width": "47.3281px",
+                        "height": "18px",
+                        "display": "block",
+                        "flexDirection": "row",
+                        "border": "0px none rgb(247, 245, 243)",
+                        "overflow": "visible",
+                        "position": "static",
+                        "opacity": "1",
+                        "objectFit": "fill",
+                        "textAlign": "start"
+                      },
+                      "img": null,
+                      "childCount": 0,
+                      "children": []
+                    },
+                    {
+                      "tag": "a",
+                      "cls": "footer-text-link",
+                      "box": {
+                        "w": 84,
+                        "h": 18
+                      },
+                      "text": "Book a call",
+                      "styles": {
+                        "fontSize": "18px",
+                        "fontWeight": "400",
+                        "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                        "lineHeight": "18px",
+                        "color": "rgb(247, 245, 243)",
+                        "width": "84.2656px",
+                        "height": "18px",
+                        "display": "block",
+                        "flexDirection": "row",
+                        "border": "0px none rgb(247, 245, 243)",
+                        "overflow": "visible",
+                        "position": "static",
+                        "opacity": "1",
+                        "objectFit": "fill",
+                        "textAlign": "start"
+                      },
+                      "img": null,
+                      "childCount": 0,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "cls": "footer-link-container",
+                  "box": {
+                    "w": 281,
+                    "h": 272
+                  },
+                  "text": null,
+                  "styles": {
+                    "fontSize": "16px",
+                    "fontWeight": "400",
+                    "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                    "lineHeight": "16px",
+                    "color": "rgb(247, 245, 243)",
+                    "padding": "0px 0px 0px 14px",
+                    "paddingLeft": "14px",
+                    "width": "280.5px",
+                    "height": "271.594px",
+                    "display": "flex",
+                    "flexDirection": "column",
+                    "justifyContent": "flex-start",
+                    "alignItems": "flex-start",
+                    "gap": "20px",
+                    "overflow": "visible",
+                    "position": "static",
+                    "opacity": "1",
+                    "objectFit": "fill",
+                    "textAlign": "start"
+                  },
+                  "img": null,
+                  "childCount": 5,
+                  "children": [
+                    {
+                      "tag": "div",
+                      "cls": "paragraph-small text---graphite",
+                      "box": {
+                        "w": 76,
+                        "h": 20
+                      },
+                      "text": "Company",
+                      "styles": {
+                        "fontSize": "18px",
+                        "fontWeight": "400",
+                        "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                        "lineHeight": "19.8px",
+                        "color": "rgb(106, 101, 89)",
+                        "margin": "28px 0px 0px",
+                        "marginTop": "28px",
+                        "width": "75.7031px",
+                        "height": "19.7969px",
+                        "display": "block",
+                        "flexDirection": "row",
+                        "border": "0px none rgb(106, 101, 89)",
+                        "overflow": "visible",
+                        "position": "static",
+                        "opacity": "1",
+                        "objectFit": "fill",
+                        "textAlign": "start"
+                      },
+                      "img": null,
+                      "childCount": 0,
+                      "children": []
+                    },
+                    {
+                      "tag": "a",
+                      "cls": "footer-text-link",
+                      "box": {
+                        "w": 61,
+                        "h": 18
+                      },
+                      "text": "Careers",
+                      "styles": {
+                        "fontSize": "18px",
+                        "fontWeight": "400",
+                        "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                        "lineHeight": "18px",
+                        "color": "rgb(247, 245, 243)",
+                        "width": "61.2812px",
+                        "height": "18px",
+                        "display": "block",
+                        "flexDirection": "row",
+                        "border": "0px none rgb(247, 245, 243)",
+                        "overflow": "visible",
+                        "position": "static",
+                        "opacity": "1",
+                        "objectFit": "fill",
+                        "textAlign": "start"
+                      },
+                      "img": null,
+                      "childCount": 0,
+                      "children": []
+                    },
+                    {
+                      "tag": "div",
+                      "cls": "paragraph-small text---graphite footer-second",
+                      "box": {
+                        "w": 42,
+                        "h": 20
+                      },
+                      "text": "Legal",
+                      "styles": {
+                        "fontSize": "18px",
+                        "fontWeight": "400",
+                        "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                        "lineHeight": "19.8px",
+                        "color": "rgb(106, 101, 89)",
+                        "margin": "70px 0px 0px",
+                        "marginTop": "70px",
+                        "width": "42px",
+                        "height": "19.7969px",
+                        "display": "block",
+                        "flexDirection": "row",
+                        "border": "0px none rgb(106, 101, 89)",
+                        "overflow": "visible",
+                        "position": "static",
+                        "opacity": "1",
+                        "objectFit": "fill",
+                        "textAlign": "start"
+                      },
+                      "img": null,
+                      "childCount": 0,
+                      "children": []
+                    },
+                    {
+                      "tag": "a",
+                      "cls": "footer-text-link",
+                      "box": {
+                        "w": 129,
+                        "h": 18
+                      },
+                      "text": "Terms of Service",
+                      "styles": {
+                        "fontSize": "18px",
+                        "fontWeight": "400",
+                        "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                        "lineHeight": "18px",
+                        "color": "rgb(247, 245, 243)",
+                        "width": "129.391px",
+                        "height": "18px",
+                        "display": "block",
+                        "flexDirection": "row",
+                        "border": "0px none rgb(247, 245, 243)",
+                        "overflow": "visible",
+                        "position": "static",
+                        "opacity": "1",
+                        "objectFit": "fill",
+                        "textAlign": "start"
+                      },
+                      "img": null,
+                      "childCount": 0,
+                      "children": []
+                    },
+                    {
+                      "tag": "a",
+                      "cls": "footer-text-link",
+                      "box": {
+                        "w": 107,
+                        "h": 18
+                      },
+                      "text": "Privacy Policy",
+                      "styles": {
+                        "fontSize": "18px",
+                        "fontWeight": "400",
+                        "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                        "lineHeight": "18px",
+                        "color": "rgb(247, 245, 243)",
+                        "width": "107.234px",
+                        "height": "18px",
+                        "display": "block",
+                        "flexDirection": "row",
+                        "border": "0px none rgb(247, 245, 243)",
+                        "overflow": "visible",
+                        "position": "static",
+                        "opacity": "1",
+                        "objectFit": "fill",
+                        "textAlign": "start"
+                      },
+                      "img": null,
+                      "childCount": 0,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "cls": "footer-grid-mobile",
+              "box": {
+                "w": 0,
+                "h": 0
+              },
+              "text": null,
+              "styles": {
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                "lineHeight": "16px",
+                "color": "rgb(247, 245, 243)",
+                "flexDirection": "row",
+                "border": "0px none rgb(247, 245, 243)",
+                "overflow": "visible",
+                "position": "static",
+                "opacity": "1",
+                "objectFit": "fill",
+                "textAlign": "start"
+              },
+              "img": null,
+              "childCount": 6,
+              "children": [
+                {
+                  "tag": "div",
+                  "cls": "nav-dropdown w-dropdown",
+                  "box": {
+                    "w": 0,
+                    "h": 0
+                  },
+                  "text": null,
+                  "styles": {
+                    "fontSize": "16px",
+                    "fontWeight": "400",
+                    "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                    "lineHeight": "16px",
+                    "color": "rgb(247, 245, 243)",
+                    "margin": "0px auto",
+                    "display": "inline-block",
+                    "flexDirection": "row",
+                    "border": "0px none rgb(247, 245, 243)",
+                    "overflow": "visible",
+                    "position": "relative",
+                    "zIndex": "900",
+                    "opacity": "1",
+                    "objectFit": "fill",
+                    "textAlign": "left"
+                  },
+                  "img": null,
+                  "childCount": 2,
+                  "children": [
+                    {
+                      "tag": "div",
+                      "cls": "footer-dropdown w-dropdown-toggle",
+                      "box": {
+                        "w": 0,
+                        "h": 0
+                      },
+                      "text": null,
+                      "styles": {
+                        "fontSize": "13px",
+                        "fontWeight": "700",
+                        "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                        "lineHeight": "16px",
+                        "letterSpacing": "0.13px",
+                        "color": "rgb(106, 101, 89)",
+                        "padding": "8px 10px",
+                        "paddingTop": "8px",
+                        "paddingBottom": "8px",
+                        "paddingLeft": "10px",
+                        "paddingRight": "10px",
+                        "margin": "0px auto",
+                        "display": "flex",
+                        "flexDirection": "row",
+                        "justifyContent": "flex-start",
+                        "alignItems": "center",
+                        "gap": "5px",
+                        "borderRadius": "100px",
+                        "border": "0px none rgb(106, 101, 89)",
+                        "overflow": "visible",
+                        "position": "relative",
+                        "opacity": "1",
+                        "objectFit": "fill",
+                        "textAlign": "left"
+                      },
+                      "img": null,
+                      "childCount": 2,
+                      "children": []
+                    },
+                    {
+                      "tag": "nav",
+                      "cls": "footer-dropdown-list w-dropdown-list",
+                      "box": {
+                        "w": 0,
+                        "h": 0
+                      },
+                      "text": null,
+                      "styles": {
+                        "fontSize": "16px",
+                        "fontWeight": "400",
+                        "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                        "lineHeight": "16px",
+                        "color": "rgb(247, 245, 243)",
+                        "backgroundColor": "rgb(221, 221, 221)",
+                        "minWidth": "100%",
+                        "flexDirection": "row",
+                        "border": "0px none rgb(247, 245, 243)",
+                        "overflow": "visible",
+                        "position": "absolute",
+                        "opacity": "1",
+                        "objectFit": "fill",
+                        "textAlign": "left"
+                      },
+                      "img": null,
+                      "childCount": 1,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "cls": "nav-dropdown w-dropdown",
+                  "box": {
+                    "w": 0,
+                    "h": 0
+                  },
+                  "text": null,
+                  "styles": {
+                    "fontSize": "16px",
+                    "fontWeight": "400",
+                    "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                    "lineHeight": "16px",
+                    "color": "rgb(247, 245, 243)",
+                    "margin": "0px auto",
+                    "display": "inline-block",
+                    "flexDirection": "row",
+                    "border": "0px none rgb(247, 245, 243)",
+                    "overflow": "visible",
+                    "position": "relative",
+                    "zIndex": "900",
+                    "opacity": "1",
+                    "objectFit": "fill",
+                    "textAlign": "left"
+                  },
+                  "img": null,
+                  "childCount": 2,
+                  "children": [
+                    {
+                      "tag": "div",
+                      "cls": "footer-dropdown w-dropdown-toggle",
+                      "box": {
+                        "w": 0,
+                        "h": 0
+                      },
+                      "text": null,
+                      "styles": {
+                        "fontSize": "13px",
+                        "fontWeight": "700",
+                        "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                        "lineHeight": "16px",
+                        "letterSpacing": "0.13px",
+                        "color": "rgb(106, 101, 89)",
+                        "padding": "8px 10px",
+                        "paddingTop": "8px",
+                        "paddingBottom": "8px",
+                        "paddingLeft": "10px",
+                        "paddingRight": "10px",
+                        "margin": "0px auto",
+                        "display": "flex",
+                        "flexDirection": "row",
+                        "justifyContent": "flex-start",
+                        "alignItems": "center",
+                        "gap": "5px",
+                        "borderRadius": "100px",
+                        "border": "0px none rgb(106, 101, 89)",
+                        "overflow": "visible",
+                        "position": "relative",
+                        "opacity": "1",
+                        "objectFit": "fill",
+                        "textAlign": "left"
+                      },
+                      "img": null,
+                      "childCount": 2,
+                      "children": []
+                    },
+                    {
+                      "tag": "nav",
+                      "cls": "footer-dropdown-list w-dropdown-list",
+                      "box": {
+                        "w": 0,
+                        "h": 0
+                      },
+                      "text": null,
+                      "styles": {
+                        "fontSize": "16px",
+                        "fontWeight": "400",
+                        "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                        "lineHeight": "16px",
+                        "color": "rgb(247, 245, 243)",
+                        "backgroundColor": "rgb(221, 221, 221)",
+                        "minWidth": "100%",
+                        "flexDirection": "row",
+                        "border": "0px none rgb(247, 245, 243)",
+                        "overflow": "visible",
+                        "position": "absolute",
+                        "opacity": "1",
+                        "objectFit": "fill",
+                        "textAlign": "left"
+                      },
+                      "img": null,
+                      "childCount": 1,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "cls": "nav-dropdown w-dropdown",
+                  "box": {
+                    "w": 0,
+                    "h": 0
+                  },
+                  "text": null,
+                  "styles": {
+                    "fontSize": "16px",
+                    "fontWeight": "400",
+                    "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                    "lineHeight": "16px",
+                    "color": "rgb(247, 245, 243)",
+                    "margin": "0px auto",
+                    "display": "inline-block",
+                    "flexDirection": "row",
+                    "border": "0px none rgb(247, 245, 243)",
+                    "overflow": "visible",
+                    "position": "relative",
+                    "zIndex": "900",
+                    "opacity": "1",
+                    "objectFit": "fill",
+                    "textAlign": "left"
+                  },
+                  "img": null,
+                  "childCount": 2,
+                  "children": [
+                    {
+                      "tag": "div",
+                      "cls": "footer-dropdown w-dropdown-toggle",
+                      "box": {
+                        "w": 0,
+                        "h": 0
+                      },
+                      "text": null,
+                      "styles": {
+                        "fontSize": "13px",
+                        "fontWeight": "700",
+                        "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                        "lineHeight": "16px",
+                        "letterSpacing": "0.13px",
+                        "color": "rgb(106, 101, 89)",
+                        "padding": "8px 10px",
+                        "paddingTop": "8px",
+                        "paddingBottom": "8px",
+                        "paddingLeft": "10px",
+                        "paddingRight": "10px",
+                        "margin": "0px auto",
+                        "display": "flex",
+                        "flexDirection": "row",
+                        "justifyContent": "flex-start",
+                        "alignItems": "center",
+                        "gap": "5px",
+                        "borderRadius": "100px",
+                        "border": "0px none rgb(106, 101, 89)",
+                        "overflow": "visible",
+                        "position": "relative",
+                        "opacity": "1",
+                        "objectFit": "fill",
+                        "textAlign": "left"
+                      },
+                      "img": null,
+                      "childCount": 2,
+                      "children": []
+                    },
+                    {
+                      "tag": "nav",
+                      "cls": "footer-dropdown-list w-dropdown-list",
+                      "box": {
+                        "w": 0,
+                        "h": 0
+                      },
+                      "text": null,
+                      "styles": {
+                        "fontSize": "16px",
+                        "fontWeight": "400",
+                        "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                        "lineHeight": "16px",
+                        "color": "rgb(247, 245, 243)",
+                        "backgroundColor": "rgb(221, 221, 221)",
+                        "minWidth": "100%",
+                        "flexDirection": "row",
+                        "border": "0px none rgb(247, 245, 243)",
+                        "overflow": "visible",
+                        "position": "absolute",
+                        "opacity": "1",
+                        "objectFit": "fill",
+                        "textAlign": "left"
+                      },
+                      "img": null,
+                      "childCount": 1,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "cls": "nav-dropdown w-dropdown",
+                  "box": {
+                    "w": 0,
+                    "h": 0
+                  },
+                  "text": null,
+                  "styles": {
+                    "fontSize": "16px",
+                    "fontWeight": "400",
+                    "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                    "lineHeight": "16px",
+                    "color": "rgb(247, 245, 243)",
+                    "margin": "0px auto",
+                    "display": "inline-block",
+                    "flexDirection": "row",
+                    "border": "0px none rgb(247, 245, 243)",
+                    "overflow": "visible",
+                    "position": "relative",
+                    "zIndex": "900",
+                    "opacity": "1",
+                    "objectFit": "fill",
+                    "textAlign": "left"
+                  },
+                  "img": null,
+                  "childCount": 2,
+                  "children": [
+                    {
+                      "tag": "div",
+                      "cls": "footer-dropdown w-dropdown-toggle",
+                      "box": {
+                        "w": 0,
+                        "h": 0
+                      },
+                      "text": null,
+                      "styles": {
+                        "fontSize": "13px",
+                        "fontWeight": "700",
+                        "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                        "lineHeight": "16px",
+                        "letterSpacing": "0.13px",
+                        "color": "rgb(106, 101, 89)",
+                        "padding": "8px 10px",
+                        "paddingTop": "8px",
+                        "paddingBottom": "8px",
+                        "paddingLeft": "10px",
+                        "paddingRight": "10px",
+                        "margin": "0px auto",
+                        "display": "flex",
+                        "flexDirection": "row",
+                        "justifyContent": "flex-start",
+                        "alignItems": "center",
+                        "gap": "5px",
+                        "borderRadius": "100px",
+                        "border": "0px none rgb(106, 101, 89)",
+                        "overflow": "visible",
+                        "position": "relative",
+                        "opacity": "1",
+                        "objectFit": "fill",
+                        "textAlign": "left"
+                      },
+                      "img": null,
+                      "childCount": 2,
+                      "children": []
+                    },
+                    {
+                      "tag": "nav",
+                      "cls": "footer-dropdown-list w-dropdown-list",
+                      "box": {
+                        "w": 0,
+                        "h": 0
+                      },
+                      "text": null,
+                      "styles": {
+                        "fontSize": "16px",
+                        "fontWeight": "400",
+                        "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                        "lineHeight": "16px",
+                        "color": "rgb(247, 245, 243)",
+                        "backgroundColor": "rgb(221, 221, 221)",
+                        "minWidth": "100%",
+                        "flexDirection": "row",
+                        "border": "0px none rgb(247, 245, 243)",
+                        "overflow": "visible",
+                        "position": "absolute",
+                        "opacity": "1",
+                        "objectFit": "fill",
+                        "textAlign": "left"
+                      },
+                      "img": null,
+                      "childCount": 1,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "cls": "nav-dropdown w-dropdown",
+                  "box": {
+                    "w": 0,
+                    "h": 0
+                  },
+                  "text": null,
+                  "styles": {
+                    "fontSize": "16px",
+                    "fontWeight": "400",
+                    "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                    "lineHeight": "16px",
+                    "color": "rgb(247, 245, 243)",
+                    "margin": "0px auto",
+                    "display": "inline-block",
+                    "flexDirection": "row",
+                    "border": "0px none rgb(247, 245, 243)",
+                    "overflow": "visible",
+                    "position": "relative",
+                    "zIndex": "900",
+                    "opacity": "1",
+                    "objectFit": "fill",
+                    "textAlign": "left"
+                  },
+                  "img": null,
+                  "childCount": 2,
+                  "children": [
+                    {
+                      "tag": "div",
+                      "cls": "footer-dropdown w-dropdown-toggle",
+                      "box": {
+                        "w": 0,
+                        "h": 0
+                      },
+                      "text": null,
+                      "styles": {
+                        "fontSize": "13px",
+                        "fontWeight": "700",
+                        "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                        "lineHeight": "16px",
+                        "letterSpacing": "0.13px",
+                        "color": "rgb(106, 101, 89)",
+                        "padding": "8px 10px",
+                        "paddingTop": "8px",
+                        "paddingBottom": "8px",
+                        "paddingLeft": "10px",
+                        "paddingRight": "10px",
+                        "margin": "0px auto",
+                        "display": "flex",
+                        "flexDirection": "row",
+                        "justifyContent": "flex-start",
+                        "alignItems": "center",
+                        "gap": "5px",
+                        "borderRadius": "100px",
+                        "border": "0px none rgb(106, 101, 89)",
+                        "overflow": "visible",
+                        "position": "relative",
+                        "opacity": "1",
+                        "objectFit": "fill",
+                        "textAlign": "left"
+                      },
+                      "img": null,
+                      "childCount": 2,
+                      "children": []
+                    },
+                    {
+                      "tag": "nav",
+                      "cls": "footer-dropdown-list w-dropdown-list",
+                      "box": {
+                        "w": 0,
+                        "h": 0
+                      },
+                      "text": null,
+                      "styles": {
+                        "fontSize": "16px",
+                        "fontWeight": "400",
+                        "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                        "lineHeight": "16px",
+                        "color": "rgb(247, 245, 243)",
+                        "backgroundColor": "rgb(221, 221, 221)",
+                        "minWidth": "100%",
+                        "flexDirection": "row",
+                        "border": "0px none rgb(247, 245, 243)",
+                        "overflow": "visible",
+                        "position": "absolute",
+                        "opacity": "1",
+                        "objectFit": "fill",
+                        "textAlign": "left"
+                      },
+                      "img": null,
+                      "childCount": 1,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "cls": "nav-dropdown w-dropdown",
+                  "box": {
+                    "w": 0,
+                    "h": 0
+                  },
+                  "text": null,
+                  "styles": {
+                    "fontSize": "16px",
+                    "fontWeight": "400",
+                    "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                    "lineHeight": "16px",
+                    "color": "rgb(247, 245, 243)",
+                    "margin": "0px auto",
+                    "display": "inline-block",
+                    "flexDirection": "row",
+                    "border": "0px none rgb(247, 245, 243)",
+                    "overflow": "visible",
+                    "position": "relative",
+                    "zIndex": "900",
+                    "opacity": "1",
+                    "objectFit": "fill",
+                    "textAlign": "left"
+                  },
+                  "img": null,
+                  "childCount": 2,
+                  "children": [
+                    {
+                      "tag": "div",
+                      "cls": "footer-dropdown w-dropdown-toggle",
+                      "box": {
+                        "w": 0,
+                        "h": 0
+                      },
+                      "text": null,
+                      "styles": {
+                        "fontSize": "13px",
+                        "fontWeight": "700",
+                        "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                        "lineHeight": "16px",
+                        "letterSpacing": "0.13px",
+                        "color": "rgb(106, 101, 89)",
+                        "padding": "8px 10px",
+                        "paddingTop": "8px",
+                        "paddingBottom": "8px",
+                        "paddingLeft": "10px",
+                        "paddingRight": "10px",
+                        "margin": "0px auto",
+                        "display": "flex",
+                        "flexDirection": "row",
+                        "justifyContent": "flex-start",
+                        "alignItems": "center",
+                        "gap": "5px",
+                        "borderRadius": "100px",
+                        "border": "0px none rgb(106, 101, 89)",
+                        "overflow": "visible",
+                        "position": "relative",
+                        "opacity": "1",
+                        "objectFit": "fill",
+                        "textAlign": "left"
+                      },
+                      "img": null,
+                      "childCount": 2,
+                      "children": []
+                    },
+                    {
+                      "tag": "nav",
+                      "cls": "footer-dropdown-list w-dropdown-list",
+                      "box": {
+                        "w": 0,
+                        "h": 0
+                      },
+                      "text": null,
+                      "styles": {
+                        "fontSize": "16px",
+                        "fontWeight": "400",
+                        "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                        "lineHeight": "16px",
+                        "color": "rgb(247, 245, 243)",
+                        "backgroundColor": "rgb(221, 221, 221)",
+                        "minWidth": "100%",
+                        "flexDirection": "row",
+                        "border": "0px none rgb(247, 245, 243)",
+                        "overflow": "visible",
+                        "position": "absolute",
+                        "opacity": "1",
+                        "objectFit": "fill",
+                        "textAlign": "left"
+                      },
+                      "img": null,
+                      "childCount": 1,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "cls": "newsletter-footer",
+              "box": {
+                "w": 620,
+                "h": 158
+              },
+              "text": null,
+              "styles": {
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                "lineHeight": "16px",
+                "color": "rgb(247, 245, 243)",
+                "margin": "-140px 0px 0px 699.594px",
+                "marginTop": "-140px",
+                "width": "620.406px",
+                "height": "158.188px",
+                "display": "flex",
+                "flexDirection": "column",
+                "justifyContent": "flex-start",
+                "alignItems": "flex-start",
+                "gap": "30px",
+                "border": "0px none rgb(247, 245, 243)",
+                "overflow": "visible",
+                "position": "static",
+                "opacity": "1",
+                "objectFit": "fill",
+                "textAlign": "start"
+              },
+              "img": null,
+              "childCount": 2,
+              "children": [
+                {
+                  "tag": "div",
+                  "cls": "w-layout-vflex top",
+                  "box": {
+                    "w": 620,
+                    "h": 57
+                  },
+                  "text": null,
+                  "styles": {
+                    "fontSize": "16px",
+                    "fontWeight": "400",
+                    "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                    "lineHeight": "16px",
+                    "color": "rgb(247, 245, 243)",
+                    "width": "620.406px",
+                    "height": "57.1875px",
+                    "display": "flex",
+                    "flexDirection": "column",
+                    "alignItems": "flex-start",
+                    "gap": "16px",
+                    "border": "0px none rgb(247, 245, 243)",
+                    "overflow": "visible",
+                    "position": "static",
+                    "opacity": "1",
+                    "objectFit": "fill",
+                    "textAlign": "start"
+                  },
+                  "img": null,
+                  "childCount": 1,
+                  "children": [
+                    {
+                      "tag": "h1",
+                      "cls": "heading-s",
+                      "box": {
+                        "w": 620,
+                        "h": 57
+                      },
+                      "text": "Never miss an update: Sign up for updates, exclusive insights, and product releases.",
+                      "styles": {
+                        "fontSize": "26px",
+                        "fontWeight": "700",
+                        "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                        "lineHeight": "28.6px",
+                        "letterSpacing": "-0.32px",
+                        "color": "rgb(247, 245, 243)",
+                        "width": "620.406px",
+                        "height": "57.1875px",
+                        "display": "block",
+                        "flexDirection": "row",
+                        "border": "0px none rgb(247, 245, 243)",
+                        "overflow": "visible",
+                        "position": "static",
+                        "opacity": "1",
+                        "objectFit": "fill",
+                        "textAlign": "start"
+                      },
+                      "img": null,
+                      "childCount": 0,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "cls": "form-block w-form",
+                  "box": {
+                    "w": 620,
+                    "h": 56
+                  },
+                  "text": null,
+                  "styles": {
+                    "fontSize": "16px",
+                    "fontWeight": "400",
+                    "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                    "lineHeight": "16px",
+                    "color": "rgb(247, 245, 243)",
+                    "margin": "0px 0px 15px",
+                    "marginBottom": "15px",
+                    "width": "620.406px",
+                    "height": "56px",
+                    "display": "block",
+                    "flexDirection": "row",
+                    "border": "0px none rgb(247, 245, 243)",
+                    "overflow": "visible",
+                    "position": "static",
+                    "opacity": "1",
+                    "objectFit": "fill",
+                    "textAlign": "start"
+                  },
+                  "img": null,
+                  "childCount": 3,
+                  "children": [
+                    {
+                      "tag": "form",
+                      "cls": "",
+                      "box": {
+                        "w": 620,
+                        "h": 56
+                      },
+                      "text": null,
+                      "styles": {
+                        "fontSize": "16px",
+                        "fontWeight": "400",
+                        "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                        "lineHeight": "16px",
+                        "color": "rgb(247, 245, 243)",
+                        "width": "620.406px",
+                        "height": "56px",
+                        "display": "block",
+                        "flexDirection": "row",
+                        "border": "0px none rgb(247, 245, 243)",
+                        "overflow": "visible",
+                        "position": "static",
+                        "opacity": "1",
+                        "objectFit": "fill",
+                        "textAlign": "start"
+                      },
+                      "img": null,
+                      "childCount": 1,
+                      "children": []
+                    },
+                    {
+                      "tag": "div",
+                      "cls": "w-form-done",
+                      "box": {
+                        "w": 0,
+                        "h": 0
+                      },
+                      "text": null,
+                      "styles": {
+                        "fontSize": "16px",
+                        "fontWeight": "400",
+                        "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                        "lineHeight": "16px",
+                        "color": "rgb(247, 245, 243)",
+                        "backgroundColor": "rgb(221, 221, 221)",
+                        "padding": "20px",
+                        "paddingTop": "20px",
+                        "paddingBottom": "20px",
+                        "paddingLeft": "20px",
+                        "paddingRight": "20px",
+                        "flexDirection": "row",
+                        "border": "0px none rgb(247, 245, 243)",
+                        "overflow": "visible",
+                        "position": "static",
+                        "opacity": "1",
+                        "objectFit": "fill",
+                        "textAlign": "center"
+                      },
+                      "img": null,
+                      "childCount": 1,
+                      "children": []
+                    },
+                    {
+                      "tag": "div",
+                      "cls": "w-form-fail",
+                      "box": {
+                        "w": 0,
+                        "h": 0
+                      },
+                      "text": null,
+                      "styles": {
+                        "fontSize": "16px",
+                        "fontWeight": "400",
+                        "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                        "lineHeight": "16px",
+                        "color": "rgb(247, 245, 243)",
+                        "backgroundColor": "rgb(255, 222, 222)",
+                        "padding": "10px",
+                        "paddingTop": "10px",
+                        "paddingBottom": "10px",
+                        "paddingLeft": "10px",
+                        "paddingRight": "10px",
+                        "margin": "10px 0px 0px",
+                        "marginTop": "10px",
+                        "flexDirection": "row",
+                        "border": "0px none rgb(247, 245, 243)",
+                        "overflow": "visible",
+                        "position": "static",
+                        "opacity": "1",
+                        "objectFit": "fill",
+                        "textAlign": "start"
+                      },
+                      "img": null,
+                      "childCount": 1,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "cls": "full-width margin-top-60",
+              "box": {
+                "w": 1320,
+                "h": 215
+              },
+              "text": null,
+              "styles": {
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                "lineHeight": "16px",
+                "color": "rgb(247, 245, 243)",
+                "margin": "60px 0px 0px",
+                "marginTop": "60px",
+                "width": "1320px",
+                "height": "215px",
+                "display": "block",
+                "flexDirection": "row",
+                "border": "0px none rgb(247, 245, 243)",
+                "overflow": "visible",
+                "position": "static",
+                "opacity": "1",
+                "objectFit": "fill",
+                "textAlign": "start"
+              },
+              "img": null,
+              "childCount": 1,
+              "children": [
+                {
+                  "tag": "img",
+                  "cls": "full-width",
+                  "box": {
+                    "w": 1320,
+                    "h": 215
+                  },
+                  "text": null,
+                  "styles": {
+                    "fontSize": "16px",
+                    "fontWeight": "400",
+                    "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                    "lineHeight": "16px",
+                    "color": "rgb(247, 245, 243)",
+                    "width": "1320px",
+                    "height": "215px",
+                    "maxWidth": "100%",
+                    "display": "inline-block",
+                    "flexDirection": "row",
+                    "border": "0px none rgb(247, 245, 243)",
+                    "overflow": "clip",
+                    "position": "static",
+                    "opacity": "1",
+                    "objectFit": "fill",
+                    "textAlign": "start"
+                  },
+                  "img": {
+                    "src": "674e451fd1baced3b5190aaf_ditto-logo.svg",
+                    "alt": "",
+                    "w": 1320,
+                    "h": 215
+                  },
+                  "childCount": 0,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "cls": "margin-top-60",
+              "box": {
+                "w": 1320,
+                "h": 22
+              },
+              "text": null,
+              "styles": {
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                "lineHeight": "16px",
+                "color": "rgb(247, 245, 243)",
+                "margin": "60px 0px 0px",
+                "marginTop": "60px",
+                "width": "1320px",
+                "height": "22px",
+                "display": "block",
+                "flexDirection": "row",
+                "border": "0px none rgb(247, 245, 243)",
+                "overflow": "visible",
+                "position": "static",
+                "opacity": "1",
+                "objectFit": "fill",
+                "textAlign": "start"
+              },
+              "img": null,
+              "childCount": 1,
+              "children": [
+                {
+                  "tag": "div",
+                  "cls": "footer-copyright-container",
+                  "box": {
+                    "w": 1320,
+                    "h": 22
+                  },
+                  "text": null,
+                  "styles": {
+                    "fontSize": "16px",
+                    "fontWeight": "400",
+                    "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                    "lineHeight": "16px",
+                    "color": "rgb(247, 245, 243)",
+                    "width": "1320px",
+                    "height": "22px",
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                    "alignItems": "center",
+                    "border": "0px none rgb(247, 245, 243)",
+                    "overflow": "visible",
+                    "position": "static",
+                    "opacity": "1",
+                    "objectFit": "fill",
+                    "textAlign": "start"
+                  },
+                  "img": null,
+                  "childCount": 2,
+                  "children": [
+                    {
+                      "tag": "div",
+                      "cls": "flex footer-copyright",
+                      "box": {
+                        "w": 257,
+                        "h": 22
+                      },
+                      "text": null,
+                      "styles": {
+                        "fontSize": "16px",
+                        "fontWeight": "400",
+                        "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                        "lineHeight": "16px",
+                        "color": "rgb(247, 245, 243)",
+                        "width": "256.953px",
+                        "height": "22px",
+                        "display": "flex",
+                        "flexDirection": "row",
+                        "border": "0px none rgb(247, 245, 243)",
+                        "overflow": "visible",
+                        "position": "static",
+                        "opacity": "1",
+                        "objectFit": "fill",
+                        "textAlign": "start"
+                      },
+                      "img": null,
+                      "childCount": 3,
+                      "children": []
+                    },
+                    {
+                      "tag": "div",
+                      "cls": "",
+                      "box": {
+                        "w": 177,
+                        "h": 16
+                      },
+                      "text": null,
+                      "styles": {
+                        "fontSize": "16px",
+                        "fontWeight": "400",
+                        "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                        "lineHeight": "16px",
+                        "color": "rgb(247, 245, 243)",
+                        "width": "176.812px",
+                        "height": "16px",
+                        "display": "block",
+                        "flexDirection": "row",
+                        "border": "0px none rgb(247, 245, 243)",
+                        "overflow": "visible",
+                        "position": "static",
+                        "opacity": "1",
+                        "objectFit": "fill",
+                        "textAlign": "start"
+                      },
+                      "img": null,
+                      "childCount": 1,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "tag": "section",
+  "cls": "product-visual padding-top-80 padding-bottom-100",
+  "box": {
+    "w": 1440,
+    "h": 922
+  },
+  "text": null,
+  "styles": {
+    "fontSize": "16px",
+    "fontWeight": "400",
+    "fontFamily": "\"ABC Social\", Arial, sans-serif",
+    "lineHeight": "16px",
+    "color": "rgb(0, 0, 0)",
+    "padding": "80px 0px 100px",
+    "paddingTop": "80px",
+    "paddingBottom": "100px",
+    "width": "1440px",
+    "height": "922.312px",
+    "display": "block",
+    "flexDirection": "row",
+    "border": "0px none rgb(0, 0, 0)",
+    "overflow": "visible",
+    "position": "static",
+    "opacity": "1",
+    "objectFit": "fill",
+    "textAlign": "start"
+  },
+  "img": null,
+  "childCount": 3,
+  "children": [
+    {
+      "tag": "h2",
+      "cls": "heading-s-3 text-center-align",
+      "box": {
+        "w": 1440,
+        "h": 29
+      },
+      "text": "Build your system",
+      "styles": {
+        "fontSize": "26px",
+        "fontWeight": "700",
+        "fontFamily": "\"ABC Social Extended\", Arial, sans-serif",
+        "lineHeight": "28.6px",
+        "letterSpacing": "-0.32px",
+        "color": "rgb(0, 0, 0)",
+        "margin": "20px 0px 10px",
+        "marginTop": "20px",
+        "marginBottom": "10px",
+        "width": "1440px",
+        "height": "28.5938px",
+        "display": "block",
+        "flexDirection": "row",
+        "border": "0px none rgb(0, 0, 0)",
+        "overflow": "visible",
+        "position": "static",
+        "opacity": "1",
+        "objectFit": "fill",
+        "textAlign": "center"
+      },
+      "img": null,
+      "childCount": 0,
+      "children": []
+    },
+    {
+      "tag": "div",
+      "cls": "overview_video_wrap",
+      "box": {
+        "w": 1440,
+        "h": 625
+      },
+      "text": null,
+      "styles": {
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "fontFamily": "\"ABC Social\", Arial, sans-serif",
+        "lineHeight": "16px",
+        "color": "rgb(0, 0, 0)",
+        "padding": "20px 100px",
+        "paddingTop": "20px",
+        "paddingBottom": "20px",
+        "paddingLeft": "100px",
+        "paddingRight": "100px",
+        "width": "1440px",
+        "height": "625.125px",
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "alignItems": "center",
+        "border": "0px none rgb(0, 0, 0)",
+        "overflow": "visible",
+        "position": "static",
+        "opacity": "1",
+        "objectFit": "fill",
+        "textAlign": "start"
+      },
+      "img": null,
+      "childCount": 1,
+      "children": [
+        {
+          "tag": "video",
+          "cls": "video",
+          "box": {
+            "w": 1240,
+            "h": 585
+          },
+          "text": null,
+          "styles": {
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "fontFamily": "\"ABC Social\", Arial, sans-serif",
+            "lineHeight": "16px",
+            "color": "rgb(0, 0, 0)",
+            "width": "1240px",
+            "height": "585.125px",
+            "display": "block",
+            "flexDirection": "row",
+            "border": "0px none rgb(0, 0, 0)",
+            "overflow": "hidden",
+            "position": "static",
+            "opacity": "1",
+            "objectFit": "cover",
+            "textAlign": "start"
+          },
+          "img": null,
+          "childCount": 0,
+          "children": []
+        }
+      ]
+    },
+    {
+      "tag": "h2",
+      "cls": "heading-s-3 text-center-align",
+      "box": {
+        "w": 1440,
+        "h": 29
+      },
+      "text": "Connect it to every surface",
+      "styles": {
+        "fontSize": "26px",
+        "fontWeight": "700",
+        "fontFamily": "\"ABC Social Extended\", Arial, sans-serif",
+        "lineHeight": "28.6px",
+        "letterSpacing": "-0.32px",
+        "color": "rgb(0, 0, 0)",
+        "margin": "20px 0px 10px",
+        "marginTop": "20px",
+        "marginBottom": "10px",
+        "width": "1440px",
+        "height": "28.5938px",
+        "display": "block",
+        "flexDirection": "row",
+        "border": "0px none rgb(0, 0, 0)",
+        "overflow": "visible",
+        "position": "static",
+        "opacity": "1",
+        "objectFit": "fill",
+        "textAlign": "center"
+      },
+      "img": null,
+      "childCount": 0,
+      "children": []
+    }
+  ]
+}

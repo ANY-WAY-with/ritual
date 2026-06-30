@@ -1,0 +1,157 @@
+{
+  "tag": "section",
+  "cls": "",
+  "box": {
+    "w": 1440,
+    "h": 260
+  },
+  "text": null,
+  "styles": {
+    "fontSize": "16px",
+    "fontWeight": "400",
+    "fontFamily": "\"ABC Social\", Arial, sans-serif",
+    "lineHeight": "16px",
+    "color": "rgb(0, 0, 0)",
+    "width": "1440px",
+    "height": "260.25px",
+    "display": "block",
+    "flexDirection": "row",
+    "border": "0px none rgb(0, 0, 0)",
+    "overflow": "visible",
+    "position": "static",
+    "opacity": "1",
+    "objectFit": "fill",
+    "textAlign": "start"
+  },
+  "img": null,
+  "childCount": 1,
+  "children": [
+    {
+      "tag": "div",
+      "cls": "w-layout-blockcontainer max-width margin-top-50 margin-bottom-50 w-container",
+      "box": {
+        "w": 1440,
+        "h": 260
+      },
+      "text": null,
+      "styles": {
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "fontFamily": "\"ABC Social\", Arial, sans-serif",
+        "lineHeight": "16px",
+        "color": "rgb(0, 0, 0)",
+        "margin": "50px 0px",
+        "marginTop": "50px",
+        "marginBottom": "50px",
+        "width": "1440px",
+        "height": "260.25px",
+        "maxWidth": "1440px",
+        "display": "block",
+        "flexDirection": "row",
+        "border": "0px none rgb(0, 0, 0)",
+        "overflow": "visible",
+        "position": "static",
+        "opacity": "1",
+        "objectFit": "fill",
+        "textAlign": "start"
+      },
+      "img": null,
+      "childCount": 1,
+      "children": [
+        {
+          "tag": "div",
+          "cls": "width-70-rebuild center",
+          "box": {
+            "w": 1008,
+            "h": 240
+          },
+          "text": null,
+          "styles": {
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "fontFamily": "\"ABC Social\", Arial, sans-serif",
+            "lineHeight": "16px",
+            "color": "rgb(0, 0, 0)",
+            "margin": "0px 216px",
+            "width": "1008px",
+            "height": "240.25px",
+            "display": "block",
+            "flexDirection": "row",
+            "border": "0px none rgb(0, 0, 0)",
+            "overflow": "visible",
+            "position": "static",
+            "opacity": "1",
+            "objectFit": "fill",
+            "textAlign": "start"
+          },
+          "img": null,
+          "childCount": 2,
+          "children": [
+            {
+              "tag": "h2",
+              "cls": "text-center-align heading-l-5-thin margin-bottom-30",
+              "box": {
+                "w": 1008,
+                "h": 148
+              },
+              "text": "Shipping great copy is hard. Shipping great copy on every team, in every tool, across every line of code, is even harder.",
+              "styles": {
+                "fontSize": "44.8px",
+                "fontWeight": "700",
+                "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                "lineHeight": "49.28px",
+                "color": "rgb(0, 0, 0)",
+                "margin": "20px 0px 30px",
+                "marginTop": "20px",
+                "marginBottom": "30px",
+                "width": "1008px",
+                "height": "147.844px",
+                "display": "block",
+                "flexDirection": "row",
+                "border": "0px none rgb(0, 0, 0)",
+                "overflow": "visible",
+                "position": "static",
+                "opacity": "1",
+                "objectFit": "fill",
+                "textAlign": "center"
+              },
+              "img": null,
+              "childCount": 0,
+              "children": []
+            },
+            {
+              "tag": "p",
+              "cls": "paragraph-xl text---graphite text-center-align rebuild",
+              "box": {
+                "w": 1008,
+                "h": 62
+              },
+              "text": "Ditto makes it easy. Centralize your standards, strings, and decisions in one content system, and connect that system wherever your team builds.",
+              "styles": {
+                "fontSize": "26px",
+                "fontWeight": "300",
+                "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                "lineHeight": "31.2px",
+                "letterSpacing": "-0.3676px",
+                "color": "rgb(106, 101, 89)",
+                "width": "1008px",
+                "height": "62.4062px",
+                "display": "block",
+                "flexDirection": "row",
+                "border": "0px none rgb(106, 101, 89)",
+                "overflow": "visible",
+                "position": "static",
+                "opacity": "1",
+                "objectFit": "fill",
+                "textAlign": "center"
+              },
+              "img": null,
+              "childCount": 0,
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

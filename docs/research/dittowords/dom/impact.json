@@ -1,0 +1,939 @@
+{
+  "tag": "section",
+  "cls": "section bg-red",
+  "box": {
+    "w": 1440,
+    "h": 661
+  },
+  "text": null,
+  "styles": {
+    "fontSize": "16px",
+    "fontWeight": "400",
+    "fontFamily": "\"ABC Social\", Arial, sans-serif",
+    "lineHeight": "16px",
+    "color": "rgb(0, 0, 0)",
+    "backgroundColor": "rgb(255, 97, 55)",
+    "width": "1440px",
+    "height": "660.594px",
+    "display": "block",
+    "flexDirection": "row",
+    "border": "0px none rgb(0, 0, 0)",
+    "overflow": "hidden",
+    "position": "static",
+    "opacity": "1",
+    "objectFit": "fill",
+    "textAlign": "start"
+  },
+  "img": null,
+  "childCount": 1,
+  "children": [
+    {
+      "tag": "div",
+      "cls": "max-width",
+      "box": {
+        "w": 1440,
+        "h": 661
+      },
+      "text": null,
+      "styles": {
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "fontFamily": "\"ABC Social\", Arial, sans-serif",
+        "lineHeight": "16px",
+        "color": "rgb(0, 0, 0)",
+        "width": "1440px",
+        "height": "660.594px",
+        "maxWidth": "1440px",
+        "display": "block",
+        "flexDirection": "row",
+        "border": "0px none rgb(0, 0, 0)",
+        "overflow": "visible",
+        "position": "static",
+        "opacity": "1",
+        "objectFit": "fill",
+        "textAlign": "start"
+      },
+      "img": null,
+      "childCount": 1,
+      "children": [
+        {
+          "tag": "div",
+          "cls": "banner",
+          "box": {
+            "w": 1440,
+            "h": 661
+          },
+          "text": null,
+          "styles": {
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "fontFamily": "\"ABC Social\", Arial, sans-serif",
+            "lineHeight": "16px",
+            "color": "rgb(0, 0, 0)",
+            "padding": "60px",
+            "paddingTop": "60px",
+            "paddingBottom": "60px",
+            "paddingLeft": "60px",
+            "paddingRight": "60px",
+            "width": "1440px",
+            "height": "660.594px",
+            "display": "block",
+            "flexDirection": "row",
+            "border": "0px none rgb(0, 0, 0)",
+            "overflow": "visible",
+            "position": "static",
+            "opacity": "1",
+            "objectFit": "fill",
+            "textAlign": "start"
+          },
+          "img": null,
+          "childCount": 2,
+          "children": [
+            {
+              "tag": "div",
+              "cls": "home-stats-grid",
+              "box": {
+                "w": 1320,
+                "h": 178
+              },
+              "text": null,
+              "styles": {
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                "lineHeight": "16px",
+                "color": "rgb(0, 0, 0)",
+                "margin": "0px 0px 100px",
+                "marginBottom": "100px",
+                "width": "1320px",
+                "height": "178.391px",
+                "display": "grid",
+                "flexDirection": "row",
+                "gap": "2%",
+                "gridTemplateColumns": "310.203px 310.203px 310.203px 310.219px",
+                "gridTemplateRows": "178.391px",
+                "border": "0px none rgb(0, 0, 0)",
+                "overflow": "visible",
+                "position": "static",
+                "opacity": "1",
+                "objectFit": "fill",
+                "textAlign": "start"
+              },
+              "img": null,
+              "childCount": 5,
+              "children": [
+                {
+                  "tag": "div",
+                  "cls": "",
+                  "box": {
+                    "w": 310,
+                    "h": 178
+                  },
+                  "text": null,
+                  "styles": {
+                    "fontSize": "16px",
+                    "fontWeight": "400",
+                    "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                    "lineHeight": "16px",
+                    "color": "rgb(0, 0, 0)",
+                    "width": "310.203px",
+                    "height": "178.391px",
+                    "display": "block",
+                    "flexDirection": "row",
+                    "border": "0px none rgb(0, 0, 0)",
+                    "overflow": "visible",
+                    "position": "static",
+                    "opacity": "1",
+                    "objectFit": "fill",
+                    "textAlign": "start"
+                  },
+                  "img": null,
+                  "childCount": 3,
+                  "children": [
+                    {
+                      "tag": "div",
+                      "cls": "eyebrow margin-bottom-20",
+                      "box": {
+                        "w": 310,
+                        "h": 17
+                      },
+                      "text": "Small words, massive impact",
+                      "styles": {
+                        "fontSize": "16px",
+                        "fontWeight": "700",
+                        "fontFamily": "\"ABC Social Extended\", Arial, sans-serif",
+                        "lineHeight": "16.8px",
+                        "color": "rgb(0, 0, 0)",
+                        "margin": "0px 0px 20px",
+                        "marginBottom": "20px",
+                        "width": "310.203px",
+                        "height": "16.7969px",
+                        "display": "block",
+                        "flexDirection": "row",
+                        "border": "0px none rgb(0, 0, 0)",
+                        "overflow": "visible",
+                        "position": "static",
+                        "opacity": "1",
+                        "objectFit": "fill",
+                        "textAlign": "start"
+                      },
+                      "img": null,
+                      "childCount": 0,
+                      "children": []
+                    },
+                    {
+                      "tag": "h4",
+                      "cls": "heading-s margin-bottom-40",
+                      "box": {
+                        "w": 310,
+                        "h": 58
+                      },
+                      "text": "Teams that build on Ditto ship more, fix less.",
+                      "styles": {
+                        "fontSize": "24px",
+                        "fontWeight": "700",
+                        "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                        "lineHeight": "28.8px",
+                        "letterSpacing": "-0.32px",
+                        "color": "rgb(0, 0, 0)",
+                        "margin": "0px 0px 40px",
+                        "marginBottom": "40px",
+                        "width": "310.203px",
+                        "height": "57.5938px",
+                        "display": "block",
+                        "flexDirection": "row",
+                        "border": "0px none rgb(0, 0, 0)",
+                        "overflow": "visible",
+                        "position": "static",
+                        "opacity": "1",
+                        "objectFit": "fill",
+                        "textAlign": "start"
+                      },
+                      "img": null,
+                      "childCount": 0,
+                      "children": []
+                    },
+                    {
+                      "tag": "a",
+                      "cls": "button display-none-s w-inline-block",
+                      "box": {
+                        "w": 154,
+                        "h": 44
+                      },
+                      "text": null,
+                      "styles": {
+                        "fontSize": "13px",
+                        "fontWeight": "700",
+                        "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                        "lineHeight": "13px",
+                        "letterSpacing": "0.12992px",
+                        "color": "rgb(247, 245, 243)",
+                        "backgroundColor": "rgb(0, 0, 0)",
+                        "padding": "15px",
+                        "paddingTop": "15px",
+                        "paddingBottom": "15px",
+                        "paddingLeft": "15px",
+                        "paddingRight": "15px",
+                        "width": "153.594px",
+                        "height": "44px",
+                        "maxWidth": "100%",
+                        "display": "inline-flex",
+                        "flexDirection": "row",
+                        "justifyContent": "flex-start",
+                        "alignItems": "center",
+                        "gap": "8px",
+                        "borderRadius": "1000px",
+                        "border": "0px none rgb(247, 245, 243)",
+                        "overflow": "visible",
+                        "position": "static",
+                        "opacity": "1",
+                        "objectFit": "fill",
+                        "textAlign": "start"
+                      },
+                      "img": null,
+                      "childCount": 2,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "cls": "stats-container first",
+                  "box": {
+                    "w": 310,
+                    "h": 178
+                  },
+                  "text": null,
+                  "styles": {
+                    "fontSize": "16px",
+                    "fontWeight": "400",
+                    "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                    "lineHeight": "16px",
+                    "color": "rgb(0, 0, 0)",
+                    "padding": "0px 0px 0px 31.0156px",
+                    "paddingLeft": "31.0156px",
+                    "width": "310.203px",
+                    "height": "178.391px",
+                    "display": "flex",
+                    "flexDirection": "column",
+                    "justifyContent": "space-between",
+                    "alignItems": "flex-start",
+                    "overflow": "visible",
+                    "position": "static",
+                    "opacity": "1",
+                    "objectFit": "fill",
+                    "textAlign": "start"
+                  },
+                  "img": null,
+                  "childCount": 2,
+                  "children": [
+                    {
+                      "tag": "div",
+                      "cls": "stat-text",
+                      "box": {
+                        "w": 206,
+                        "h": 76
+                      },
+                      "text": "70%",
+                      "styles": {
+                        "fontSize": "86.4px",
+                        "fontWeight": "700",
+                        "fontFamily": "\"ABC Social Extended\", Arial, sans-serif",
+                        "lineHeight": "76.032px",
+                        "letterSpacing": "-2px",
+                        "color": "rgb(0, 0, 0)",
+                        "backgroundColor": "rgb(247, 245, 243)",
+                        "padding": "0px 6.4px",
+                        "paddingLeft": "6.4px",
+                        "paddingRight": "6.4px",
+                        "width": "206.281px",
+                        "height": "76.0312px",
+                        "display": "block",
+                        "flexDirection": "row",
+                        "border": "0px none rgb(0, 0, 0)",
+                        "overflow": "visible",
+                        "position": "static",
+                        "opacity": "1",
+                        "objectFit": "fill",
+                        "textAlign": "start"
+                      },
+                      "img": null,
+                      "childCount": 0,
+                      "children": []
+                    },
+                    {
+                      "tag": "div",
+                      "cls": "heading-s",
+                      "box": {
+                        "w": 278,
+                        "h": 57
+                      },
+                      "text": "faster resolution of copy fixes",
+                      "styles": {
+                        "fontSize": "26px",
+                        "fontWeight": "700",
+                        "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                        "lineHeight": "28.6px",
+                        "letterSpacing": "-0.32px",
+                        "color": "rgb(0, 0, 0)",
+                        "width": "278.188px",
+                        "height": "57.1875px",
+                        "display": "block",
+                        "flexDirection": "row",
+                        "border": "0px none rgb(0, 0, 0)",
+                        "overflow": "visible",
+                        "position": "static",
+                        "opacity": "1",
+                        "objectFit": "fill",
+                        "textAlign": "start"
+                      },
+                      "img": null,
+                      "childCount": 0,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "cls": "stats-container",
+                  "box": {
+                    "w": 310,
+                    "h": 178
+                  },
+                  "text": null,
+                  "styles": {
+                    "fontSize": "16px",
+                    "fontWeight": "400",
+                    "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                    "lineHeight": "16px",
+                    "color": "rgb(0, 0, 0)",
+                    "padding": "0px 0px 0px 31.0156px",
+                    "paddingLeft": "31.0156px",
+                    "width": "310.203px",
+                    "height": "178.391px",
+                    "display": "flex",
+                    "flexDirection": "column",
+                    "justifyContent": "space-between",
+                    "alignItems": "flex-start",
+                    "overflow": "visible",
+                    "position": "static",
+                    "opacity": "1",
+                    "objectFit": "fill",
+                    "textAlign": "start"
+                  },
+                  "img": null,
+                  "childCount": 2,
+                  "children": [
+                    {
+                      "tag": "div",
+                      "cls": "stat-text",
+                      "box": {
+                        "w": 262,
+                        "h": 76
+                      },
+                      "text": "40hrs",
+                      "styles": {
+                        "fontSize": "86.4px",
+                        "fontWeight": "700",
+                        "fontFamily": "\"ABC Social Extended\", Arial, sans-serif",
+                        "lineHeight": "76.032px",
+                        "letterSpacing": "-2px",
+                        "color": "rgb(0, 0, 0)",
+                        "backgroundColor": "rgb(247, 245, 243)",
+                        "padding": "0px 6.4px",
+                        "paddingLeft": "6.4px",
+                        "paddingRight": "6.4px",
+                        "width": "262.156px",
+                        "height": "76.0312px",
+                        "display": "block",
+                        "flexDirection": "row",
+                        "border": "0px none rgb(0, 0, 0)",
+                        "overflow": "visible",
+                        "position": "static",
+                        "opacity": "1",
+                        "objectFit": "fill",
+                        "textAlign": "start"
+                      },
+                      "img": null,
+                      "childCount": 0,
+                      "children": []
+                    },
+                    {
+                      "tag": "div",
+                      "cls": "heading-s",
+                      "box": {
+                        "w": 278,
+                        "h": 57
+                      },
+                      "text": "of dev time saved per release",
+                      "styles": {
+                        "fontSize": "26px",
+                        "fontWeight": "700",
+                        "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                        "lineHeight": "28.6px",
+                        "letterSpacing": "-0.32px",
+                        "color": "rgb(0, 0, 0)",
+                        "width": "278.188px",
+                        "height": "57.1875px",
+                        "display": "block",
+                        "flexDirection": "row",
+                        "border": "0px none rgb(0, 0, 0)",
+                        "overflow": "visible",
+                        "position": "static",
+                        "opacity": "1",
+                        "objectFit": "fill",
+                        "textAlign": "start"
+                      },
+                      "img": null,
+                      "childCount": 0,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "cls": "stats-container last",
+                  "box": {
+                    "w": 310,
+                    "h": 178
+                  },
+                  "text": null,
+                  "styles": {
+                    "fontSize": "16px",
+                    "fontWeight": "400",
+                    "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                    "lineHeight": "16px",
+                    "color": "rgb(0, 0, 0)",
+                    "padding": "0px 0px 0px 31.0156px",
+                    "paddingLeft": "31.0156px",
+                    "width": "310.219px",
+                    "height": "178.391px",
+                    "display": "flex",
+                    "flexDirection": "column",
+                    "justifyContent": "space-between",
+                    "alignItems": "flex-start",
+                    "overflow": "visible",
+                    "position": "static",
+                    "opacity": "1",
+                    "objectFit": "fill",
+                    "textAlign": "start"
+                  },
+                  "img": null,
+                  "childCount": 2,
+                  "children": [
+                    {
+                      "tag": "div",
+                      "cls": "stat-text",
+                      "box": {
+                        "w": 213,
+                        "h": 76
+                      },
+                      "text": null,
+                      "styles": {
+                        "fontSize": "86.4px",
+                        "fontWeight": "700",
+                        "fontFamily": "\"ABC Social Extended\", Arial, sans-serif",
+                        "lineHeight": "76.032px",
+                        "letterSpacing": "-2px",
+                        "color": "rgb(0, 0, 0)",
+                        "backgroundColor": "rgb(247, 245, 243)",
+                        "padding": "0px 6.4px",
+                        "paddingLeft": "6.4px",
+                        "paddingRight": "6.4px",
+                        "width": "212.859px",
+                        "height": "76.0312px",
+                        "display": "block",
+                        "flexDirection": "row",
+                        "border": "0px none rgb(0, 0, 0)",
+                        "overflow": "visible",
+                        "position": "static",
+                        "opacity": "1",
+                        "objectFit": "fill",
+                        "textAlign": "start"
+                      },
+                      "img": null,
+                      "childCount": 1,
+                      "children": []
+                    },
+                    {
+                      "tag": "div",
+                      "cls": "heading-s",
+                      "box": {
+                        "w": 278,
+                        "h": 57
+                      },
+                      "text": "faster product release cycles",
+                      "styles": {
+                        "fontSize": "26px",
+                        "fontWeight": "700",
+                        "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                        "lineHeight": "28.6px",
+                        "letterSpacing": "-0.32px",
+                        "color": "rgb(0, 0, 0)",
+                        "width": "278.203px",
+                        "height": "57.1875px",
+                        "display": "block",
+                        "flexDirection": "row",
+                        "border": "0px none rgb(0, 0, 0)",
+                        "overflow": "visible",
+                        "position": "static",
+                        "opacity": "1",
+                        "objectFit": "fill",
+                        "textAlign": "start"
+                      },
+                      "img": null,
+                      "childCount": 0,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "a",
+                  "cls": "button display-none-m w-inline-block",
+                  "box": {
+                    "w": 0,
+                    "h": 0
+                  },
+                  "text": null,
+                  "styles": {
+                    "fontSize": "13px",
+                    "fontWeight": "700",
+                    "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                    "lineHeight": "13px",
+                    "letterSpacing": "0.12992px",
+                    "color": "rgb(247, 245, 243)",
+                    "backgroundColor": "rgb(0, 0, 0)",
+                    "padding": "15px",
+                    "paddingTop": "15px",
+                    "paddingBottom": "15px",
+                    "paddingLeft": "15px",
+                    "paddingRight": "15px",
+                    "maxWidth": "100%",
+                    "flexDirection": "row",
+                    "justifyContent": "flex-start",
+                    "alignItems": "center",
+                    "gap": "8px",
+                    "borderRadius": "1000px",
+                    "border": "0px none rgb(247, 245, 243)",
+                    "overflow": "visible",
+                    "position": "static",
+                    "opacity": "1",
+                    "objectFit": "fill",
+                    "textAlign": "start"
+                  },
+                  "img": null,
+                  "childCount": 2,
+                  "children": [
+                    {
+                      "tag": "div",
+                      "cls": "",
+                      "box": {
+                        "w": 0,
+                        "h": 0
+                      },
+                      "text": "See Case Studies",
+                      "styles": {
+                        "fontSize": "13px",
+                        "fontWeight": "700",
+                        "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                        "lineHeight": "13px",
+                        "letterSpacing": "0.12992px",
+                        "color": "rgb(247, 245, 243)",
+                        "display": "block",
+                        "flexDirection": "row",
+                        "border": "0px none rgb(247, 245, 243)",
+                        "overflow": "visible",
+                        "position": "static",
+                        "opacity": "1",
+                        "objectFit": "fill",
+                        "textAlign": "start"
+                      },
+                      "img": null,
+                      "childCount": 0,
+                      "children": []
+                    },
+                    {
+                      "tag": "div",
+                      "cls": "w-embed",
+                      "box": {
+                        "w": 0,
+                        "h": 0
+                      },
+                      "text": null,
+                      "styles": {
+                        "fontSize": "13px",
+                        "fontWeight": "700",
+                        "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                        "lineHeight": "13px",
+                        "letterSpacing": "0.12992px",
+                        "color": "rgb(247, 245, 243)",
+                        "display": "block",
+                        "flexDirection": "row",
+                        "border": "0px none rgb(247, 245, 243)",
+                        "overflow": "visible",
+                        "position": "static",
+                        "opacity": "1",
+                        "objectFit": "fill",
+                        "textAlign": "start"
+                      },
+                      "img": null,
+                      "childCount": 1,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "cls": "grid _5-gap _1-col-s",
+              "box": {
+                "w": 1320,
+                "h": 262
+              },
+              "text": null,
+              "styles": {
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                "lineHeight": "16px",
+                "color": "rgb(0, 0, 0)",
+                "width": "1320px",
+                "height": "262.203px",
+                "display": "grid",
+                "flexDirection": "row",
+                "gap": "20px 5%",
+                "gridTemplateColumns": "627px 627px",
+                "gridTemplateRows": "262.203px",
+                "border": "0px none rgb(0, 0, 0)",
+                "overflow": "visible",
+                "position": "static",
+                "opacity": "1",
+                "objectFit": "fill",
+                "textAlign": "start"
+              },
+              "img": null,
+              "childCount": 2,
+              "children": [
+                {
+                  "tag": "div",
+                  "cls": "",
+                  "box": {
+                    "w": 627,
+                    "h": 262
+                  },
+                  "text": null,
+                  "styles": {
+                    "fontSize": "16px",
+                    "fontWeight": "400",
+                    "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                    "lineHeight": "16px",
+                    "color": "rgb(0, 0, 0)",
+                    "width": "627px",
+                    "height": "262.203px",
+                    "display": "block",
+                    "flexDirection": "row",
+                    "border": "0px none rgb(0, 0, 0)",
+                    "overflow": "visible",
+                    "position": "static",
+                    "opacity": "1",
+                    "objectFit": "fill",
+                    "textAlign": "start"
+                  },
+                  "img": null,
+                  "childCount": 3,
+                  "children": [
+                    {
+                      "tag": "div",
+                      "cls": "quotation-mark-container margin-bottom-30",
+                      "box": {
+                        "w": 68,
+                        "h": 57
+                      },
+                      "text": null,
+                      "styles": {
+                        "fontSize": "16px",
+                        "fontWeight": "400",
+                        "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                        "lineHeight": "16px",
+                        "color": "rgb(0, 0, 0)",
+                        "backgroundColor": "rgb(247, 245, 243)",
+                        "padding": "5px",
+                        "paddingTop": "5px",
+                        "paddingBottom": "5px",
+                        "paddingLeft": "5px",
+                        "paddingRight": "5px",
+                        "margin": "0px 0px 30px",
+                        "marginBottom": "30px",
+                        "width": "68px",
+                        "height": "57px",
+                        "display": "inline-block",
+                        "flexDirection": "row",
+                        "border": "0px none rgb(0, 0, 0)",
+                        "overflow": "visible",
+                        "position": "static",
+                        "opacity": "1",
+                        "objectFit": "fill",
+                        "textAlign": "start"
+                      },
+                      "img": null,
+                      "childCount": 1,
+                      "children": []
+                    },
+                    {
+                      "tag": "blockquote",
+                      "cls": "block-quote margin-bottom-30",
+                      "box": {
+                        "w": 627,
+                        "h": 120
+                      },
+                      "text": "Numbers aside, the biggest thing is that I have is just way more confidence in the content. With Ditto, we can see problems way faster. It does save me a ton of time, but I never cared about that as m",
+                      "styles": {
+                        "fontSize": "25px",
+                        "fontWeight": "400",
+                        "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                        "lineHeight": "30px",
+                        "letterSpacing": "-0.25px",
+                        "color": "rgb(0, 0, 0)",
+                        "margin": "0px 0px 30px",
+                        "marginBottom": "30px",
+                        "width": "627px",
+                        "height": "120px",
+                        "display": "block",
+                        "flexDirection": "row",
+                        "overflow": "visible",
+                        "position": "static",
+                        "opacity": "1",
+                        "objectFit": "fill",
+                        "textAlign": "start"
+                      },
+                      "img": null,
+                      "childCount": 0,
+                      "children": []
+                    },
+                    {
+                      "tag": "div",
+                      "cls": "quote-attribution-text",
+                      "box": {
+                        "w": 627,
+                        "h": 25
+                      },
+                      "text": "Designer, Big Sky Health",
+                      "styles": {
+                        "fontSize": "24px",
+                        "fontWeight": "700",
+                        "fontFamily": "\"ABC Social Extended\", Arial, sans-serif",
+                        "lineHeight": "25.2px",
+                        "color": "rgb(0, 0, 0)",
+                        "width": "627px",
+                        "height": "25.2031px",
+                        "display": "block",
+                        "flexDirection": "row",
+                        "border": "0px none rgb(0, 0, 0)",
+                        "overflow": "visible",
+                        "position": "static",
+                        "opacity": "1",
+                        "objectFit": "fill",
+                        "textAlign": "start"
+                      },
+                      "img": null,
+                      "childCount": 0,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "cls": "display-none-s",
+                  "box": {
+                    "w": 627,
+                    "h": 262
+                  },
+                  "text": null,
+                  "styles": {
+                    "fontSize": "16px",
+                    "fontWeight": "400",
+                    "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                    "lineHeight": "16px",
+                    "color": "rgb(0, 0, 0)",
+                    "width": "627px",
+                    "height": "262.203px",
+                    "display": "block",
+                    "flexDirection": "row",
+                    "border": "0px none rgb(0, 0, 0)",
+                    "overflow": "visible",
+                    "position": "static",
+                    "opacity": "1",
+                    "objectFit": "fill",
+                    "textAlign": "start"
+                  },
+                  "img": null,
+                  "childCount": 3,
+                  "children": [
+                    {
+                      "tag": "div",
+                      "cls": "quotation-mark-container margin-bottom-30",
+                      "box": {
+                        "w": 68,
+                        "h": 57
+                      },
+                      "text": null,
+                      "styles": {
+                        "fontSize": "16px",
+                        "fontWeight": "400",
+                        "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                        "lineHeight": "16px",
+                        "color": "rgb(0, 0, 0)",
+                        "backgroundColor": "rgb(247, 245, 243)",
+                        "padding": "5px",
+                        "paddingTop": "5px",
+                        "paddingBottom": "5px",
+                        "paddingLeft": "5px",
+                        "paddingRight": "5px",
+                        "margin": "0px 0px 30px",
+                        "marginBottom": "30px",
+                        "width": "68px",
+                        "height": "57px",
+                        "display": "inline-block",
+                        "flexDirection": "row",
+                        "border": "0px none rgb(0, 0, 0)",
+                        "overflow": "visible",
+                        "position": "static",
+                        "opacity": "1",
+                        "objectFit": "fill",
+                        "textAlign": "start"
+                      },
+                      "img": null,
+                      "childCount": 1,
+                      "children": []
+                    },
+                    {
+                      "tag": "blockquote",
+                      "cls": "block-quote margin-bottom-30",
+                      "box": {
+                        "w": 627,
+                        "h": 120
+                      },
+                      "text": "With our data in Looker and content in Ditto, we have complete visibility into user states and are able to really rapidly tweak and deploy content\u2026shipping content updates almost daily.",
+                      "styles": {
+                        "fontSize": "25px",
+                        "fontWeight": "400",
+                        "fontFamily": "\"ABC Social\", Arial, sans-serif",
+                        "lineHeight": "30px",
+                        "letterSpacing": "-0.25px",
+                        "color": "rgb(0, 0, 0)",
+                        "margin": "0px 0px 30px",
+                        "marginBottom": "30px",
+                        "width": "627px",
+                        "height": "120px",
+                        "display": "block",
+                        "flexDirection": "row",
+                        "overflow": "visible",
+                        "position": "static",
+                        "opacity": "1",
+                        "objectFit": "fill",
+                        "textAlign": "start"
+                      },
+                      "img": null,
+                      "childCount": 0,
+                      "children": []
+                    },
+                    {
+                      "tag": "div",
+                      "cls": "quote-attribution-text",
+                      "box": {
+                        "w": 627,
+                        "h": 25
+                      },
+                      "text": "Engineer, Big Sky Health",
+                      "styles": {
+                        "fontSize": "24px",
+                        "fontWeight": "700",
+                        "fontFamily": "\"ABC Social Extended\", Arial, sans-serif",
+                        "lineHeight": "25.2px",
+                        "color": "rgb(0, 0, 0)",
+                        "width": "627px",
+                        "height": "25.2031px",
+                        "display": "block",
+                        "flexDirection": "row",
+                        "border": "0px none rgb(0, 0, 0)",
+                        "overflow": "visible",
+                        "position": "static",
+                        "opacity": "1",
+                        "objectFit": "fill",
+                        "textAlign": "start"
+                      },
+                      "img": null,
+                      "childCount": 0,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

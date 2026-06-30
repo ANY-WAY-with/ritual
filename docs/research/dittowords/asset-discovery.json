@@ -1,0 +1,1054 @@
+{
+  "images": [
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6764a761deaef4de4eb2697f_d.svg",
+      "alt": "",
+      "width": 67,
+      "height": 67,
+      "parentClasses": "nav-brand-1",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6764a761272e6ad88303ff02_itto.svg",
+      "alt": "",
+      "width": 268,
+      "height": 67,
+      "parentClasses": "nav-brand-1",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6764a9df093ac656df7e56e8_period.svg",
+      "alt": "",
+      "width": 35,
+      "height": 35,
+      "parentClasses": "nav-brand-1",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6764a761deaef4de4eb2697f_d.svg",
+      "alt": "",
+      "width": 67,
+      "height": 67,
+      "parentClasses": "nav-brand-2",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6764a761272e6ad88303ff02_itto.svg",
+      "alt": "",
+      "width": 268,
+      "height": 67,
+      "parentClasses": "nav-brand-2",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6764a9df093ac656df7e56e8_period.svg",
+      "alt": "",
+      "width": 35,
+      "height": 35,
+      "parentClasses": "nav-brand-2",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6764a761deaef4de4eb2697f_d.svg",
+      "alt": "",
+      "width": 67,
+      "height": 67,
+      "parentClasses": "nav-brand-3",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6764a761272e6ad88303ff02_itto.svg",
+      "alt": "",
+      "width": 268,
+      "height": 67,
+      "parentClasses": "nav-brand-3",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6764a9df093ac656df7e56e8_period.svg",
+      "alt": "",
+      "width": 35,
+      "height": 35,
+      "parentClasses": "nav-brand-3",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6764a761deaef4de4eb2697f_d.svg",
+      "alt": "",
+      "width": 67,
+      "height": 67,
+      "parentClasses": "nav-brand-4",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6764a761272e6ad88303ff02_itto.svg",
+      "alt": "",
+      "width": 268,
+      "height": 67,
+      "parentClasses": "nav-brand-4",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6764a9df093ac656df7e56e8_period.svg",
+      "alt": "",
+      "width": 35,
+      "height": 35,
+      "parentClasses": "nav-brand-4",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6764a761deaef4de4eb2697f_d.svg",
+      "alt": "",
+      "width": 67,
+      "height": 67,
+      "parentClasses": "nav-brand-5",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6764a761272e6ad88303ff02_itto.svg",
+      "alt": "",
+      "width": 268,
+      "height": 67,
+      "parentClasses": "nav-brand-5",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6764a9df093ac656df7e56e8_period.svg",
+      "alt": "",
+      "width": 35,
+      "height": 35,
+      "parentClasses": "nav-brand-5",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6764a761deaef4de4eb2697f_d.svg",
+      "alt": "",
+      "width": 67,
+      "height": 67,
+      "parentClasses": "nav-brand-6",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6764a761272e6ad88303ff02_itto.svg",
+      "alt": "",
+      "width": 268,
+      "height": 67,
+      "parentClasses": "nav-brand-6",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6764a9df093ac656df7e56e8_period.svg",
+      "alt": "",
+      "width": 35,
+      "height": 35,
+      "parentClasses": "nav-brand-6",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6764a761deaef4de4eb2697f_d.svg",
+      "alt": "",
+      "width": 67,
+      "height": 67,
+      "parentClasses": "nav-brand-7",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6764a761272e6ad88303ff02_itto.svg",
+      "alt": "",
+      "width": 268,
+      "height": 67,
+      "parentClasses": "nav-brand-7",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6764a9df093ac656df7e56e8_period.svg",
+      "alt": "",
+      "width": 35,
+      "height": 35,
+      "parentClasses": "nav-brand-7",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6764a761deaef4de4eb2697f_d.svg",
+      "alt": "",
+      "width": 67,
+      "height": 67,
+      "parentClasses": "nav-brand-8",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6764a761272e6ad88303ff02_itto.svg",
+      "alt": "",
+      "width": 268,
+      "height": 67,
+      "parentClasses": "nav-brand-8",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6764a9df093ac656df7e56e8_period.svg",
+      "alt": "",
+      "width": 35,
+      "height": 35,
+      "parentClasses": "nav-brand-8",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6764a761deaef4de4eb2697f_d.svg",
+      "alt": "",
+      "width": 67,
+      "height": 67,
+      "parentClasses": "nav-brand-9",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6764a761272e6ad88303ff02_itto.svg",
+      "alt": "",
+      "width": 268,
+      "height": 67,
+      "parentClasses": "nav-brand-9",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6764a9df093ac656df7e56e8_period.svg",
+      "alt": "",
+      "width": 35,
+      "height": 35,
+      "parentClasses": "nav-brand-9",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6764a761deaef4de4eb2697f_d.svg",
+      "alt": "",
+      "width": 67,
+      "height": 67,
+      "parentClasses": "nav-brand-main",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6764a761272e6ad88303ff02_itto.svg",
+      "alt": "",
+      "width": 268,
+      "height": 67,
+      "parentClasses": "nav-brand-main",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6764a9df093ac656df7e56e8_period.svg",
+      "alt": "",
+      "width": 35,
+      "height": 35,
+      "parentClasses": "nav-brand-main",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6768b3872880b4fc11398064_staffbase.webp",
+      "alt": "",
+      "width": 207,
+      "height": 44,
+      "parentClasses": "marquee-content scroll",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6764b2d13d82519ed205538a_root.webp",
+      "alt": "",
+      "width": 73,
+      "height": 22,
+      "parentClasses": "marquee-content scroll",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6768b38756c25a3a991d0c6b_microsoft.webp",
+      "alt": "",
+      "width": 173,
+      "height": 44,
+      "parentClasses": "marquee-content scroll",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6768b387043fd03e61a39406_ebay.webp",
+      "alt": "",
+      "width": 111,
+      "height": 44,
+      "parentClasses": "marquee-content scroll",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6769af8d924e3dea6bfa5732_stash.svg",
+      "alt": "",
+      "width": 73,
+      "height": 16,
+      "parentClasses": "marquee-content scroll",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6768b3874380e63768a17f25_bigcommerce.webp",
+      "alt": "",
+      "width": 196,
+      "height": 44,
+      "parentClasses": "marquee-content scroll",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6769afaf5e4e0e89d424a78c_ownup.svg",
+      "alt": "",
+      "width": 73,
+      "height": 16,
+      "parentClasses": "marquee-content scroll",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6768b38b2b5f41e522be4a11_uber%20carshare.webp",
+      "alt": "",
+      "width": 93,
+      "height": 44,
+      "parentClasses": "marquee-content scroll",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6768b387ee1c0fbcc64c6876_mcafee.webp",
+      "alt": "",
+      "width": 217,
+      "height": 44,
+      "parentClasses": "marquee-content scroll",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6769afb151b1657f593e8b40_zero.svg",
+      "alt": "",
+      "width": 57,
+      "height": 17,
+      "parentClasses": "marquee-content scroll",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6769af8dc4733419c0cba9f3_curology.svg",
+      "alt": "",
+      "width": 71,
+      "height": 16,
+      "parentClasses": "marquee-content scroll",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6769af8d1f2a9ca6c5aeac1c_happy-money.svg",
+      "alt": "",
+      "width": 116,
+      "height": 16,
+      "parentClasses": "marquee-content scroll",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6769af8d9aaee256c36f3a9b_step.svg",
+      "alt": "",
+      "width": 27,
+      "height": 20,
+      "parentClasses": "marquee-content scroll",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6769af8daec965919026081a_immutable.svg",
+      "alt": "",
+      "width": 64,
+      "height": 16,
+      "parentClasses": "marquee-content scroll",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6768b3872880b4fc11398067_rakuten.webp",
+      "alt": "",
+      "width": 150,
+      "height": 44,
+      "parentClasses": "marquee-content scroll",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6768b3872880b4fc11398064_staffbase.webp",
+      "alt": "",
+      "width": 207,
+      "height": 44,
+      "parentClasses": "marquee-content scroll",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6764b2d13d82519ed205538a_root.webp",
+      "alt": "",
+      "width": 73,
+      "height": 22,
+      "parentClasses": "marquee-content scroll",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6768b38756c25a3a991d0c6b_microsoft.webp",
+      "alt": "",
+      "width": 173,
+      "height": 44,
+      "parentClasses": "marquee-content scroll",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6768b387043fd03e61a39406_ebay.webp",
+      "alt": "",
+      "width": 111,
+      "height": 44,
+      "parentClasses": "marquee-content scroll",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6769af8d924e3dea6bfa5732_stash.svg",
+      "alt": "",
+      "width": 73,
+      "height": 16,
+      "parentClasses": "marquee-content scroll",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6768b3874380e63768a17f25_bigcommerce.webp",
+      "alt": "",
+      "width": 196,
+      "height": 44,
+      "parentClasses": "marquee-content scroll",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6769afaf5e4e0e89d424a78c_ownup.svg",
+      "alt": "",
+      "width": 73,
+      "height": 16,
+      "parentClasses": "marquee-content scroll",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6768b38b2b5f41e522be4a11_uber%20carshare.webp",
+      "alt": "",
+      "width": 93,
+      "height": 44,
+      "parentClasses": "marquee-content scroll",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6768b387ee1c0fbcc64c6876_mcafee.webp",
+      "alt": "",
+      "width": 217,
+      "height": 44,
+      "parentClasses": "marquee-content scroll",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6769afb151b1657f593e8b40_zero.svg",
+      "alt": "",
+      "width": 57,
+      "height": 17,
+      "parentClasses": "marquee-content scroll",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6769af8dc4733419c0cba9f3_curology.svg",
+      "alt": "",
+      "width": 71,
+      "height": 16,
+      "parentClasses": "marquee-content scroll",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6769af8d1f2a9ca6c5aeac1c_happy-money.svg",
+      "alt": "",
+      "width": 116,
+      "height": 16,
+      "parentClasses": "marquee-content scroll",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6769af8d9aaee256c36f3a9b_step.svg",
+      "alt": "",
+      "width": 27,
+      "height": 20,
+      "parentClasses": "marquee-content scroll",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6769af8daec965919026081a_immutable.svg",
+      "alt": "",
+      "width": 64,
+      "height": 16,
+      "parentClasses": "marquee-content scroll",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6768b3872880b4fc11398067_rakuten.webp",
+      "alt": "",
+      "width": 150,
+      "height": 44,
+      "parentClasses": "marquee-content scroll",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6a3b0b8d35b6a5adc76f3761_01-Cursor.png",
+      "alt": "",
+      "width": 321,
+      "height": 320,
+      "parentClasses": "integrates-everywhere-marquee scroll",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6a3b0bab7cd0317cf3812503_Integrates.png",
+      "alt": "",
+      "width": 1440,
+      "height": 326,
+      "parentClasses": "integrates-everywhere-marquee scroll",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6a3b0b918d20443094ab460f_02-Claude.png",
+      "alt": "",
+      "width": 320,
+      "height": 320,
+      "parentClasses": "integrates-everywhere-marquee scroll",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6a3b0bafa3bcdf401552b3a9_Everywhere.png",
+      "alt": "",
+      "width": 1440,
+      "height": 281,
+      "parentClasses": "integrates-everywhere-marquee scroll",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6a3b0b953d72554b6675f959_03-Figma.png",
+      "alt": "",
+      "width": 320,
+      "height": 320,
+      "parentClasses": "integrates-everywhere-marquee scroll",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6a3b0bab7cd0317cf3812503_Integrates.png",
+      "alt": "",
+      "width": 1440,
+      "height": 326,
+      "parentClasses": "integrates-everywhere-marquee scroll",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6a3b0b9af667b9343a0df6cd_04-ChatGPT.png",
+      "alt": "",
+      "width": 320,
+      "height": 320,
+      "parentClasses": "integrates-everywhere-marquee scroll",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6a3b0bafa3bcdf401552b3a9_Everywhere.png",
+      "alt": "",
+      "width": 1440,
+      "height": 281,
+      "parentClasses": "integrates-everywhere-marquee scroll",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6a3b0ba27d3e7ea73df74e4c_05-Github.png",
+      "alt": "",
+      "width": 320,
+      "height": 320,
+      "parentClasses": "integrates-everywhere-marquee scroll",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6a3b0bab7cd0317cf3812503_Integrates.png",
+      "alt": "",
+      "width": 1440,
+      "height": 326,
+      "parentClasses": "integrates-everywhere-marquee scroll",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6a3b0ba88c4b700804e752cf_06-Storybook.png",
+      "alt": "",
+      "width": 320,
+      "height": 320,
+      "parentClasses": "integrates-everywhere-marquee scroll",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6a3b0bafa3bcdf401552b3a9_Everywhere.png",
+      "alt": "",
+      "width": 1440,
+      "height": 281,
+      "parentClasses": "integrates-everywhere-marquee scroll",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6a3b0b8d35b6a5adc76f3761_01-Cursor.png",
+      "alt": "",
+      "width": 321,
+      "height": 320,
+      "parentClasses": "integrates-everywhere-marquee scroll",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6a3b0bab7cd0317cf3812503_Integrates.png",
+      "alt": "",
+      "width": 1440,
+      "height": 326,
+      "parentClasses": "integrates-everywhere-marquee scroll",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6a3b0b918d20443094ab460f_02-Claude.png",
+      "alt": "",
+      "width": 320,
+      "height": 320,
+      "parentClasses": "integrates-everywhere-marquee scroll",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6a3b0bafa3bcdf401552b3a9_Everywhere.png",
+      "alt": "",
+      "width": 1440,
+      "height": 281,
+      "parentClasses": "integrates-everywhere-marquee scroll",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6a3b0b953d72554b6675f959_03-Figma.png",
+      "alt": "",
+      "width": 320,
+      "height": 320,
+      "parentClasses": "integrates-everywhere-marquee scroll",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6a3b0bab7cd0317cf3812503_Integrates.png",
+      "alt": "",
+      "width": 1440,
+      "height": 326,
+      "parentClasses": "integrates-everywhere-marquee scroll",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6a3b0b9af667b9343a0df6cd_04-ChatGPT.png",
+      "alt": "",
+      "width": 320,
+      "height": 320,
+      "parentClasses": "integrates-everywhere-marquee scroll",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6a3b0bafa3bcdf401552b3a9_Everywhere.png",
+      "alt": "",
+      "width": 1440,
+      "height": 281,
+      "parentClasses": "integrates-everywhere-marquee scroll",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6a3b0ba27d3e7ea73df74e4c_05-Github.png",
+      "alt": "",
+      "width": 320,
+      "height": 320,
+      "parentClasses": "integrates-everywhere-marquee scroll",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6a3b0bab7cd0317cf3812503_Integrates.png",
+      "alt": "",
+      "width": 1440,
+      "height": 326,
+      "parentClasses": "integrates-everywhere-marquee scroll",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6a3b0ba88c4b700804e752cf_06-Storybook.png",
+      "alt": "",
+      "width": 320,
+      "height": 320,
+      "parentClasses": "integrates-everywhere-marquee scroll",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6a3b0bafa3bcdf401552b3a9_Everywhere.png",
+      "alt": "",
+      "width": 1440,
+      "height": 281,
+      "parentClasses": "integrates-everywhere-marquee scroll",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6a3b0b8d35b6a5adc76f3761_01-Cursor.png",
+      "alt": "",
+      "width": 321,
+      "height": 320,
+      "parentClasses": "integrates-everywhere-marquee scroll",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6a3b0bab7cd0317cf3812503_Integrates.png",
+      "alt": "",
+      "width": 1440,
+      "height": 326,
+      "parentClasses": "integrates-everywhere-marquee scroll",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6a3b0b918d20443094ab460f_02-Claude.png",
+      "alt": "",
+      "width": 320,
+      "height": 320,
+      "parentClasses": "integrates-everywhere-marquee scroll",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6a3b0bafa3bcdf401552b3a9_Everywhere.png",
+      "alt": "",
+      "width": 1440,
+      "height": 281,
+      "parentClasses": "integrates-everywhere-marquee scroll",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6a3b0b953d72554b6675f959_03-Figma.png",
+      "alt": "",
+      "width": 320,
+      "height": 320,
+      "parentClasses": "integrates-everywhere-marquee scroll",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6a3b0bab7cd0317cf3812503_Integrates.png",
+      "alt": "",
+      "width": 1440,
+      "height": 326,
+      "parentClasses": "integrates-everywhere-marquee scroll",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6a3b0b9af667b9343a0df6cd_04-ChatGPT.png",
+      "alt": "",
+      "width": 320,
+      "height": 320,
+      "parentClasses": "integrates-everywhere-marquee scroll",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6a3b0bafa3bcdf401552b3a9_Everywhere.png",
+      "alt": "",
+      "width": 1440,
+      "height": 281,
+      "parentClasses": "integrates-everywhere-marquee scroll",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6a3b0ba27d3e7ea73df74e4c_05-Github.png",
+      "alt": "",
+      "width": 320,
+      "height": 320,
+      "parentClasses": "integrates-everywhere-marquee scroll",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6a3b0bab7cd0317cf3812503_Integrates.png",
+      "alt": "",
+      "width": 1440,
+      "height": 326,
+      "parentClasses": "integrates-everywhere-marquee scroll",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6a3b0ba88c4b700804e752cf_06-Storybook.png",
+      "alt": "",
+      "width": 320,
+      "height": 320,
+      "parentClasses": "integrates-everywhere-marquee scroll",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6a3b0bafa3bcdf401552b3a9_Everywhere.png",
+      "alt": "",
+      "width": 1440,
+      "height": 281,
+      "parentClasses": "integrates-everywhere-marquee scroll",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6a387ae685c2bc351ffd5bdb_Product%20Grid%201.png",
+      "alt": "",
+      "width": 1439,
+      "height": 1044,
+      "parentClasses": "",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6a387ae3af1457eb379c9379_Product%20Grid%203.png",
+      "alt": "",
+      "width": 1439,
+      "height": 1032,
+      "parentClasses": "div-block",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6a387adf1ed34756ac6d2f45_Product%20Grid%204.png",
+      "alt": "",
+      "width": 1439,
+      "height": 1032,
+      "parentClasses": "div-block",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6a387ae9d56b071a06caf76d_Product%20Grid%202.png",
+      "alt": "",
+      "width": 1439,
+      "height": 1044,
+      "parentClasses": "",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6a387aec6ef3c83be8ddc166_Product%20Grid%205.png",
+      "alt": "",
+      "width": 1439,
+      "height": 500,
+      "parentClasses": "",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6a3b262987361d9e02f75053_Frame%201400002967.png",
+      "alt": "",
+      "width": 1440,
+      "height": 834,
+      "parentClasses": "image-ratio-rebuild",
+      "position": "absolute",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6a3b26263db6ffee7b44ef31_Frame%201400002967-1.png",
+      "alt": "",
+      "width": 1440,
+      "height": 834,
+      "parentClasses": "image-ratio-rebuild",
+      "position": "absolute",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6a3b262357d36ac89db76aa0_Frame%201400002967-2.png",
+      "alt": "",
+      "width": 1440,
+      "height": 835,
+      "parentClasses": "image-ratio-rebuild",
+      "position": "absolute",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6a3b261fdd1f4f817ae644fa_Frame%201400002967-3.png",
+      "alt": "",
+      "width": 1440,
+      "height": 834,
+      "parentClasses": "image-ratio-rebuild",
+      "position": "absolute",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6a3b261b72b047acf9c630e0_Frame%201400002967-4.png",
+      "alt": "",
+      "width": 1440,
+      "height": 834,
+      "parentClasses": "image-ratio-rebuild",
+      "position": "absolute",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/674e451fd1baced3b5190aaf_ditto-logo.svg",
+      "alt": "",
+      "width": 1320,
+      "height": 215,
+      "parentClasses": "full-width margin-top-60",
+      "position": "static",
+      "zIndex": "auto"
+    }
+  ],
+  "videos": [
+    {
+      "src": "https://ditto1.b-cdn.net/webDitto-Homepage-Platform-Loop.webm",
+      "poster": "",
+      "autoplay": true,
+      "loop": true,
+      "muted": true
+    }
+  ],
+  "backgroundImages": [
+    {
+      "url": "url(\"https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6a3b0ecaa91385b7e7d0c97a_Clouds-Home-Platform%20(1).png\")",
+      "element": "SECTION.product-visual"
+    }
+  ],
+  "svgCount": 67,
+  "fonts": [
+    "sans-serif",
+    "\"ABC Social\", Arial, sans-serif",
+    "\"ABC Social Extended\", Arial, sans-serif"
+  ],
+  "favicons": [
+    {
+      "rel": "shortcut icon",
+      "href": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/68c1914636748fc834760132_favicon.png",
+      "sizes": "",
+      "type": "image/x-icon"
+    },
+    {
+      "rel": "apple-touch-icon",
+      "href": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/6835304d874a0183acbe9ded_webclip.svg",
+      "sizes": "",
+      "type": ""
+    }
+  ],
+  "metaOg": [
+    {
+      "k": "description",
+      "v": "Ditto is your team's content system to generate, integrate, and ship the best product copy, everywhere. Structured context behind every word \u2014 so that it\u2019s accurate, consistent, and on-brand by default."
+    },
+    {
+      "k": "og:title",
+      "v": "Ditto | Your system to power product copy"
+    },
+    {
+      "k": "og:description",
+      "v": "Ditto is your team's content system to generate, integrate, and ship the best product copy, everywhere. Structured context behind every word \u2014 so that it\u2019s accurate, consistent, and on-brand by default."
+    },
+    {
+      "k": "og:image",
+      "v": "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/68a75848e908bcfc140ff92a_D.%20Logo.png"
+    },
+    {
+      "k": "twitter:title",
+      "v": "Ditto | Your system to power product copy"
+    },
+    {
+      "k": "twitter:description",
+      "v": "Ditto is your team's content system to generate, integrate, and ship the best product copy, everywhere. Structured context behind every word \u2014 so that it\u2019s accurate, consistent, and on-brand by default."
+    },
+    {
+      "k": "og:type",
+      "v": "website"
+    },
+    {
+      "k": "twitter:card",
+      "v": "summary_large_image"
+    },
+    {
+      "k": "description",
+      "v": "Ditto aggregates the text on different surfaces of mockups into a searchable database, so that anyone can search, edit, and view copy in a centralized location. "
+    }
+  ],
+  "title": "Ditto | Your system to power product copy",
+  "stylesheetLinks": [
+    "https://cdn.prod.website-files.com/674e3a7fec86042fe6cf1e43/css/ditto-brand-site.webflow.shared.f667172eb.css"
+  ],
+  "fontLinks": [],
+  "bodyBg": "rgb(247, 245, 243)",
+  "bodyColor": "rgb(0, 0, 0)",
+  "bodyFont": "\"ABC Social\", Arial, sans-serif",
+  "htmlClasses": " w-mod-js w-mod-ix",
+  "hasLenis": false,
+  "scripts": [
+    "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js",
+    "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"
+  ]
+}

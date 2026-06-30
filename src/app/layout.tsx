@@ -1,20 +1,58 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
+const abcSocial = localFont({
+  variable: "--font-abc-social",
+  display: "swap",
+  src: [
+    { path: "../../public/fonts/ABCSocial-Book.otf", weight: "300", style: "normal" },
+    { path: "../../public/fonts/ABCSocial-Regular.otf", weight: "400", style: "normal" },
+    { path: "../../public/fonts/ABCSocial-Bold.otf", weight: "700", style: "normal" },
+  ],
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+const abcSocialExtended = localFont({
+  variable: "--font-abc-extended",
+  display: "swap",
+  src: [
+    { path: "../../public/fonts/ABCSocialExtended-Regular.otf", weight: "400", style: "normal" },
+    { path: "../../public/fonts/ABCSocialExtended-Bold.otf", weight: "700", style: "normal" },
+  ],
+});
+
+const abcSocialMono = localFont({
+  variable: "--font-abc-mono",
+  display: "swap",
+  src: [{ path: "../../public/fonts/ABCSocialMono-Regular.otf", weight: "400", style: "normal" }],
+});
+
+const abcSocialCondensed = localFont({
+  variable: "--font-abc-condensed",
+  display: "swap",
+  src: [{ path: "../../public/fonts/ABCSocialCondensed-Black.otf", weight: "900", style: "normal" }],
 });
 
 export const metadata: Metadata = {
-  title: "Website Clone",
-  description: "Pixel-perfect website clone",
+  title: "Ditto | Your system to power product copy",
+  description:
+    "Ditto is your team's content system to generate, integrate, and ship the best product copy",
+  icons: {
+    icon: "/seo/favicon.png",
+    apple: "/seo/webclip.svg",
+  },
+  openGraph: {
+    title: "Ditto | Your system to power product copy",
+    description:
+      "Ditto is your team's content system to generate, integrate, and ship the best product copy",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Ditto | Your system to power product copy",
+    description:
+      "Ditto is your team's content system to generate, integrate, and ship the best product copy",
+  },
 };
 
 export default function RootLayout({
@@ -25,7 +63,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className={`${abcSocial.variable} ${abcSocialExtended.variable} ${abcSocialMono.variable} ${abcSocialCondensed.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">{children}</body>
     </html>
