@@ -102,6 +102,42 @@ export function QuoteIcon(props: SVGProps<SVGSVGElement>) {
   );
 }
 
+/**
+ * The inline "agent" burst that sits in the hero headline — a terracotta
+ * rounded square with a white sunburst whose rays rotate slowly (mirrors the
+ * site's Lottie animation).
+ */
+export function AgentBurstIcon({
+  animate = true,
+  ...props
+}: SVGProps<SVGSVGElement> & { animate?: boolean }) {
+  const rays = Array.from({ length: 12 }, (_, i) => i * 30);
+  return (
+    <svg
+      viewBox="0 0 100 100"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      aria-hidden="true"
+      {...props}
+    >
+      <rect width="100" height="100" rx="26" fill="#d97757" />
+      <g
+        className={animate ? "animate-spin-slow" : undefined}
+        style={{ transformOrigin: "center", transformBox: "fill-box" }}
+      >
+        {rays.map((a) => (
+          <path
+            key={a}
+            d="M50 15 Q53 29 50 43 Q47 29 50 15 Z"
+            fill="#ffffff"
+            transform={`rotate(${a} 50 50)`}
+          />
+        ))}
+      </g>
+    </svg>
+  );
+}
+
 /** The DITTO. wordmark logo (renders in currentColor). viewBox 1320x215. */
 export function DittoWordmark(props: SVGProps<SVGSVGElement>) {
   return (

@@ -46,12 +46,14 @@ export const metadata: Metadata = {
     description:
       "Ditto is your team's content system to generate, integrate, and ship the best product copy",
     type: "website",
+    images: [{ url: "/seo/og-image.png", width: 299, height: 194 }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Ditto | Your system to power product copy",
     description:
       "Ditto is your team's content system to generate, integrate, and ship the best product copy",
+    images: ["/seo/og-image.png"],
   },
 };
 

@@ -1,7 +1,6 @@
-import Image from "next/image";
 import { Container } from "@/components/Container";
 import { PillButton } from "@/components/ui/pill-button";
-import { CaretDownIcon } from "@/components/icons";
+import { CaretDownIcon, AgentBurstIcon } from "@/components/icons";
 
 export function HeroSection() {
   return (
@@ -52,13 +51,7 @@ export function HeroSection() {
             ].join(" ")}
           >
             Get teams and{" "}
-            <Image
-              src="/images/agent-burst.png"
-              alt=""
-              width={258}
-              height={258}
-              className="inline-block align-middle h-[0.9em] w-auto mx-1"
-            />{" "}
+            <AgentBurstIcon className="inline-block align-middle h-[0.82em] w-[0.82em] mx-1" />{" "}
             agents shipping product copy from{" "}
             <span className="bg-ditto-yellow px-2 [box-decoration-break:clone] [-webkit-box-decoration-break:clone]">
               one source of truth.
