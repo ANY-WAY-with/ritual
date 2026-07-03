@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 import { cn } from "@/lib/utils";
 import { PillButton } from "@/components/ui/pill-button";
 import { DittoWordmark, CaretDownIcon } from "@/components/icons";
@@ -19,6 +20,12 @@ const NAV_LINKS: NavLink[] = [
   { label: "Pricing", href: "#" },
 ];
 
+// Other cloned sites, reachable from the nav.
+const SITE_LINKS: NavLink[] = [
+  { label: "Programa", href: "/programa" },
+  { label: "Jasper", href: "/jasper" },
+];
+
 export function SiteHeader() {
   const [mobileOpen, setMobileOpen] = useState(false);
 
@@ -27,9 +34,9 @@ export function SiteHeader() {
       {/* Main bar */}
       <div className="flex h-[67px] items-center justify-between px-5 md:px-8">
         {/* Logo */}
-        <a href="/" aria-label="Ditto home">
+        <Link href="/ditto" aria-label="Ditto home">
           <DittoWordmark className="h-7 w-auto text-ditto-ink" />
-        </a>
+        </Link>
 
         {/* Desktop nav — ≥1024px */}
         <nav className="hidden items-center gap-1 lg:flex" aria-label="Main navigation">
@@ -44,6 +51,18 @@ export function SiteHeader() {
                 <CaretDownIcon className="ml-1 inline h-2 w-2" />
               )}
             </a>
+          ))}
+
+          {/* Other cloned sites */}
+          <span className="mx-1 h-4 w-px bg-ditto-muted/30" aria-hidden="true" />
+          {SITE_LINKS.map((link) => (
+            <Link
+              key={link.label}
+              href={link.href}
+              className="inline-flex items-center rounded-full px-2.5 py-2 text-base font-bold tracking-[0.13px] text-ditto-muted transition-colors hover:text-ditto-ink"
+            >
+              {link.label}
+            </Link>
           ))}
 
           <div className="ml-3 flex items-center gap-2">
@@ -126,6 +145,19 @@ export function SiteHeader() {
                 <CaretDownIcon className="ml-1 inline h-2 w-2" />
               )}
             </a>
+          ))}
+
+          {/* Other cloned sites */}
+          <span className="my-1 h-px w-full bg-ditto-muted/20" aria-hidden="true" />
+          {SITE_LINKS.map((link) => (
+            <Link
+              key={link.label}
+              href={link.href}
+              className="inline-flex items-center rounded-full px-2.5 py-3 text-base font-bold tracking-[0.13px] text-ditto-muted transition-colors hover:text-ditto-ink"
+              onClick={() => setMobileOpen(false)}
+            >
+              {link.label}
+            </Link>
           ))}
 
           <div className="mt-3 flex flex-col gap-2">

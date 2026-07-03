@@ -1,0 +1,248 @@
+{
+  "direct": [
+    {
+      "tag": "div",
+      "cls": "",
+      "id": "",
+      "top": 0,
+      "h": 0,
+      "bg": "rgba(0, 0, 0, 0)",
+      "pos": "static",
+      "z": "auto"
+    },
+    {
+      "tag": "header",
+      "cls": "fixed inset-x-0 top-0 z-50 transform-gpu border-b border-bla",
+      "id": "",
+      "top": 0,
+      "h": 65,
+      "bg": "oklab(0.985059 0.0000448823 0.0000197291 / 0.6)",
+      "pos": "fixed",
+      "z": "50"
+    },
+    {
+      "tag": "main",
+      "cls": "relative overflow-x-clip",
+      "id": "",
+      "top": 0,
+      "h": 10719,
+      "bg": "rgba(0, 0, 0, 0)",
+      "pos": "relative",
+      "z": "auto"
+    },
+    {
+      "tag": "next-route-announcer",
+      "cls": "",
+      "id": "",
+      "top": 10719,
+      "h": 0,
+      "bg": "rgba(0, 0, 0, 0)",
+      "pos": "absolute",
+      "z": "auto"
+    }
+  ],
+  "mainKids": [
+    {
+      "tag": "div",
+      "cls": "thread-spine",
+      "id": "",
+      "top": 0,
+      "h": 10719,
+      "bg": "rgba(0, 0, 0, 0)",
+      "pos": "absolute",
+      "z": "0"
+    },
+    {
+      "tag": "section",
+      "cls": "relative z-10 flex min-h-lvh items-center px-4 py-24 text-ce",
+      "id": "top",
+      "top": 0,
+      "h": 900,
+      "bg": "rgba(0, 0, 0, 0)",
+      "pos": "relative",
+      "z": "10"
+    },
+    {
+      "tag": "section",
+      "cls": "relative z-10 py-28 sm:py-40",
+      "id": "what-it-does",
+      "top": 900,
+      "h": 1146,
+      "bg": "rgba(0, 0, 0, 0)",
+      "pos": "relative",
+      "z": "10"
+    },
+    {
+      "tag": "section",
+      "cls": "relative z-10",
+      "id": "product",
+      "top": 2046,
+      "h": 2743,
+      "bg": "rgba(0, 0, 0, 0)",
+      "pos": "relative",
+      "z": "10"
+    },
+    {
+      "tag": "section",
+      "cls": "relative z-10 py-28 sm:py-40",
+      "id": "use-cases",
+      "top": 4789,
+      "h": 1557,
+      "bg": "rgba(0, 0, 0, 0)",
+      "pos": "relative",
+      "z": "10"
+    },
+    {
+      "tag": "section",
+      "cls": "relative z-10 py-28 sm:py-40",
+      "id": "integrations",
+      "top": 6347,
+      "h": 1166,
+      "bg": "rgba(0, 0, 0, 0)",
+      "pos": "relative",
+      "z": "10"
+    },
+    {
+      "tag": "section",
+      "cls": "relative z-10 py-28 sm:py-40",
+      "id": "testimonials",
+      "top": 7513,
+      "h": 1021,
+      "bg": "rgba(0, 0, 0, 0)",
+      "pos": "relative",
+      "z": "10"
+    },
+    {
+      "tag": "section",
+      "cls": "relative z-10 scroll-mt-28 pb-20 sm:pb-24",
+      "id": "faq",
+      "top": 8534,
+      "h": 836,
+      "bg": "rgba(0, 0, 0, 0)",
+      "pos": "relative",
+      "z": "10"
+    },
+    {
+      "tag": "section",
+      "cls": "relative z-10 py-28 sm:py-40",
+      "id": "",
+      "top": 9370,
+      "h": 887,
+      "bg": "rgba(0, 0, 0, 0)",
+      "pos": "relative",
+      "z": "10"
+    },
+    {
+      "tag": "footer",
+      "cls": "relative z-10 border-t border-black/10 pt-16 pb-28 sm:pb-20",
+      "id": "",
+      "top": 10257,
+      "h": 462,
+      "bg": "rgba(0, 0, 0, 0)",
+      "pos": "relative",
+      "z": "10"
+    }
+  ],
+  "sections": [
+    {
+      "tag": "header",
+      "cls": "fixed inset-x-0 top-0 z-50 transform-gpu border-b border-bla",
+      "id": "",
+      "top": 0,
+      "h": 65,
+      "bg": "oklab(0.985059 0.0000448823 0.0000197291 / 0.6)",
+      "pos": "fixed",
+      "z": "50"
+    },
+    {
+      "tag": "section",
+      "cls": "relative z-10 flex min-h-lvh items-center px-4 py-24 text-ce",
+      "id": "top",
+      "top": 0,
+      "h": 900,
+      "bg": "rgba(0, 0, 0, 0)",
+      "pos": "relative",
+      "z": "10"
+    },
+    {
+      "tag": "section",
+      "cls": "relative z-10 py-28 sm:py-40",
+      "id": "what-it-does",
+      "top": 900,
+      "h": 1146,
+      "bg": "rgba(0, 0, 0, 0)",
+      "pos": "relative",
+      "z": "10"
+    },
+    {
+      "tag": "section",
+      "cls": "relative z-10",
+      "id": "product",
+      "top": 2046,
+      "h": 2743,
+      "bg": "rgba(0, 0, 0, 0)",
+      "pos": "relative",
+      "z": "10"
+    },
+    {
+      "tag": "section",
+      "cls": "relative z-10 py-28 sm:py-40",
+      "id": "use-cases",
+      "top": 4789,
+      "h": 1557,
+      "bg": "rgba(0, 0, 0, 0)",
+      "pos": "relative",
+      "z": "10"
+    },
+    {
+      "tag": "section",
+      "cls": "relative z-10 py-28 sm:py-40",
+      "id": "integrations",
+      "top": 6347,
+      "h": 1166,
+      "bg": "rgba(0, 0, 0, 0)",
+      "pos": "relative",
+      "z": "10"
+    },
+    {
+      "tag": "section",
+      "cls": "relative z-10 py-28 sm:py-40",
+      "id": "testimonials",
+      "top": 7513,
+      "h": 1021,
+      "bg": "rgba(0, 0, 0, 0)",
+      "pos": "relative",
+      "z": "10"
+    },
+    {
+      "tag": "section",
+      "cls": "relative z-10 scroll-mt-28 pb-20 sm:pb-24",
+      "id": "faq",
+      "top": 8534,
+      "h": 836,
+      "bg": "rgba(0, 0, 0, 0)",
+      "pos": "relative",
+      "z": "10"
+    },
+    {
+      "tag": "section",
+      "cls": "relative z-10 py-28 sm:py-40",
+      "id": "",
+      "top": 9370,
+      "h": 887,
+      "bg": "rgba(0, 0, 0, 0)",
+      "pos": "relative",
+      "z": "10"
+    },
+    {
+      "tag": "footer",
+      "cls": "relative z-10 border-t border-black/10 pt-16 pb-28 sm:pb-20",
+      "id": "",
+      "top": 10257,
+      "h": 462,
+      "bg": "rgba(0, 0, 0, 0)",
+      "pos": "relative",
+      "z": "10"
+    }
+  ]
+}

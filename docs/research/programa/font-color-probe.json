@@ -1,0 +1,92 @@
+{
+  "h1": {
+    "fontFamily": "\"Rhymes Display\", system-ui, sans-serif",
+    "fontSize": "60px",
+    "fontWeight": "300",
+    "lineHeight": "64px",
+    "letterSpacing": "-1.5px",
+    "color": "rgb(26, 25, 22)",
+    "textTransform": "none"
+  },
+  "h2": {
+    "fontFamily": "\"Rhymes Display\", system-ui, sans-serif",
+    "fontSize": "44px",
+    "fontWeight": "300",
+    "lineHeight": "42px",
+    "letterSpacing": "-0.2px",
+    "color": "rgb(26, 25, 22)",
+    "textTransform": "none"
+  },
+  "h3": {
+    "fontFamily": "Inter, \"Inter Fallback\", system-ui, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial",
+    "fontSize": "20px",
+    "fontWeight": "500",
+    "lineHeight": "28px",
+    "letterSpacing": "normal",
+    "color": "rgb(26, 25, 22)",
+    "textTransform": "none"
+  },
+  "h4": {
+    "fontFamily": "Inter, \"Inter Fallback\", system-ui, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial",
+    "fontSize": "24px",
+    "fontWeight": "400",
+    "lineHeight": "28.8px",
+    "letterSpacing": "normal",
+    "color": "rgb(123, 115, 108)",
+    "textTransform": "none"
+  },
+  "p": {
+    "fontFamily": "Inter, \"Inter Fallback\", system-ui, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial",
+    "fontSize": "14px",
+    "fontWeight": "500",
+    "lineHeight": "20px",
+    "letterSpacing": "normal",
+    "color": "rgb(26, 25, 22)",
+    "textTransform": "none"
+  },
+  "a": {
+    "fontFamily": "Inter, \"Inter Fallback\", system-ui, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial",
+    "fontSize": "16px",
+    "fontWeight": "400",
+    "lineHeight": "22.4px",
+    "letterSpacing": "normal",
+    "color": "rgb(26, 26, 26)",
+    "textTransform": "none"
+  },
+  "button": {
+    "fontFamily": "\"Rhymes Display\", system-ui, sans-serif",
+    "fontSize": "44px",
+    "fontWeight": "300",
+    "lineHeight": "50px",
+    "letterSpacing": "-0.2px",
+    "color": "rgb(255, 255, 255)",
+    "textTransform": "none"
+  },
+  "nav": {
+    "fontFamily": "Inter, \"Inter Fallback\", system-ui, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial",
+    "fontSize": "16px",
+    "fontWeight": "400",
+    "lineHeight": "22.4px",
+    "letterSpacing": "normal",
+    "color": "rgb(26, 26, 26)",
+    "textTransform": "none"
+  },
+  "li": {
+    "fontFamily": "Inter, \"Inter Fallback\", system-ui, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial",
+    "fontSize": "16px",
+    "fontWeight": "400",
+    "lineHeight": "22.4px",
+    "letterSpacing": "normal",
+    "color": "rgb(26, 25, 22)",
+    "textTransform": "none"
+  },
+  "span": {
+    "fontFamily": "Inter, \"Inter Fallback\", system-ui, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial",
+    "fontSize": "16px",
+    "fontWeight": "400",
+    "lineHeight": "22.4px",
+    "letterSpacing": "normal",
+    "color": "rgb(123, 115, 108)",
+    "textTransform": "none"
+  }
+}

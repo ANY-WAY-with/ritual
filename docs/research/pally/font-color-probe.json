@@ -1,0 +1,74 @@
+{
+  "h1": {
+    "fontFamily": "neueMontreal, \"neueMontreal Fallback\", Arial, Helvetica, sans-serif",
+    "fontSize": "128px",
+    "fontWeight": "500",
+    "lineHeight": "115.2px",
+    "letterSpacing": "-3.2px",
+    "color": "rgb(18, 18, 18)",
+    "textTransform": "none"
+  },
+  "h2": {
+    "fontFamily": "neueMontreal, \"neueMontreal Fallback\", Arial, Helvetica, sans-serif",
+    "fontSize": "72px",
+    "fontWeight": "500",
+    "lineHeight": "69.12px",
+    "letterSpacing": "normal",
+    "color": "rgb(18, 18, 18)",
+    "textTransform": "none"
+  },
+  "h3": {
+    "fontFamily": "neueMontreal, \"neueMontreal Fallback\", Arial, Helvetica, sans-serif",
+    "fontSize": "24px",
+    "fontWeight": "500",
+    "lineHeight": "25.2px",
+    "letterSpacing": "normal",
+    "color": "rgb(18, 18, 18)",
+    "textTransform": "none"
+  },
+  "p": {
+    "fontFamily": "neueMontreal, \"neueMontreal Fallback\", Arial, Helvetica, sans-serif",
+    "fontSize": "24px",
+    "fontWeight": "400",
+    "lineHeight": "33.6px",
+    "letterSpacing": "normal",
+    "color": "rgb(95, 99, 104)",
+    "textTransform": "none"
+  },
+  "a": {
+    "fontFamily": "neueMontreal, \"neueMontreal Fallback\", Arial, Helvetica, sans-serif",
+    "fontSize": "16px",
+    "fontWeight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "color": "rgb(18, 18, 18)",
+    "textTransform": "none"
+  },
+  "nav": {
+    "fontFamily": "neueMontreal, \"neueMontreal Fallback\", Arial, Helvetica, sans-serif",
+    "fontSize": "16px",
+    "fontWeight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "color": "rgb(18, 18, 18)",
+    "textTransform": "none"
+  },
+  "li": {
+    "fontFamily": "neueMontreal, \"neueMontreal Fallback\", Arial, Helvetica, sans-serif",
+    "fontSize": "16px",
+    "fontWeight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "color": "rgb(18, 18, 18)",
+    "textTransform": "none"
+  },
+  "span": {
+    "fontFamily": "neueMontreal, \"neueMontreal Fallback\", Arial, Helvetica, sans-serif",
+    "fontSize": "128px",
+    "fontWeight": "500",
+    "lineHeight": "115.2px",
+    "letterSpacing": "-3.2px",
+    "color": "rgb(0, 122, 255)",
+    "textTransform": "none"
+  }
+}

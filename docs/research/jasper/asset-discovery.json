@@ -1,0 +1,153 @@
+{
+  "title": "Put AI agents to work for marketing | Jasper",
+  "images": [
+    "https://cdn.prod.website-files.com/6807ee8d73c233fb82842313/69a9c7e65810eadefa81494f_233fc11d48858aeb5d62081b163af549_Nav%20-%20Agents.avif",
+    "https://cdn.prod.website-files.com/6807ee8d73c233fb82842313/69a9c7e5282c836dda2f0366_6eb903f1a850d6de5e588930419b8728_Nav%20-%20Pipelines.avif",
+    "https://cdn.prod.website-files.com/6807ee8d73c233fb82842313/69a9c7e547c39b8a59297383_Nav%20-%20IQ.avif",
+    "https://cdn.prod.website-files.com/6807ee8d73c233fb82842313/6a303a31f30d66091bf101bf_Nav%20-%20GEO.avif",
+    "https://cdn.prod.website-files.com/6807ee8d73c233fb82842313/68feca0c58458969f985ee29_SEO%20Nav%20Card.avif",
+    "https://cdn.prod.website-files.com/6807ee8d73c233fb82842313/696a7ac24006d68be7772ab9_Personalization%20Nav.avif",
+    "https://cdn.prod.website-files.com/6807ee8d73c233fb82842313/6995d1c8cb18d907d7bfdebf_Campaigns%20Nav.avif",
+    "https://cdn.prod.website-files.com/6807ee8d73c233fb82842313/69a9c8d4239a27cff91eae55_Nav%20-%20Company.avif",
+    "https://cdn.prod.website-files.com/6807f44ec8a964d38a705332/68460bf5f949f29f8ff03aea_jasp-boeing.webp",
+    "https://cdn.prod.website-files.com/6807f44ec8a964d38a705332/69f0f365873a663500dee8d2_Ulta.png",
+    "https://cdn.prod.website-files.com/6807f44ec8a964d38a705332/68460ba7a043f054322d9dd0_jasp-alliantgroup.webp",
+    "https://cdn.prod.website-files.com/6807f44ec8a964d38a705332/68460c48cea2f9d4e2f84741_jasp-cushman.webp",
+    "https://cdn.prod.website-files.com/6807f44ec8a964d38a705332/68460c423451f1a15199e5cc_jasp-cox.webp",
+    "https://cdn.prod.website-files.com/6807f44ec8a964d38a705332/68460be37fd6c5716d4fb77e_jasp-anthropologie.webp",
+    "https://cdn.prod.website-files.com/6807f44ec8a964d38a705332/68460ca2dedb8dc8d60cba47_jasp-morningstar.webp",
+    "https://cdn.prod.website-files.com/6807f44ec8a964d38a705332/68460c51235cd7e85b051e6f_jasp-harpercollins.webp",
+    "https://cdn.prod.website-files.com/6807f44ec8a964d38a705332/68460cadab2ca7c6863ceba1_jasp-prudential.webp",
+    "https://cdn.prod.website-files.com/6807f44ec8a964d38a705332/68460ba168dfd6d44e22c13a_jasp-AAA.webp",
+    "https://cdn.prod.website-files.com/6807f44ec8a964d38a705332/68460c3407474e37968671bf_jasp-Bona.webp",
+    "https://cdn.prod.website-files.com/6807f44ec8a964d38a705332/68460c398cbb586a8986ada1_jasp-cognizant.webp",
+    "https://cdn.prod.website-files.com/6807f44ec8a964d38a705332/68460c57c88f5cd474c960be_jasp-hitachi.webp",
+    "https://cdn.prod.website-files.com/6807f44ec8a964d38a705332/68460c72f894276e5e982f85_jasp-iheartmedia.webp",
+    "https://cdn.prod.website-files.com/6807f44ec8a964d38a705332/68460c7d8cbb586a8986c009_jasp-kelly.webp",
+    "https://cdn.prod.website-files.com/6807f44ec8a964d38a705332/68460ca8790f10b57c708fd2_jasp-noom.webp",
+    "https://cdn.prod.website-files.com/6807f44ec8a964d38a705332/68460cb3392553aefba24cf6_jasp-sanoflif.webp",
+    "https://cdn.prod.website-files.com/6807f44ec8a964d38a705332/68460cbd39ead81d4fcf246c_jasp-supercell.webp",
+    "https://cdn.prod.website-files.com/6807f44ec8a964d38a705332/68460bd83a62db625d5530bd_jasp-accenture.webp",
+    "https://cdn.prod.website-files.com/6807f44ec8a964d38a705332/68460c68214ed46f96536306_jasp-HH.webp",
+    "https://cdn.prod.website-files.com/6807ee8d73c233fb82842313/6a303de07612500e69b8d282_GEO%20AGENT%20HOME.avif",
+    "https://cdn.prod.website-files.com/6807ee8d73c233fb82842313/6848e8ddd6e29f3f2025f351_baf1294ceb7fbd02808730f2f5797132_Home%20-%20Agents%20%28Plain%29.avif",
+    "https://cdn.prod.website-files.com/6807ee8d73c233fb82842313/6848e8ddd9afd0d6179b153b_Home%20-%20BV%20(Plain).avif",
+    "https://cdn.prod.website-files.com/6807ee8d73c233fb82842313/68ffd92aecbbc48e5079583c_23a29399009b5541353368a2c1f38cd1_Grid%20Illo.avif",
+    "https://cdn.prod.website-files.com/6807ee8d73c233fb82842313/6848e8dc0a03200be6be26bb_2536b21fbce524c4f1d5c1156b34f48b_Home%20-%20CS%20%28Plain%29.avif",
+    "https://cdn.prod.website-files.com/6807ee8d73c233fb82842313/68434d12a3f1f3e0e25447f7_performance-person.webp",
+    "https://cdn.prod.website-files.com/6807ee8d73c233fb82842313/68434d12505fd697ff877202_product-person.webp",
+    "https://cdn.prod.website-files.com/6807ee8d73c233fb82842313/68434d125c999cb442ca084f_brand-person.webp",
+    "https://cdn.prod.website-files.com/6807ee8d73c233fb82842313/68434d120abbf4f11228ce05_content-person.webp",
+    "https://cdn.prod.website-files.com/6807ee8d73c233fb82842313/68434d12053354f1598424ce_digital-person.webp",
+    "https://cdn.prod.website-files.com/6807ee8d73c233fb82842313/68455de88a938ca45063ba21_field-marketer-p-1600.webp",
+    "https://cdn.prod.website-files.com/6807ee8d73c233fb82842313/68455de88a938ca45063ba21_field-marketer.webp",
+    "https://cdn.prod.website-files.com/6807ee8d73c233fb82842313/68434bb4b39b713a255f58ab_product-cursor.webp",
+    "https://cdn.prod.website-files.com/6807ee8d73c233fb82842313/68434bb4314914781dd144d8_content%20-cursor.webp",
+    "https://cdn.prod.website-files.com/6807ee8d73c233fb82842313/68434bb470996bbb03440a26_brand-cursor.webp",
+    "https://cdn.prod.website-files.com/6807ee8d73c233fb82842313/68455f5326534506568f7776_pr-coms-cursor.webp",
+    "https://cdn.prod.website-files.com/6807ee8d73c233fb82842313/68434bb4ca21a22439da0197_performance%20-cursor.webp",
+    "https://cdn.prod.website-files.com/6807ee8d73c233fb82842313/684564d2444b9d1605ba54ba_6d39bebaeb605433d98da9fa2b38f8fc_field-cursor.webp",
+    "https://cdn.prod.website-files.com/6807ee8d73c233fb82842313/68434c30ee3bba5948be8367_2d549165fe4b43347afc07dff02f9ba3_Stories%20Logo%20-%20Cushman.svg",
+    "https://cdn.prod.website-files.com/6807ee8d73c233fb82842313/68434c30e8251447fe0c87f0_708a1d462a2988199822e30817c9baa3_Stories%20Logo%20-%20Opella.svg",
+    "https://cdn.prod.website-files.com/6807ee8d73c233fb82842313/68474968a2d2ab267d560e7e_Peter%20So.avif",
+    "https://cdn.prod.website-files.com/6807ee8d73c233fb82842313/68434c30ee4940f4cf5f84b0_b26609be72643f9cce0d5a57530f5c51_Stories%20Logo%20-%20PGIM.svg",
+    "https://cdn.prod.website-files.com/6807ee8d73c233fb82842313/684748286f2b284abb7b9dc2_elaina%20shekhter%20EPAM.avif",
+    "https://cdn.prod.website-files.com/6807ee8d73c233fb82842313/68434c30690aaf4ef0d61f45_0d8b9599f905bb1bdf5103f40746e148_Stories%20Logo%20-%20EPAM.svg",
+    "https://cdn.prod.website-files.com/6807ee8d73c233fb82842313/68434c30d01d8650b4b92d30_f7f189f737a49eb424391128b123192b_Stories%20Logo%20-%20Anthropologie.svg",
+    "https://cdn.prod.website-files.com/6807ee8d73c233fb82842313/68434c30357cc47cb090cbfa_15550a62b2d8c2da6699e58be3269970_Stories%20Logo%20-%20Adidas.svg",
+    "https://cdn.prod.website-files.com/6807ee8d73c233fb82842313/68434c30bcb16d000ca9f73d_7f88cea7c36417b5414262de39afd726_Stories%20Logo%20-%20Avery%20Dennison.svg",
+    "https://cdn.prod.website-files.com/6807ee8d73c233fb82842313/68434c30496f684d15abcbc9_16ae9a57f52c6c42eda80a0c9357e373_Stories%20Logo%20-%20Ulta.svg",
+    "https://cdn.prod.website-files.com/6807ee8d73c233fb82842313/68474778d698bc1407d024b2_Bryan%20Olshock.avif",
+    "https://cdn.prod.website-files.com/6807ee8d73c233fb82842313/68434c301f414a2ea030e968_a6c1b90a41e5fcf3f6116b06436efadb_Stories%20Logo%20-%20ServiceTitan.svg",
+    "https://cdn.prod.website-files.com/6807ee8d73c233fb82842313/6822880ad0979f638d9ae2e9_trust.svg",
+    "https://cdn.prod.website-files.com/6807ee8d73c233fb82842313/68adf3d8d373d954728bbf48_Jasper%20Blog.avif",
+    "https://cdn.prod.website-files.com/6807ee8d73c233fb82842313/68adf3d8e60beed1c70d2fa6_Foundations.avif",
+    "https://cdn.prod.website-files.com/6807ee8d73c233fb82842313/68adf3d872cf04c9de6140d8_Customer%20Stories.avif",
+    "https://cdn.prod.website-files.com/6807ee8d73c233fb82842313/68adf3d86ed7a71438c9e2e3_Get%20Support.avif",
+    "https://cdn.prod.website-files.com/6807ee8d73c233fb82842313/68adf3d7cdf2fd1ec2a2b8a3_Community.avif",
+    "https://cdn.prod.website-files.com/6807ee8d73c233fb82842313/68adf3d8f99a1440aa062825_Knowledge%20Center.avif",
+    "https://cdn.prod.website-files.com/6807ee8d73c233fb82842313/682379b2f4f931987f0a8680_Closing_photo_1-p-1600.avif",
+    "https://cdn.prod.website-files.com/6807ee8d73c233fb82842313/682379b2f4f931987f0a8680_Closing_photo_1.avif",
+    "https://cdn.prod.website-files.com/6807ee8d73c233fb82842313/68237a1cc16cd054325e6aef_closing_photo_overlay.avif",
+    "https://cdn.prod.website-files.com/6807ee8d73c233fb82842313/68237c7bc16cd05432601de8_c75a9347ce7fed3ebbaaeb3d84c7504b_closing_circles.svg",
+    "https://cdn.prod.website-files.com/6807ee8d73c233fb82842313/682df495036085a82bc6ae35_paper-texture.webp",
+    "https://cdn.prod.website-files.com/6807ee8d73c233fb82842313/682df4e3983d64a279638ad3_footer-texture-p-1600.png",
+    "https://cdn.prod.website-files.com/6807ee8d73c233fb82842313/682df4e3983d64a279638ad3_footer-texture.png",
+    "https://bat.bing.com/action/0?ti=343168983&tm=gtm002&Ver=2&mid=505e60f2-a509-432d-89fa-5b5c41e20125&bo=2&sid=be230b00752211f1a6cb55a74491e87c&vid=be233ae0752211f19f236f29adabc07e&vids=1&msclkid=N&pi=0&lg=en-US&sw=1440&sh=900&sc=24&nwd=1&tl=Put%20AI%20agents%20to%20work%20for%20marketing%20%7C%20Jasper&p=https%3A%2F%2Fwww.jasper.ai%2F&r=&lt=557&evt=pageLoad&sv=2&asc=G&cdb=AQAS&rn=590871"
+  ],
+  "bgs": [],
+  "videos": [],
+  "fonts": [
+    "sans-serif",
+    "\"ABC ROM\", Arial, sans-serif",
+    "\"ABC ROM Mono\", Arial, sans-serif",
+    "Feature, Georgia, sans-serif"
+  ],
+  "favicons": [
+    {
+      "rel": "shortcut icon",
+      "href": "https://cdn.prod.website-files.com/6807ee8d73c233fb82842313/681e121b52f97ed0b2098aab_Favicon.png",
+      "type": "image/x-icon"
+    },
+    {
+      "rel": "apple-touch-icon",
+      "href": "https://cdn.prod.website-files.com/6807ee8d73c233fb82842313/681e121f9445a06741087852_Webclip.png",
+      "type": ""
+    }
+  ],
+  "meta": [
+    {
+      "k": "description",
+      "v": "Orchestrate intelligent agents to run end-to-end marketing workflows delivering speed, control, and measurable impact."
+    },
+    {
+      "k": "og:title",
+      "v": "Put AI agents to work for marketing | Jasper"
+    },
+    {
+      "k": "og:description",
+      "v": "Orchestrate intelligent agents to run end-to-end marketing workflows delivering speed, control, and measurable impact."
+    },
+    {
+      "k": "og:image",
+      "v": "https://cdn.prod.website-files.com/6807ee8d73c233fb82842313/6846454bda26628fcf51d54c_9650916b48ce089735bcc21cc8e43f2f_Op"
+    },
+    {
+      "k": "twitter:title",
+      "v": "Put AI agents to work for marketing | Jasper"
+    },
+    {
+      "k": "twitter:description",
+      "v": "Orchestrate intelligent agents to run end-to-end marketing workflows delivering speed, control, and measurable impact."
+    },
+    {
+      "k": "og:type",
+      "v": "website"
+    },
+    {
+      "k": "twitter:card",
+      "v": "summary_large_image"
+    }
+  ],
+  "stylesheets": [
+    "https://cdn.prod.website-files.com/6807ee8d73c233fb82842313/css/jasper-new.webflow.shared.f939c6845.min.css"
+  ],
+  "scripts": [
+    "https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js",
+    "https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js",
+    "https://cdn.prod.website-files.com/6807ee8d73c233fb82842313/js/webflow.schunk.36b8fb49256177c8.js",
+    "https://cdn.prod.website-files.com/6807ee8d73c233fb82842313/js/webflow.schunk.af0345b4459cfac9.js",
+    "https://cdn.prod.website-files.com/6807ee8d73c233fb82842313/js/webflow.4bb73f15.1fc2d45283670294.js",
+    "https://cdn.prod.website-files.com/gsap/3.15.0/gsap.min.js",
+    "https://cdn.prod.website-files.com/gsap/3.15.0/ScrollTrigger.min.js",
+    "https://cdn.prod.website-files.com/gsap/3.15.0/Flip.min.js",
+    "https://cdn.prod.website-files.com/gsap/3.15.0/SplitText.min.js",
+    "https://cdn.prod.website-files.com/gsap/3.15.0/Draggable.min.js",
+    "https://cdn.prod.website-files.com/gsap/3.15.0/InertiaPlugin.min.js",
+    "https://cdn.prod.website-files.com/gsap/3.15.0/ScrollToPlugin.min.js"
+  ],
+  "bodyBg": "rgb(255, 255, 255)",
+  "bodyColor": "rgb(0, 6, 61)",
+  "bodyFont": "\"ABC ROM\", Arial, sans-serif",
+  "hasLenis": false
+}

@@ -1,0 +1,575 @@
+{
+  "hero": {
+    "text": "Features\nSolutions\nPricing\nLearn\nLog in\nStart free\nFeatures\nSolutions\nPricing\nLearn\nLog in\nStart free\nAll-new\nPresentations just launched\nBeautiful software for interior designers\nStreamline your workflow and unlock your studio's potential. Start your 7 day free trial.\nGet started\nWatch our demo\nBuilt by and for interior designers\nPowerful tools to elevate your design process from concept to completion.\nGet started\nWatch demo\nSpecifications\nSpecifications\nGoodbye spreadsheets, hello Schedules.\nInstant product import\nInstant product import\nSave any product in seconds.\nClient Dashboard\nClient Dashboard\nOne link. Your client sees everything, live.\nProduct Library\nProduct Library\nYour products, ready to reuse.\nProject Management\nProject Management\nTasks, timelines and time tracking.\nMood Boards & Presentations\nMood Boards & Presentations\nCollect, organize and present ideas.\n\u201cPrograma saves u",
+    "box": {
+      "top": 0,
+      "h": 7939,
+      "w": 1440
+    },
+    "imgs": [
+      {
+        "src": "91030dc1b4243deb1c05baf5df3d1444844ab9b7-2711x684.png",
+        "w": 139,
+        "h": 35,
+        "alt": "Programa Logo"
+      },
+      {
+        "src": "91030dc1b4243deb1c05baf5df3d1444844ab9b7-2711x684.png",
+        "w": 139,
+        "h": 35,
+        "alt": "Programa Logo"
+      },
+      {
+        "src": "955e852e3d864fab90a56628bfccfb9b45773a3e-1348x880.jpg",
+        "w": 302,
+        "h": 197,
+        "alt": ""
+      },
+      {
+        "src": "91030dc1b4243deb1c05baf5df3d1444844ab9b7-2711x684.png",
+        "w": 139,
+        "h": 35,
+        "alt": "Programa Logo"
+      },
+      {
+        "src": "955e852e3d864fab90a56628bfccfb9b45773a3e-1348x880.jpg",
+        "w": 302,
+        "h": 197,
+        "alt": ""
+      },
+      {
+        "src": "6aae9615cbf1814033b25dabb8ba85bf27b2df10-283x374.svg",
+        "w": 221,
+        "h": 292,
+        "alt": ""
+      },
+      {
+        "src": "8ed6fff448e0de903756cd7592f9168645f1e8a8-899x1041.png",
+        "w": 100,
+        "h": 115,
+        "alt": ""
+      },
+      {
+        "src": "33ac5d1274f3e56e6a2a1c7639d5e4692bc91a5d-951x927.png",
+        "w": 100,
+        "h": 97,
+        "alt": ""
+      },
+      {
+        "src": "5d18168982b84c9b8a7c9caaa2fe0436ecf090b2-266x84.svg",
+        "w": 207,
+        "h": 65,
+        "alt": ""
+      },
+      {
+        "src": "da02fbff20d401cba9288395a6cb8befb4030f07-2955x2024.png",
+        "w": 2770,
+        "h": 1897,
+        "alt": ""
+      },
+      {
+        "src": "6aae9615cbf1814033b25dabb8ba85bf27b2df10-283x374.svg",
+        "w": 221,
+        "h": 292,
+        "alt": ""
+      },
+      {
+        "src": "8ed6fff448e0de903756cd7592f9168645f1e8a8-899x1041.png",
+        "w": 100,
+        "h": 115,
+        "alt": ""
+      },
+      {
+        "src": "33ac5d1274f3e56e6a2a1c7639d5e4692bc91a5d-951x927.png",
+        "w": 100,
+        "h": 97,
+        "alt": ""
+      },
+      {
+        "src": "5d18168982b84c9b8a7c9caaa2fe0436ecf090b2-266x84.svg",
+        "w": 207,
+        "h": 65,
+        "alt": ""
+      },
+      {
+        "src": "85adf6030eee7835f7e85cc5f70821263085e201-286x265.svg",
+        "w": 223,
+        "h": 207,
+        "alt": ""
+      },
+      {
+        "src": "1788cf4e103a31b3b31f7fc9a9df47fb6f520a95-660x560.png",
+        "w": 100,
+        "h": 85,
+        "alt": ""
+      },
+      {
+        "src": "a316239f894db1f0d0888b21a01f2b2ad92107a3-325x379.svg",
+        "w": 253,
+        "h": 296,
+        "alt": ""
+      },
+      {
+        "src": "de841d17b60c36940d94de5481f037082cc4d657-341x280.png",
+        "w": 100,
+        "h": 82,
+        "alt": ""
+      },
+      {
+        "src": "d43108f30cf70c4e64e3d95724256fa4a758893e-450x453.png",
+        "w": 100,
+        "h": 100,
+        "alt": ""
+      },
+      {
+        "src": "da02fbff20d401cba9288395a6cb8befb4030f07-2955x2024.png",
+        "w": 1008,
+        "h": 690,
+        "alt": "Programa projects dashboard"
+      },
+      {
+        "src": "cb3ca2bccb44ca419b81ba157ccd65b2d4b60711-800x625.png",
+        "w": 475,
+        "h": 371,
+        "alt": ""
+      },
+      {
+        "src": "6e67cd24a7a3f8b417d3490b041fa28bf92096e8-150x100.png",
+        "w": 111,
+        "h": 74,
+        "alt": ""
+      },
+      {
+        "src": "fe40d2a3790f3968c8e646613a93ce77e134498b-800x625.png",
+        "w": 475,
+        "h": 371,
+        "alt": ""
+      },
+      {
+        "src": "e6f6e1d1f434afc61a2652521c3bded428a57990-800x625.png",
+        "w": 475,
+        "h": 371,
+        "alt": ""
+      },
+      {
+        "src": "a1eb81d1dc7c54829d03779db573eb6f7f367d87-800x625.png",
+        "w": 475,
+        "h": 371,
+        "alt": ""
+      },
+      {
+        "src": "c60feda971338c1f453680addfc3eae02335b440-834x273.png",
+        "w": 475,
+        "h": 155,
+        "alt": ""
+      },
+      {
+        "src": "2873a2b269bc7da7bb6538555d04416b90646675-800x800.png",
+        "w": 475,
+        "h": 475,
+        "alt": ""
+      },
+      {
+        "src": "9196acf7a36505c303dd9bd702c53741032c17cf-800x800.png",
+        "w": 475,
+        "h": 475,
+        "alt": ""
+      },
+      {
+        "src": "cb3ca2bccb44ca419b81ba157ccd65b2d4b60711-800x625.png",
+        "w": 475,
+        "h": 371,
+        "alt": ""
+      },
+      {
+        "src": "6e67cd24a7a3f8b417d3490b041fa28bf92096e8-150x100.png",
+        "w": 111,
+        "h": 74,
+        "alt": ""
+      }
+    ]
+  },
+  "cards": {
+    "text": "Features\nSolutions\nPricing\nLearn\nLog in\nStart free\nFeatures\nSolutions\nPricing\nLearn\nLog in\nStart free\nAll-new\nPresentations just launched\nBeautiful software for interior designers\nStreamline your workflow and unlock your studio's potential. Start your 7 day free trial.\nGet started\nWatch our demo\nBuilt by and for interior designers\nPowerful tools to elevate your design process from concept to completion.\nGet started\nWatch demo\nSpecifications\nSpecifications\nGoodbye spreadsheets, hello Schedules.\nInstant product import\nInstant product import\nSave any product in seconds.\nClient Dashboard\nClient Dashboard\nOne link. Your client sees everything, live.\nProduct Library\nProduct Library\nYour products, ready to reuse.\nProject Management\nProject Management\nTasks, timelines and time tracking.\nMood Boards & Presentations\nMood Boards & Presentations\nCollect, organize and present ideas.\n\u201cPrograma saves u",
+    "box": {
+      "top": 0,
+      "h": 7939,
+      "w": 1440
+    },
+    "imgs": [
+      {
+        "src": "91030dc1b4243deb1c05baf5df3d1444844ab9b7-2711x684.png",
+        "w": 139,
+        "h": 35,
+        "alt": "Programa Logo"
+      },
+      {
+        "src": "91030dc1b4243deb1c05baf5df3d1444844ab9b7-2711x684.png",
+        "w": 139,
+        "h": 35,
+        "alt": "Programa Logo"
+      },
+      {
+        "src": "955e852e3d864fab90a56628bfccfb9b45773a3e-1348x880.jpg",
+        "w": 302,
+        "h": 197,
+        "alt": ""
+      },
+      {
+        "src": "91030dc1b4243deb1c05baf5df3d1444844ab9b7-2711x684.png",
+        "w": 139,
+        "h": 35,
+        "alt": "Programa Logo"
+      },
+      {
+        "src": "955e852e3d864fab90a56628bfccfb9b45773a3e-1348x880.jpg",
+        "w": 302,
+        "h": 197,
+        "alt": ""
+      },
+      {
+        "src": "6aae9615cbf1814033b25dabb8ba85bf27b2df10-283x374.svg",
+        "w": 221,
+        "h": 292,
+        "alt": ""
+      },
+      {
+        "src": "8ed6fff448e0de903756cd7592f9168645f1e8a8-899x1041.png",
+        "w": 100,
+        "h": 115,
+        "alt": ""
+      },
+      {
+        "src": "33ac5d1274f3e56e6a2a1c7639d5e4692bc91a5d-951x927.png",
+        "w": 100,
+        "h": 97,
+        "alt": ""
+      },
+      {
+        "src": "5d18168982b84c9b8a7c9caaa2fe0436ecf090b2-266x84.svg",
+        "w": 207,
+        "h": 65,
+        "alt": ""
+      },
+      {
+        "src": "da02fbff20d401cba9288395a6cb8befb4030f07-2955x2024.png",
+        "w": 2770,
+        "h": 1897,
+        "alt": ""
+      },
+      {
+        "src": "6aae9615cbf1814033b25dabb8ba85bf27b2df10-283x374.svg",
+        "w": 221,
+        "h": 292,
+        "alt": ""
+      },
+      {
+        "src": "8ed6fff448e0de903756cd7592f9168645f1e8a8-899x1041.png",
+        "w": 100,
+        "h": 115,
+        "alt": ""
+      },
+      {
+        "src": "33ac5d1274f3e56e6a2a1c7639d5e4692bc91a5d-951x927.png",
+        "w": 100,
+        "h": 97,
+        "alt": ""
+      },
+      {
+        "src": "5d18168982b84c9b8a7c9caaa2fe0436ecf090b2-266x84.svg",
+        "w": 207,
+        "h": 65,
+        "alt": ""
+      },
+      {
+        "src": "85adf6030eee7835f7e85cc5f70821263085e201-286x265.svg",
+        "w": 223,
+        "h": 207,
+        "alt": ""
+      },
+      {
+        "src": "1788cf4e103a31b3b31f7fc9a9df47fb6f520a95-660x560.png",
+        "w": 100,
+        "h": 85,
+        "alt": ""
+      },
+      {
+        "src": "a316239f894db1f0d0888b21a01f2b2ad92107a3-325x379.svg",
+        "w": 253,
+        "h": 296,
+        "alt": ""
+      },
+      {
+        "src": "de841d17b60c36940d94de5481f037082cc4d657-341x280.png",
+        "w": 100,
+        "h": 82,
+        "alt": ""
+      },
+      {
+        "src": "d43108f30cf70c4e64e3d95724256fa4a758893e-450x453.png",
+        "w": 100,
+        "h": 100,
+        "alt": ""
+      },
+      {
+        "src": "da02fbff20d401cba9288395a6cb8befb4030f07-2955x2024.png",
+        "w": 1008,
+        "h": 690,
+        "alt": "Programa projects dashboard"
+      },
+      {
+        "src": "cb3ca2bccb44ca419b81ba157ccd65b2d4b60711-800x625.png",
+        "w": 475,
+        "h": 371,
+        "alt": ""
+      },
+      {
+        "src": "6e67cd24a7a3f8b417d3490b041fa28bf92096e8-150x100.png",
+        "w": 111,
+        "h": 74,
+        "alt": ""
+      },
+      {
+        "src": "fe40d2a3790f3968c8e646613a93ce77e134498b-800x625.png",
+        "w": 475,
+        "h": 371,
+        "alt": ""
+      },
+      {
+        "src": "e6f6e1d1f434afc61a2652521c3bded428a57990-800x625.png",
+        "w": 475,
+        "h": 371,
+        "alt": ""
+      },
+      {
+        "src": "a1eb81d1dc7c54829d03779db573eb6f7f367d87-800x625.png",
+        "w": 475,
+        "h": 371,
+        "alt": ""
+      },
+      {
+        "src": "c60feda971338c1f453680addfc3eae02335b440-834x273.png",
+        "w": 475,
+        "h": 155,
+        "alt": ""
+      },
+      {
+        "src": "2873a2b269bc7da7bb6538555d04416b90646675-800x800.png",
+        "w": 475,
+        "h": 475,
+        "alt": ""
+      },
+      {
+        "src": "9196acf7a36505c303dd9bd702c53741032c17cf-800x800.png",
+        "w": 475,
+        "h": 475,
+        "alt": ""
+      },
+      {
+        "src": "cb3ca2bccb44ca419b81ba157ccd65b2d4b60711-800x625.png",
+        "w": 475,
+        "h": 371,
+        "alt": ""
+      },
+      {
+        "src": "6e67cd24a7a3f8b417d3490b041fa28bf92096e8-150x100.png",
+        "w": 111,
+        "h": 74,
+        "alt": ""
+      }
+    ]
+  },
+  "quote": {
+    "error": "not found"
+  },
+  "cta": {
+    "text": "Features\nSolutions\nPricing\nLearn\nLog in\nStart free\nFeatures\nSolutions\nPricing\nLearn\nLog in\nStart free\nAll-new\nPresentations just launched\nBeautiful software for interior designers\nStreamline your workflow and unlock your studio's potential. Start your 7 day free trial.\nGet started\nWatch our demo\nBuilt by and for interior designers\nPowerful tools to elevate your design process from concept to completion.\nGet started\nWatch demo\nSpecifications\nSpecifications\nGoodbye spreadsheets, hello Schedules.\nInstant product import\nInstant product import\nSave any product in seconds.\nClient Dashboard\nClient Dashboard\nOne link. Your client sees everything, live.\nProduct Library\nProduct Library\nYour products, ready to reuse.\nProject Management\nProject Management\nTasks, timelines and time tracking.\nMood Boards & Presentations\nMood Boards & Presentations\nCollect, organize and present ideas.\n\u201cPrograma saves u",
+    "box": {
+      "top": 0,
+      "h": 7939,
+      "w": 1440
+    },
+    "imgs": [
+      {
+        "src": "91030dc1b4243deb1c05baf5df3d1444844ab9b7-2711x684.png",
+        "w": 139,
+        "h": 35,
+        "alt": "Programa Logo"
+      },
+      {
+        "src": "91030dc1b4243deb1c05baf5df3d1444844ab9b7-2711x684.png",
+        "w": 139,
+        "h": 35,
+        "alt": "Programa Logo"
+      },
+      {
+        "src": "955e852e3d864fab90a56628bfccfb9b45773a3e-1348x880.jpg",
+        "w": 302,
+        "h": 197,
+        "alt": ""
+      },
+      {
+        "src": "91030dc1b4243deb1c05baf5df3d1444844ab9b7-2711x684.png",
+        "w": 139,
+        "h": 35,
+        "alt": "Programa Logo"
+      },
+      {
+        "src": "955e852e3d864fab90a56628bfccfb9b45773a3e-1348x880.jpg",
+        "w": 302,
+        "h": 197,
+        "alt": ""
+      },
+      {
+        "src": "6aae9615cbf1814033b25dabb8ba85bf27b2df10-283x374.svg",
+        "w": 221,
+        "h": 292,
+        "alt": ""
+      },
+      {
+        "src": "8ed6fff448e0de903756cd7592f9168645f1e8a8-899x1041.png",
+        "w": 100,
+        "h": 115,
+        "alt": ""
+      },
+      {
+        "src": "33ac5d1274f3e56e6a2a1c7639d5e4692bc91a5d-951x927.png",
+        "w": 100,
+        "h": 97,
+        "alt": ""
+      },
+      {
+        "src": "5d18168982b84c9b8a7c9caaa2fe0436ecf090b2-266x84.svg",
+        "w": 207,
+        "h": 65,
+        "alt": ""
+      },
+      {
+        "src": "da02fbff20d401cba9288395a6cb8befb4030f07-2955x2024.png",
+        "w": 2770,
+        "h": 1897,
+        "alt": ""
+      },
+      {
+        "src": "6aae9615cbf1814033b25dabb8ba85bf27b2df10-283x374.svg",
+        "w": 221,
+        "h": 292,
+        "alt": ""
+      },
+      {
+        "src": "8ed6fff448e0de903756cd7592f9168645f1e8a8-899x1041.png",
+        "w": 100,
+        "h": 115,
+        "alt": ""
+      },
+      {
+        "src": "33ac5d1274f3e56e6a2a1c7639d5e4692bc91a5d-951x927.png",
+        "w": 100,
+        "h": 97,
+        "alt": ""
+      },
+      {
+        "src": "5d18168982b84c9b8a7c9caaa2fe0436ecf090b2-266x84.svg",
+        "w": 207,
+        "h": 65,
+        "alt": ""
+      },
+      {
+        "src": "85adf6030eee7835f7e85cc5f70821263085e201-286x265.svg",
+        "w": 223,
+        "h": 207,
+        "alt": ""
+      },
+      {
+        "src": "1788cf4e103a31b3b31f7fc9a9df47fb6f520a95-660x560.png",
+        "w": 100,
+        "h": 85,
+        "alt": ""
+      },
+      {
+        "src": "a316239f894db1f0d0888b21a01f2b2ad92107a3-325x379.svg",
+        "w": 253,
+        "h": 296,
+        "alt": ""
+      },
+      {
+        "src": "de841d17b60c36940d94de5481f037082cc4d657-341x280.png",
+        "w": 100,
+        "h": 82,
+        "alt": ""
+      },
+      {
+        "src": "d43108f30cf70c4e64e3d95724256fa4a758893e-450x453.png",
+        "w": 100,
+        "h": 100,
+        "alt": ""
+      },
+      {
+        "src": "da02fbff20d401cba9288395a6cb8befb4030f07-2955x2024.png",
+        "w": 1008,
+        "h": 690,
+        "alt": "Programa projects dashboard"
+      },
+      {
+        "src": "cb3ca2bccb44ca419b81ba157ccd65b2d4b60711-800x625.png",
+        "w": 475,
+        "h": 371,
+        "alt": ""
+      },
+      {
+        "src": "6e67cd24a7a3f8b417d3490b041fa28bf92096e8-150x100.png",
+        "w": 111,
+        "h": 74,
+        "alt": ""
+      },
+      {
+        "src": "fe40d2a3790f3968c8e646613a93ce77e134498b-800x625.png",
+        "w": 475,
+        "h": 371,
+        "alt": ""
+      },
+      {
+        "src": "e6f6e1d1f434afc61a2652521c3bded428a57990-800x625.png",
+        "w": 475,
+        "h": 371,
+        "alt": ""
+      },
+      {
+        "src": "a1eb81d1dc7c54829d03779db573eb6f7f367d87-800x625.png",
+        "w": 475,
+        "h": 371,
+        "alt": ""
+      },
+      {
+        "src": "c60feda971338c1f453680addfc3eae02335b440-834x273.png",
+        "w": 475,
+        "h": 155,
+        "alt": ""
+      },
+      {
+        "src": "2873a2b269bc7da7bb6538555d04416b90646675-800x800.png",
+        "w": 475,
+        "h": 475,
+        "alt": ""
+      },
+      {
+        "src": "9196acf7a36505c303dd9bd702c53741032c17cf-800x800.png",
+        "w": 475,
+        "h": 475,
+        "alt": ""
+      },
+      {
+        "src": "cb3ca2bccb44ca419b81ba157ccd65b2d4b60711-800x625.png",
+        "w": 475,
+        "h": 371,
+        "alt": ""
+      },
+      {
+        "src": "6e67cd24a7a3f8b417d3490b041fa28bf92096e8-150x100.png",
+        "w": 111,
+        "h": 74,
+        "alt": ""
+      }
+    ]
+  }
+}

@@ -72,9 +72,115 @@
   --radius-3xl: calc(var(--radius) * 2.2);
   --radius-4xl: calc(var(--radius) * 2.6);
 
+  /* ---- programa.design ---- */
+  --font-rhymes: var(--font-rhymes), "Rhymes Display", Georgia, serif;
+  --font-inter: var(--font-inter), Inter, system-ui, sans-serif;
+  --color-programa-ink: #1a1a1a;
+  --color-programa-ink2: #1a1916;
+  --color-programa-muted: #7b736c;
+  --color-programa-faint: #aaa59c;
+  --color-programa-cream: #f8f6f3;
+  --color-programa-cream2: #fcfbf9;
+  --color-programa-border: #eeece6;
+  --color-programa-yellow: #fdffa2;
+  --color-programa-pink: #ff427b;
+
+  /* ---- jasper.ai ---- */
+  --font-abcrom: var(--font-abcrom), "ABC ROM", Arial, sans-serif;
+  --font-abcrom-mono: var(--font-abcrom-mono), "ABC ROM Mono", monospace;
+  --font-feature: var(--font-feature), Feature, Georgia, serif;
+  --color-jasper-ink: #262627;
+  --color-jasper-navy: #00063d;
+  --color-jasper-red: #fa4028;
+  --color-jasper-purple: #9146ff;
+  --color-jasper-purple-deep: #6724c9;
+  --color-jasper-purple-soft: #bd95ff;
+  --color-jasper-lilac: #f5f0fc;
+  --color-jasper-green: #207a00;
+  --color-jasper-green-bright: #45ff00;
+  --color-jasper-green-deep: #103a00;
+  --color-jasper-cloud: #f9f9f9;
+  --color-jasper-cloud2: #f2f2f3;
+  --color-jasper-efeff: #efefff;
+
+  /* ---- creatorwith.com (with creator) ---- */
+  --font-cw: var(--font-cw), "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --color-cw-accent: #d97706;
+  --color-cw-accent-hover: #b45309;
+  --color-cw-cta: #f07832;
+  --color-cw-cta-hover: #e56d28;
+  --color-cw-ink: #1e1e1e;
+  --color-cw-muted: #6b6b6b;
+  --color-cw-bg: #f7fafc;
+  --color-cw-bg2: #fdfdfd;
+  --color-cw-border: #e8eef2;
+  --color-cw-amber: #f59e0b;
+  --color-cw-amber-bg: #fef3c7;
+  --color-cw-violet: #8b5cf6;
+  --color-cw-violet-bg: #ede9fe;
+  --color-cw-pink: #ec4899;
+  --color-cw-pink-bg: #fce7f3;
+  --color-cw-cyan: #06b6d4;
+  --color-cw-cyan-bg: #cffafe;
+
+  /* ---- pally.com ---- */
+  --font-neue: var(--font-neue), "Neue Montreal", Arial, Helvetica, sans-serif;
+  --color-pally-ink: #121212;
+  --color-pally-muted: #6b7280;
+  --color-pally-blue: #007aff;
+  --color-pally-blue-mid: #3a6ea5;
+  --color-pally-bg: #ffffff;
+  --color-pally-bg2: #fafafa;
+  --color-pally-border: #ececec;
+
   /* marquee + reveal animations */
   --animate-marquee: marquee 60s linear infinite;
   --animate-spin-slow: spin 12s linear infinite;
+}
+
+/* pally thread animations */
+@keyframes thread-draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes thread-flow {
+  to {
+    stroke-dashoffset: -340px;
+  }
+}
+
+/* solid strand — draws itself in once, then stays as a faint base line */
+.thread-strand {
+  fill: none;
+  stroke: url(#thread-grad);
+  stroke-width: 1.4;
+  stroke-linecap: round;
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+  opacity: 0.5;
+  animation: thread-draw 2.6s ease 0.18s forwards;
+}
+
+/* bright comet trail — a long streak of light glides along each curve,
+   glowing so it reads against the faint base strand */
+.thread-flow {
+  fill: none;
+  stroke: url(#thread-grad);
+  stroke-width: 2.4;
+  stroke-linecap: round;
+  stroke-dasharray: 80px 260px;
+  filter: drop-shadow(0 0 5px rgba(0, 122, 255, 0.6));
+  animation: thread-flow 4.5s linear infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .thread-strand,
+  .thread-flow {
+    animation: none;
+    stroke-dashoffset: 0;
+  }
 }
 
 @keyframes marquee {
@@ -94,6 +200,33 @@
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+@keyframes get-answers-shimmer-band {
+  0% {
+    transform: translateX(-130%) skewX(-12deg);
+    opacity: 0;
+  }
+  15% {
+    opacity: 1;
+  }
+  85% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(330%) skewX(-12deg);
+    opacity: 0;
+  }
+}
+
+@keyframes get-answers-glow-pulse {
+  0%,
+  100% {
+    opacity: 0.42;
+  }
+  50% {
+    opacity: 0.78;
   }
 }
 
@@ -203,6 +336,13 @@
   .bg-dot-grid {
     background-image: radial-gradient(rgba(0, 0, 0, 0.08) 1.5px, transparent 1.5px);
     background-size: 18px 18px;
+  }
+
+  /* creatorwith.com signature dot-grid */
+  .bg-cw-dots {
+    background-color: #fdfdfd;
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.06) 1px, transparent 1px);
+    background-size: 24px 24px;
   }
 
   .text-balance {

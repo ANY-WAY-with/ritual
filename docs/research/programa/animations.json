@@ -1,0 +1,135 @@
+[
+  {
+    "cls": "inline-flex items-center rounded-6 border-1 border",
+    "anim": "NotificationBadge_notifBadgeIn__phPzZ",
+    "dur": "0.6s",
+    "timing": "ease-out",
+    "iter": "1"
+  },
+  {
+    "cls": "pl-spacing-4 NotificationBadge_notifSlideIn__XpacR",
+    "anim": "NotificationBadge_notifSlideIn__XpacR",
+    "dur": "0.5s",
+    "timing": "cubic-bezier(0.25, 0.46, 0.45, 0.94)",
+    "iter": "1"
+  },
+  {
+    "cls": "[object SVGAnimatedString]",
+    "anim": "NotificationBadge_notifArrowIn__j96t7",
+    "dur": "0.4s",
+    "timing": "ease",
+    "iter": "1"
+  },
+  {
+    "cls": "pointer-events-auto absolute BlockHero4_bentoFadeI",
+    "anim": "BlockHero4_notifBadgeIn__yUoHm",
+    "dur": "0.8s",
+    "timing": "ease-out",
+    "iter": "1"
+  },
+  {
+    "cls": "BlockHero4_floatBob1__7iRDn relative w-[53px]",
+    "anim": "BlockHero4_floatBob1__7iRDn",
+    "dur": "8s",
+    "timing": "ease-in-out",
+    "iter": "infinite"
+  },
+  {
+    "cls": "BlockHero4_floatBob3__VdrOd relative w-[37px]",
+    "anim": "BlockHero4_floatBob3__VdrOd",
+    "dur": "7s",
+    "timing": "ease-in-out",
+    "iter": "infinite"
+  },
+  {
+    "cls": "BlockHero4_floatBob2__NgeKO relative w-[58px]",
+    "anim": "BlockHero4_floatBob2__NgeKO",
+    "dur": "9s",
+    "timing": "ease-in-out",
+    "iter": "infinite"
+  },
+  {
+    "cls": "BlockHero4_floatBob1__7iRDn relative w-[58px]",
+    "anim": "BlockHero4_floatBob1__7iRDn",
+    "dur": "8s",
+    "timing": "ease-in-out",
+    "iter": "infinite"
+  },
+  {
+    "cls": "BlockHero4_floatBob1__7iRDn relative w-[55px]",
+    "anim": "BlockHero4_floatBob1__7iRDn",
+    "dur": "8s",
+    "timing": "ease-in-out",
+    "iter": "infinite"
+  },
+  {
+    "cls": "pointer-events-auto absolute BlockHero4_bentoFadeI",
+    "anim": "BlockHero4_notifBadgeIn__yUoHm",
+    "dur": "0.8s",
+    "timing": "ease-out",
+    "iter": "1"
+  },
+  {
+    "cls": "BlockHero4_floatBob3__VdrOd relative w-[68px]",
+    "anim": "BlockHero4_floatBob3__VdrOd",
+    "dur": "7s",
+    "timing": "ease-in-out",
+    "iter": "infinite"
+  },
+  {
+    "cls": "BlockHero4_floatBob1__7iRDn relative w-[73px]",
+    "anim": "BlockHero4_floatBob1__7iRDn",
+    "dur": "8s",
+    "timing": "ease-in-out",
+    "iter": "infinite"
+  },
+  {
+    "cls": "BlockHero4_floatBob3__VdrOd relative w-[74px]",
+    "anim": "BlockHero4_floatBob3__VdrOd",
+    "dur": "7s",
+    "timing": "ease-in-out",
+    "iter": "infinite"
+  },
+  {
+    "cls": "BlockHero4_floatBob3__VdrOd relative w-[76px]",
+    "anim": "BlockHero4_floatBob3__VdrOd",
+    "dur": "7s",
+    "timing": "ease-in-out",
+    "iter": "infinite"
+  },
+  {
+    "cls": "BlockHero4_floatBob2__NgeKO relative w-[52px]",
+    "anim": "BlockHero4_floatBob2__NgeKO",
+    "dur": "9s",
+    "timing": "ease-in-out",
+    "iter": "infinite"
+  },
+  {
+    "cls": "BlockHero4_floatBob2__NgeKO relative w-[90px]",
+    "anim": "BlockHero4_floatBob2__NgeKO",
+    "dur": "9s",
+    "timing": "ease-in-out",
+    "iter": "infinite"
+  },
+  {
+    "cls": "BlockHero4_floatBob1__7iRDn relative w-[76px]",
+    "anim": "BlockHero4_floatBob1__7iRDn",
+    "dur": "8s",
+    "timing": "ease-in-out",
+    "iter": "infinite"
+  },
+  {
+    "cls": "flex w-max will-change-transform motion-safe:anima",
+    "anim": "scroll-horizontal",
+    "dur": "20s",
+    "timing": "linear",
+    "iter": "infinite"
+  },
+  {
+    "cls": "flex items-center overflow-clip animate-float",
+    "anim": "float",
+    "dur": "6s",
+    "timing": "ease-in-out",
+    "iter": "infinite"
+  }
+]

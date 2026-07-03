@@ -1,0 +1,107 @@
+[
+  {
+    "cls": "[object SVGAnimatedString]",
+    "anim": "thread-draw",
+    "dur": "2.6s",
+    "timing": "ease",
+    "iter": "1"
+  },
+  {
+    "cls": "[object SVGAnimatedString]",
+    "anim": "thread-flow",
+    "dur": "5.5s",
+    "timing": "linear",
+    "iter": "infinite"
+  },
+  {
+    "cls": "[object SVGAnimatedString]",
+    "anim": "fade-up",
+    "dur": "0.6s",
+    "timing": "ease",
+    "iter": "1"
+  },
+  {
+    "cls": "fade-up mb-8 inline-flex items-center gap-2 rounde",
+    "anim": "fade-up",
+    "dur": "0.68s",
+    "timing": "ease",
+    "iter": "1"
+  },
+  {
+    "cls": "fade-up delay-100 max-w-4xl text-[clamp(3.5rem,9vw",
+    "anim": "fade-up",
+    "dur": "0.68s",
+    "timing": "ease",
+    "iter": "1"
+  },
+  {
+    "cls": "fade-up delay-200 mt-8 max-w-2xl text-xl leading-[",
+    "anim": "fade-up",
+    "dur": "0.68s",
+    "timing": "ease",
+    "iter": "1"
+  },
+  {
+    "cls": "fade-up delay-300 mt-10",
+    "anim": "fade-up",
+    "dur": "0.68s",
+    "timing": "ease",
+    "iter": "1"
+  },
+  {
+    "cls": "pl-glow converge-glow",
+    "anim": "glow-pulse",
+    "dur": "4.5s",
+    "timing": "ease-in-out",
+    "iter": "infinite"
+  },
+  {
+    "cls": "converge-glow absolute left-1/2 top-1/2 h-80 w-80 ",
+    "anim": "glow-pulse",
+    "dur": "4.5s",
+    "timing": "ease-in-out",
+    "iter": "infinite"
+  },
+  {
+    "cls": "orbit absolute inset-0",
+    "anim": "orbit-spin",
+    "dur": "120s",
+    "timing": "linear",
+    "iter": "infinite"
+  },
+  {
+    "cls": "orbit-counter drop-shadow-[0_0_12px_rgba(0,0,0,0.1",
+    "anim": "orbit-spin",
+    "dur": "120s",
+    "timing": "linear",
+    "iter": "infinite"
+  },
+  {
+    "cls": "absolute inline-flex h-full w-full animate-ping ro",
+    "anim": "ping",
+    "dur": "1s",
+    "timing": "cubic-bezier(0, 0, 0.2, 1)",
+    "iter": "infinite"
+  },
+  {
+    "cls": "marquee-track",
+    "anim": "marquee",
+    "dur": "170s",
+    "timing": "linear",
+    "iter": "infinite"
+  },
+  {
+    "cls": "marquee-track marquee-reverse marquee-slow",
+    "anim": "marquee",
+    "dur": "215s",
+    "timing": "linear",
+    "iter": "infinite"
+  },
+  {
+    "cls": "typing-text [border-right-color:rgba(255,255,255,0",
+    "anim": "type-on, caret",
+    "dur": "2.1s, 0.85s",
+    "timing": "steps(29), steps(1)",
+    "iter": "1, 4"
+  }
+]

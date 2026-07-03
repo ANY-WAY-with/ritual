@@ -1,0 +1,92 @@
+{
+  "title": "Pally | One text away from done",
+  "images": [
+    "https://www.pally.com/brand/logo.svg",
+    "https://www.pally.com/brand/app-icon-192.webp",
+    "https://www.pally.com/brand/icon-only.svg",
+    "https://www.pally.com/brand/apps/pre-rendered/gmail-32.webp",
+    "https://www.pally.com/brand/apps/pre-rendered/googlecalendar-32.webp",
+    "https://www.pally.com/brand/apps/pre-rendered/whatsapp-32.webp",
+    "https://www.pally.com/brand/apps/pre-rendered/slack-32.webp",
+    "https://www.pally.com/brand/apps/pre-rendered/imessage-32.webp",
+    "https://www.pally.com/brand/apps/pre-rendered/outlook-32.webp",
+    "https://www.pally.com/brand/apps/pre-rendered/notion-32.webp",
+    "https://www.pally.com/brand/apps/pre-rendered/linear-32.webp",
+    "https://www.pally.com/brand/apps/pre-rendered/whatsapp-168.webp",
+    "https://www.pally.com/brand/apps/pre-rendered/imessage-168.webp",
+    "https://www.pally.com/brand/apps/pre-rendered/slack-168.webp",
+    "https://www.pally.com/brand/apps/pre-rendered/gmail-168.webp",
+    "https://www.pally.com/brand/apps/pre-rendered/outlook-168.webp",
+    "https://www.pally.com/brand/apps/pre-rendered/googlecalendar-168.webp",
+    "https://www.pally.com/brand/apps/pre-rendered/googledrive-168.webp",
+    "https://www.pally.com/brand/apps/pre-rendered/notion-168.webp",
+    "https://www.pally.com/brand/apps/pre-rendered/granola-168.webp",
+    "https://www.pally.com/brand/apps/pre-rendered/linear-168.webp",
+    "https://www.pally.com/testimonials/pre-rendered/naomi-80.webp",
+    "https://www.pally.com/testimonials/pre-rendered/marcus-80.webp",
+    "https://www.pally.com/testimonials/pre-rendered/grace-80.webp",
+    "https://www.pally.com/testimonials/pre-rendered/tom-80.webp",
+    "https://www.pally.com/testimonials/pre-rendered/priya-80.webp",
+    "https://www.pally.com/testimonials/pre-rendered/diego-80.webp",
+    "https://www.pally.com/testimonials/pre-rendered/emma-80.webp",
+    "https://www.pally.com/testimonials/pre-rendered/david-80.webp",
+    "https://www.pally.com/testimonials/pre-rendered/sofia-80.webp",
+    "https://www.pally.com/testimonials/pre-rendered/mark-80.webp",
+    "https://www.pally.com/testimonials/pre-rendered/layla-80.webp",
+    "https://www.pally.com/testimonials/pre-rendered/arjun-80.webp",
+    "https://www.pally.com/testimonials/pre-rendered/bianca-80.webp",
+    "https://www.pally.com/testimonials/pre-rendered/omar-80.webp",
+    "https://www.pally.com/testimonials/pre-rendered/claire-80.webp",
+    "https://www.pally.com/testimonials/pre-rendered/jack-80.webp"
+  ],
+  "bgs": [],
+  "videos": [],
+  "fonts": [
+    "neueMontreal, \"neueMontreal Fallback\", Arial, Helvetica, sans-serif",
+    "-apple-system, \"system-ui\", \"SF Pro Text\", \"SF Pro\", \"Helvetica Neue\", \"Segoe UI\", system-ui, sans-serif"
+  ],
+  "favicons": [
+    {
+      "rel": "shortcut icon",
+      "href": "https://www.pally.com/brand/app-icon.png?v=2",
+      "type": "image/png"
+    },
+    {
+      "rel": "icon",
+      "href": "https://www.pally.com/brand/app-icon.png?v=2",
+      "type": "image/png"
+    },
+    {
+      "rel": "apple-touch-icon",
+      "href": "https://www.pally.com/brand/app-icon.png?v=2",
+      "type": "image/png"
+    }
+  ],
+  "meta": [
+    {
+      "k": "description",
+      "v": "Pally is your personal assistant that lives in iMessage. It keeps up with your messages, meetings, calendar, files, task"
+    }
+  ],
+  "stylesheets": [
+    "https://www.pally.com/_next/static/chunks/2mt0574hl9qsh.css"
+  ],
+  "scripts": [
+    "https://www.pally.com/_next/static/chunks/15orcrkp-_9ct.js",
+    "https://www.pally.com/_next/static/chunks/3peubv2924kx4.js",
+    "https://www.pally.com/_next/static/chunks/082obv3v03b-9.js",
+    "https://www.pally.com/_next/static/chunks/turbopack-3czch9t65yeqo.js",
+    "https://www.pally.com/_next/static/chunks/05-c3ty_6dwfk.js",
+    "https://www.pally.com/_next/static/chunks/14mrh2-p_w84d.js",
+    "https://www.pally.com/_next/static/chunks/26n-uzy-9666a.js",
+    "https://www.pally.com/_next/static/chunks/0cz1d0mv5g_q7.js",
+    "https://www.pally.com/_next/static/chunks/21eckx0msqg9c.js",
+    "https://www.pally.com/_next/static/chunks/1r5xafdekar23.js",
+    "https://www.pally.com/_next/static/chunks/0kxwiavqbs700.js",
+    "https://www.pally.com/_next/static/chunks/0dhbjz-xsmu83.js"
+  ],
+  "bodyBg": "rgba(0, 0, 0, 0)",
+  "bodyColor": "rgb(18, 18, 18)",
+  "bodyFont": "neueMontreal, \"neueMontreal Fallback\", Arial, Helvetica, sans-serif",
+  "hasLenis": false
+}

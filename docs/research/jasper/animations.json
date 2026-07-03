@@ -1,0 +1,9 @@
+[
+  {
+    "cls": "marquee_cms_list w-dyn-items",
+    "anim": "translateX",
+    "dur": "69.3333s",
+    "timing": "linear",
+    "iter": "infinite"
+  }
+]

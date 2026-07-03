@@ -1,0 +1,108 @@
+{
+  "direct": [
+    {
+      "tag": "div",
+      "cls": "",
+      "id": "__next",
+      "top": 0,
+      "h": 7939,
+      "bg": "rgba(0, 0, 0, 0)",
+      "pos": "static",
+      "z": "auto"
+    },
+    {
+      "tag": "next-route-announcer",
+      "cls": "",
+      "id": "",
+      "top": 7939,
+      "h": 0,
+      "bg": "rgba(0, 0, 0, 0)",
+      "pos": "static",
+      "z": "auto"
+    }
+  ],
+  "mainKids": [
+    {
+      "tag": "div",
+      "cls": "site",
+      "id": "",
+      "top": 0,
+      "h": 7939,
+      "bg": "rgba(0, 0, 0, 0)",
+      "pos": "static",
+      "z": "auto"
+    }
+  ],
+  "sections": [
+    {
+      "tag": "header",
+      "cls": "Header_header__xXQAu min-h-header-height",
+      "id": "",
+      "top": 0,
+      "h": 72,
+      "bg": "rgba(0, 0, 0, 0)",
+      "pos": "sticky",
+      "z": "9999"
+    },
+    {
+      "tag": "section",
+      "cls": "flex flex-col items-center overflow-visible pt-0 pb-0 md:pt-",
+      "id": "",
+      "top": 72,
+      "h": 828,
+      "bg": "rgba(0, 0, 0, 0)",
+      "pos": "static",
+      "z": "auto"
+    },
+    {
+      "tag": "section",
+      "cls": "container-site max-w-container-md py-spacing-20 text-center ",
+      "id": "",
+      "top": 900,
+      "h": 100,
+      "bg": "rgba(0, 0, 0, 0)",
+      "pos": "static",
+      "z": "auto"
+    },
+    {
+      "tag": "section",
+      "cls": "pt-spacing-32 pb-spacing-32 md:pt-spacing-60 md:pb-spacing-6",
+      "id": "",
+      "top": 2795,
+      "h": 656,
+      "bg": "rgba(0, 0, 0, 0)",
+      "pos": "static",
+      "z": "auto"
+    },
+    {
+      "tag": "section",
+      "cls": "pt-spacing-32 pb-spacing-32 md:pt-spacing-60 md:pb-spacing-6",
+      "id": "",
+      "top": 3451,
+      "h": 656,
+      "bg": "rgba(0, 0, 0, 0)",
+      "pos": "static",
+      "z": "auto"
+    },
+    {
+      "tag": "section",
+      "cls": "pt-spacing-32 pb-spacing-32 md:pt-spacing-60 md:pb-spacing-6",
+      "id": "",
+      "top": 4107,
+      "h": 656,
+      "bg": "rgba(0, 0, 0, 0)",
+      "pos": "static",
+      "z": "auto"
+    },
+    {
+      "tag": "footer",
+      "cls": "relative mb-0 pb-0 text-foregrounds-base bg-backgrounds-base",
+      "id": "",
+      "top": 7524,
+      "h": 415,
+      "bg": "rgba(0, 0, 0, 0)",
+      "pos": "relative",
+      "z": "auto"
+    }
+  ]
+}

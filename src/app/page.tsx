@@ -1,33 +1,31 @@
-import { SiteHeader } from "@/components/SiteHeader";
-import { HeroSection } from "@/components/HeroSection";
-import { LogoMarquee } from "@/components/LogoMarquee";
-import { IntroSection } from "@/components/IntroSection";
-import { BuildSystemSection } from "@/components/BuildSystemSection";
-import { BottleneckSection } from "@/components/BottleneckSection";
-import { IntegratesMarquee } from "@/components/IntegratesMarquee";
-import { PlatformSection } from "@/components/PlatformSection";
-import { FeaturesSection } from "@/components/FeaturesSection";
-import { ImpactSection } from "@/components/ImpactSection";
-import { FinalCtaSection } from "@/components/FinalCtaSection";
-import { SiteFooter } from "@/components/SiteFooter";
+import { CreatorwithHeader } from "@/components/with/CreatorwithHeader";
+import { CreatorwithHero } from "@/components/with/CreatorwithHero";
+import { CreatorwithStats } from "@/components/with/CreatorwithStats";
+import { CreatorwithCapabilities } from "@/components/with/CreatorwithCapabilities";
+import { CreatorwithHowItWorks } from "@/components/with/CreatorwithHowItWorks";
+import { CreatorwithPersonas } from "@/components/with/CreatorwithPersonas";
+import { CreatorwithVoice } from "@/components/with/CreatorwithVoice";
+import { CreatorwithFaq } from "@/components/with/CreatorwithFaq";
+import { CreatorwithCta } from "@/components/with/CreatorwithCta";
+import { CreatorwithFooter } from "@/components/with/CreatorwithFooter";
+import { SiteSwitcher } from "@/components/SiteSwitcher";
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen flex-col bg-ditto-cream">
-      <SiteHeader />
+    <div className="flex min-h-screen flex-col bg-cw-bg2 font-cw text-cw-ink">
+      <CreatorwithHeader />
       <main className="flex-1">
-        <HeroSection />
-        <LogoMarquee />
-        <IntroSection />
-        <BuildSystemSection />
-        <BottleneckSection />
-        <IntegratesMarquee />
-        <PlatformSection />
-        <FeaturesSection />
-        <ImpactSection />
-        <FinalCtaSection />
+        <CreatorwithHero />
+        <CreatorwithStats />
+        <CreatorwithCapabilities />
+        <CreatorwithHowItWorks />
+        <CreatorwithPersonas />
+        <CreatorwithVoice />
+        <CreatorwithFaq />
+        <CreatorwithCta />
       </main>
-      <SiteFooter />
+      <CreatorwithFooter />
+      <SiteSwitcher />
     </div>
   );
 }

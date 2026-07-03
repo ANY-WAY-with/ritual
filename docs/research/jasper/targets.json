@@ -1,0 +1,575 @@
+{
+  "hero": {
+    "text": "Platform\nPlatform\nSolutions\nSolutions\nResources\nResources\nCompany\nCompany\nPricing\nPricing\nLog In\nFree Trial\nGet A Demo\nGet A Demo\nNew!\nOptimize your brand for AI search with our GEO Agent. Learn more\nNew report\nPut AI agents to work for marketing\nOrchestrate intelligent agents to run end-to-end marketing workflows\u2014delivering speed, control, and measurable impact.\nStart Free Trial\nStart Free Trial\nGet A Demo\nGet A Demo\nWorld-class marketing teams trust Jasper\nThe Jasper Platform\nThe execution platform for intelligent marketing\nJasper is the agent workspace built for modern marketing teams. With 100+ specialized AI agents and connected content pipelines\u2014structured, end-to-end workflows that turn plans into live marketing\u2014Jasper transforms strategy into execution, reducing operational complexity, strengthening brand control, and driving measurable growth across every channel and market.\nExp",
+    "box": {
+      "top": 0,
+      "h": 10781,
+      "w": 1440
+    },
+    "imgs": [
+      {
+        "src": "69a9c7e65810eadefa81494f_233fc11d48858aeb5d62081b163af549_Nav%20-%20Agents.avif",
+        "w": 0,
+        "h": 0,
+        "alt": ""
+      },
+      {
+        "src": "69a9c7e5282c836dda2f0366_6eb903f1a850d6de5e588930419b8728_Nav%20-%20Pipelines.avif",
+        "w": 0,
+        "h": 0,
+        "alt": ""
+      },
+      {
+        "src": "69a9c7e547c39b8a59297383_Nav%20-%20IQ.avif",
+        "w": 0,
+        "h": 0,
+        "alt": ""
+      },
+      {
+        "src": "6a303a31f30d66091bf101bf_Nav%20-%20GEO.avif",
+        "w": 0,
+        "h": 0,
+        "alt": ""
+      },
+      {
+        "src": "68feca0c58458969f985ee29_SEO%20Nav%20Card.avif",
+        "w": 0,
+        "h": 0,
+        "alt": ""
+      },
+      {
+        "src": "696a7ac24006d68be7772ab9_Personalization%20Nav.avif",
+        "w": 0,
+        "h": 0,
+        "alt": ""
+      },
+      {
+        "src": "6995d1c8cb18d907d7bfdebf_Campaigns%20Nav.avif",
+        "w": 0,
+        "h": 0,
+        "alt": ""
+      },
+      {
+        "src": "69a9c8d4239a27cff91eae55_Nav%20-%20Company.avif",
+        "w": 0,
+        "h": 0,
+        "alt": "Large diverse group of people posing and smiling in front of a blue background with the red word \u2018jasper\u2019 above them."
+      },
+      {
+        "src": "68460bf5f949f29f8ff03aea_jasp-boeing.webp",
+        "w": 556,
+        "h": 228,
+        "alt": "Boeing logo"
+      },
+      {
+        "src": "69f0f365873a663500dee8d2_Ulta.png",
+        "w": 800,
+        "h": 329,
+        "alt": "Ulta Beauty logo"
+      },
+      {
+        "src": "68460ba7a043f054322d9dd0_jasp-alliantgroup.webp",
+        "w": 556,
+        "h": 228,
+        "alt": "alliantgroup logo"
+      },
+      {
+        "src": "68460c48cea2f9d4e2f84741_jasp-cushman.webp",
+        "w": 556,
+        "h": 228,
+        "alt": "Cushman & Wakefield logo"
+      },
+      {
+        "src": "68460c423451f1a15199e5cc_jasp-cox.webp",
+        "w": 556,
+        "h": 228,
+        "alt": "Cox Automotive logo"
+      },
+      {
+        "src": "68460be37fd6c5716d4fb77e_jasp-anthropologie.webp",
+        "w": 556,
+        "h": 228,
+        "alt": "Anthropologie logo"
+      },
+      {
+        "src": "68460ca2dedb8dc8d60cba47_jasp-morningstar.webp",
+        "w": 0,
+        "h": 0,
+        "alt": "Morningstar logo"
+      },
+      {
+        "src": "68460c51235cd7e85b051e6f_jasp-harpercollins.webp",
+        "w": 0,
+        "h": 0,
+        "alt": "HarperCollins logo"
+      },
+      {
+        "src": "68460cadab2ca7c6863ceba1_jasp-prudential.webp",
+        "w": 0,
+        "h": 0,
+        "alt": "Prudential logo"
+      },
+      {
+        "src": "68460ba168dfd6d44e22c13a_jasp-AAA.webp",
+        "w": 0,
+        "h": 0,
+        "alt": "AAA logo"
+      },
+      {
+        "src": "68460c3407474e37968671bf_jasp-Bona.webp",
+        "w": 0,
+        "h": 0,
+        "alt": "Bona logo"
+      },
+      {
+        "src": "68460c398cbb586a8986ada1_jasp-cognizant.webp",
+        "w": 0,
+        "h": 0,
+        "alt": "Cognizant logo"
+      },
+      {
+        "src": "68460c57c88f5cd474c960be_jasp-hitachi.webp",
+        "w": 0,
+        "h": 0,
+        "alt": "Hitachi logo"
+      },
+      {
+        "src": "68460c72f894276e5e982f85_jasp-iheartmedia.webp",
+        "w": 0,
+        "h": 0,
+        "alt": "iHeartMedia logo"
+      },
+      {
+        "src": "68460c7d8cbb586a8986c009_jasp-kelly.webp",
+        "w": 0,
+        "h": 0,
+        "alt": "Kelly logo"
+      },
+      {
+        "src": "68460ca8790f10b57c708fd2_jasp-noom.webp",
+        "w": 0,
+        "h": 0,
+        "alt": "Noom logo"
+      },
+      {
+        "src": "68460cb3392553aefba24cf6_jasp-sanoflif.webp",
+        "w": 0,
+        "h": 0,
+        "alt": "Sanofi logo"
+      },
+      {
+        "src": "68460cbd39ead81d4fcf246c_jasp-supercell.webp",
+        "w": 0,
+        "h": 0,
+        "alt": "Supercell logo"
+      },
+      {
+        "src": "68460bd83a62db625d5530bd_jasp-accenture.webp",
+        "w": 0,
+        "h": 0,
+        "alt": "Accenture logo"
+      },
+      {
+        "src": "68460c68214ed46f96536306_jasp-HH.webp",
+        "w": 0,
+        "h": 0,
+        "alt": "HH logo"
+      },
+      {
+        "src": "68460bf5f949f29f8ff03aea_jasp-boeing.webp",
+        "w": 556,
+        "h": 228,
+        "alt": "Boeing logo"
+      },
+      {
+        "src": "69f0f365873a663500dee8d2_Ulta.png",
+        "w": 800,
+        "h": 329,
+        "alt": "Ulta Beauty logo"
+      }
+    ]
+  },
+  "platformcards": {
+    "text": "Platform\nPlatform\nSolutions\nSolutions\nResources\nResources\nCompany\nCompany\nPricing\nPricing\nLog In\nFree Trial\nGet A Demo\nGet A Demo\nNew!\nOptimize your brand for AI search with our GEO Agent. Learn more\nNew report\nPut AI agents to work for marketing\nOrchestrate intelligent agents to run end-to-end marketing workflows\u2014delivering speed, control, and measurable impact.\nStart Free Trial\nStart Free Trial\nGet A Demo\nGet A Demo\nWorld-class marketing teams trust Jasper\nThe Jasper Platform\nThe execution platform for intelligent marketing\nJasper is the agent workspace built for modern marketing teams. With 100+ specialized AI agents and connected content pipelines\u2014structured, end-to-end workflows that turn plans into live marketing\u2014Jasper transforms strategy into execution, reducing operational complexity, strengthening brand control, and driving measurable growth across every channel and market.\nExp",
+    "box": {
+      "top": 0,
+      "h": 10781,
+      "w": 1440
+    },
+    "imgs": [
+      {
+        "src": "69a9c7e65810eadefa81494f_233fc11d48858aeb5d62081b163af549_Nav%20-%20Agents.avif",
+        "w": 0,
+        "h": 0,
+        "alt": ""
+      },
+      {
+        "src": "69a9c7e5282c836dda2f0366_6eb903f1a850d6de5e588930419b8728_Nav%20-%20Pipelines.avif",
+        "w": 0,
+        "h": 0,
+        "alt": ""
+      },
+      {
+        "src": "69a9c7e547c39b8a59297383_Nav%20-%20IQ.avif",
+        "w": 0,
+        "h": 0,
+        "alt": ""
+      },
+      {
+        "src": "6a303a31f30d66091bf101bf_Nav%20-%20GEO.avif",
+        "w": 0,
+        "h": 0,
+        "alt": ""
+      },
+      {
+        "src": "68feca0c58458969f985ee29_SEO%20Nav%20Card.avif",
+        "w": 0,
+        "h": 0,
+        "alt": ""
+      },
+      {
+        "src": "696a7ac24006d68be7772ab9_Personalization%20Nav.avif",
+        "w": 0,
+        "h": 0,
+        "alt": ""
+      },
+      {
+        "src": "6995d1c8cb18d907d7bfdebf_Campaigns%20Nav.avif",
+        "w": 0,
+        "h": 0,
+        "alt": ""
+      },
+      {
+        "src": "69a9c8d4239a27cff91eae55_Nav%20-%20Company.avif",
+        "w": 0,
+        "h": 0,
+        "alt": "Large diverse group of people posing and smiling in front of a blue background with the red word \u2018jasper\u2019 above them."
+      },
+      {
+        "src": "68460bf5f949f29f8ff03aea_jasp-boeing.webp",
+        "w": 556,
+        "h": 228,
+        "alt": "Boeing logo"
+      },
+      {
+        "src": "69f0f365873a663500dee8d2_Ulta.png",
+        "w": 800,
+        "h": 329,
+        "alt": "Ulta Beauty logo"
+      },
+      {
+        "src": "68460ba7a043f054322d9dd0_jasp-alliantgroup.webp",
+        "w": 556,
+        "h": 228,
+        "alt": "alliantgroup logo"
+      },
+      {
+        "src": "68460c48cea2f9d4e2f84741_jasp-cushman.webp",
+        "w": 556,
+        "h": 228,
+        "alt": "Cushman & Wakefield logo"
+      },
+      {
+        "src": "68460c423451f1a15199e5cc_jasp-cox.webp",
+        "w": 556,
+        "h": 228,
+        "alt": "Cox Automotive logo"
+      },
+      {
+        "src": "68460be37fd6c5716d4fb77e_jasp-anthropologie.webp",
+        "w": 556,
+        "h": 228,
+        "alt": "Anthropologie logo"
+      },
+      {
+        "src": "68460ca2dedb8dc8d60cba47_jasp-morningstar.webp",
+        "w": 0,
+        "h": 0,
+        "alt": "Morningstar logo"
+      },
+      {
+        "src": "68460c51235cd7e85b051e6f_jasp-harpercollins.webp",
+        "w": 0,
+        "h": 0,
+        "alt": "HarperCollins logo"
+      },
+      {
+        "src": "68460cadab2ca7c6863ceba1_jasp-prudential.webp",
+        "w": 0,
+        "h": 0,
+        "alt": "Prudential logo"
+      },
+      {
+        "src": "68460ba168dfd6d44e22c13a_jasp-AAA.webp",
+        "w": 0,
+        "h": 0,
+        "alt": "AAA logo"
+      },
+      {
+        "src": "68460c3407474e37968671bf_jasp-Bona.webp",
+        "w": 0,
+        "h": 0,
+        "alt": "Bona logo"
+      },
+      {
+        "src": "68460c398cbb586a8986ada1_jasp-cognizant.webp",
+        "w": 0,
+        "h": 0,
+        "alt": "Cognizant logo"
+      },
+      {
+        "src": "68460c57c88f5cd474c960be_jasp-hitachi.webp",
+        "w": 0,
+        "h": 0,
+        "alt": "Hitachi logo"
+      },
+      {
+        "src": "68460c72f894276e5e982f85_jasp-iheartmedia.webp",
+        "w": 0,
+        "h": 0,
+        "alt": "iHeartMedia logo"
+      },
+      {
+        "src": "68460c7d8cbb586a8986c009_jasp-kelly.webp",
+        "w": 0,
+        "h": 0,
+        "alt": "Kelly logo"
+      },
+      {
+        "src": "68460ca8790f10b57c708fd2_jasp-noom.webp",
+        "w": 0,
+        "h": 0,
+        "alt": "Noom logo"
+      },
+      {
+        "src": "68460cb3392553aefba24cf6_jasp-sanoflif.webp",
+        "w": 0,
+        "h": 0,
+        "alt": "Sanofi logo"
+      },
+      {
+        "src": "68460cbd39ead81d4fcf246c_jasp-supercell.webp",
+        "w": 0,
+        "h": 0,
+        "alt": "Supercell logo"
+      },
+      {
+        "src": "68460bd83a62db625d5530bd_jasp-accenture.webp",
+        "w": 0,
+        "h": 0,
+        "alt": "Accenture logo"
+      },
+      {
+        "src": "68460c68214ed46f96536306_jasp-HH.webp",
+        "w": 0,
+        "h": 0,
+        "alt": "HH logo"
+      },
+      {
+        "src": "68460bf5f949f29f8ff03aea_jasp-boeing.webp",
+        "w": 556,
+        "h": 228,
+        "alt": "Boeing logo"
+      },
+      {
+        "src": "69f0f365873a663500dee8d2_Ulta.png",
+        "w": 800,
+        "h": 329,
+        "alt": "Ulta Beauty logo"
+      }
+    ]
+  },
+  "stats": {
+    "text": "Platform\nPlatform\nSolutions\nSolutions\nResources\nResources\nCompany\nCompany\nPricing\nPricing\nLog In\nFree Trial\nGet A Demo\nGet A Demo\nNew!\nOptimize your brand for AI search with our GEO Agent. Learn more\nNew report\nPut AI agents to work for marketing\nOrchestrate intelligent agents to run end-to-end marketing workflows\u2014delivering speed, control, and measurable impact.\nStart Free Trial\nStart Free Trial\nGet A Demo\nGet A Demo\nWorld-class marketing teams trust Jasper\nThe Jasper Platform\nThe execution platform for intelligent marketing\nJasper is the agent workspace built for modern marketing teams. With 100+ specialized AI agents and connected content pipelines\u2014structured, end-to-end workflows that turn plans into live marketing\u2014Jasper transforms strategy into execution, reducing operational complexity, strengthening brand control, and driving measurable growth across every channel and market.\nExp",
+    "box": {
+      "top": 0,
+      "h": 10781,
+      "w": 1440
+    },
+    "imgs": [
+      {
+        "src": "69a9c7e65810eadefa81494f_233fc11d48858aeb5d62081b163af549_Nav%20-%20Agents.avif",
+        "w": 0,
+        "h": 0,
+        "alt": ""
+      },
+      {
+        "src": "69a9c7e5282c836dda2f0366_6eb903f1a850d6de5e588930419b8728_Nav%20-%20Pipelines.avif",
+        "w": 0,
+        "h": 0,
+        "alt": ""
+      },
+      {
+        "src": "69a9c7e547c39b8a59297383_Nav%20-%20IQ.avif",
+        "w": 0,
+        "h": 0,
+        "alt": ""
+      },
+      {
+        "src": "6a303a31f30d66091bf101bf_Nav%20-%20GEO.avif",
+        "w": 0,
+        "h": 0,
+        "alt": ""
+      },
+      {
+        "src": "68feca0c58458969f985ee29_SEO%20Nav%20Card.avif",
+        "w": 0,
+        "h": 0,
+        "alt": ""
+      },
+      {
+        "src": "696a7ac24006d68be7772ab9_Personalization%20Nav.avif",
+        "w": 0,
+        "h": 0,
+        "alt": ""
+      },
+      {
+        "src": "6995d1c8cb18d907d7bfdebf_Campaigns%20Nav.avif",
+        "w": 0,
+        "h": 0,
+        "alt": ""
+      },
+      {
+        "src": "69a9c8d4239a27cff91eae55_Nav%20-%20Company.avif",
+        "w": 0,
+        "h": 0,
+        "alt": "Large diverse group of people posing and smiling in front of a blue background with the red word \u2018jasper\u2019 above them."
+      },
+      {
+        "src": "68460bf5f949f29f8ff03aea_jasp-boeing.webp",
+        "w": 556,
+        "h": 228,
+        "alt": "Boeing logo"
+      },
+      {
+        "src": "69f0f365873a663500dee8d2_Ulta.png",
+        "w": 800,
+        "h": 329,
+        "alt": "Ulta Beauty logo"
+      },
+      {
+        "src": "68460ba7a043f054322d9dd0_jasp-alliantgroup.webp",
+        "w": 556,
+        "h": 228,
+        "alt": "alliantgroup logo"
+      },
+      {
+        "src": "68460c48cea2f9d4e2f84741_jasp-cushman.webp",
+        "w": 556,
+        "h": 228,
+        "alt": "Cushman & Wakefield logo"
+      },
+      {
+        "src": "68460c423451f1a15199e5cc_jasp-cox.webp",
+        "w": 556,
+        "h": 228,
+        "alt": "Cox Automotive logo"
+      },
+      {
+        "src": "68460be37fd6c5716d4fb77e_jasp-anthropologie.webp",
+        "w": 556,
+        "h": 228,
+        "alt": "Anthropologie logo"
+      },
+      {
+        "src": "68460ca2dedb8dc8d60cba47_jasp-morningstar.webp",
+        "w": 0,
+        "h": 0,
+        "alt": "Morningstar logo"
+      },
+      {
+        "src": "68460c51235cd7e85b051e6f_jasp-harpercollins.webp",
+        "w": 0,
+        "h": 0,
+        "alt": "HarperCollins logo"
+      },
+      {
+        "src": "68460cadab2ca7c6863ceba1_jasp-prudential.webp",
+        "w": 0,
+        "h": 0,
+        "alt": "Prudential logo"
+      },
+      {
+        "src": "68460ba168dfd6d44e22c13a_jasp-AAA.webp",
+        "w": 0,
+        "h": 0,
+        "alt": "AAA logo"
+      },
+      {
+        "src": "68460c3407474e37968671bf_jasp-Bona.webp",
+        "w": 0,
+        "h": 0,
+        "alt": "Bona logo"
+      },
+      {
+        "src": "68460c398cbb586a8986ada1_jasp-cognizant.webp",
+        "w": 0,
+        "h": 0,
+        "alt": "Cognizant logo"
+      },
+      {
+        "src": "68460c57c88f5cd474c960be_jasp-hitachi.webp",
+        "w": 0,
+        "h": 0,
+        "alt": "Hitachi logo"
+      },
+      {
+        "src": "68460c72f894276e5e982f85_jasp-iheartmedia.webp",
+        "w": 0,
+        "h": 0,
+        "alt": "iHeartMedia logo"
+      },
+      {
+        "src": "68460c7d8cbb586a8986c009_jasp-kelly.webp",
+        "w": 0,
+        "h": 0,
+        "alt": "Kelly logo"
+      },
+      {
+        "src": "68460ca8790f10b57c708fd2_jasp-noom.webp",
+        "w": 0,
+        "h": 0,
+        "alt": "Noom logo"
+      },
+      {
+        "src": "68460cb3392553aefba24cf6_jasp-sanoflif.webp",
+        "w": 0,
+        "h": 0,
+        "alt": "Sanofi logo"
+      },
+      {
+        "src": "68460cbd39ead81d4fcf246c_jasp-supercell.webp",
+        "w": 0,
+        "h": 0,
+        "alt": "Supercell logo"
+      },
+      {
+        "src": "68460bd83a62db625d5530bd_jasp-accenture.webp",
+        "w": 0,
+        "h": 0,
+        "alt": "Accenture logo"
+      },
+      {
+        "src": "68460c68214ed46f96536306_jasp-HH.webp",
+        "w": 0,
+        "h": 0,
+        "alt": "HH logo"
+      },
+      {
+        "src": "68460bf5f949f29f8ff03aea_jasp-boeing.webp",
+        "w": 556,
+        "h": 228,
+        "alt": "Boeing logo"
+      },
+      {
+        "src": "69f0f365873a663500dee8d2_Ulta.png",
+        "w": 800,
+        "h": 329,
+        "alt": "Ulta Beauty logo"
+      }
+    ]
+  },
+  "cta": {
+    "error": "not found"
+  }
+}

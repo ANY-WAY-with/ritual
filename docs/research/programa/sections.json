@@ -1,0 +1,56 @@
+[
+  {
+    "i": 0,
+    "tag": "section",
+    "cls": "flex flex-col items-center overflow-visi",
+    "top": 72,
+    "h": 828,
+    "text": "All-new Presentations just launched Beautiful software for interior designers Streamline your workflow and unlock your studio's potential. Start your 7 day free trial. Get started Watch our demo",
+    "shot": "docs-design-references-programa-S00-flex.png"
+  },
+  {
+    "i": 1,
+    "tag": "section",
+    "cls": "container-site max-w-container-md py-spa",
+    "top": 900,
+    "h": 100,
+    "text": "",
+    "shot": "docs-design-references-programa-S01-container-site.png"
+  },
+  {
+    "i": 2,
+    "tag": "section",
+    "cls": "pt-spacing-32 pb-spacing-32 md:pt-spacin",
+    "top": 2795,
+    "h": 656,
+    "text": "Specification, streamlined Specify in real-time meaning no double handling data or version control. Get started View our Schedules",
+    "shot": "docs-design-references-programa-S02-pt-spacing-32.png"
+  },
+  {
+    "i": 3,
+    "tag": "section",
+    "cls": "pt-spacing-32 pb-spacing-32 md:pt-spacin",
+    "top": 3451,
+    "h": 656,
+    "text": "Management, minimized Manage projects effortlessly with our intuitive and agile platform. Get started Our Project Management",
+    "shot": "docs-design-references-programa-S03-pt-spacing-32.png"
+  },
+  {
+    "i": 4,
+    "tag": "section",
+    "cls": "pt-spacing-32 pb-spacing-32 md:pt-spacin",
+    "top": 4107,
+    "h": 656,
+    "text": "Presentations, perfected Purpose-built presentation tools provide a single-source-of-truth from concept to completion. Explore Presentations",
+    "shot": "docs-design-references-programa-S04-pt-spacing-32.png"
+  },
+  {
+    "i": 5,
+    "tag": "footer",
+    "cls": "relative mb-0 pb-0 text-foregrounds-base",
+    "top": 7524,
+    "h": 415,
+    "text": "PRODUCT All features Specification tools Management tools Presentation tools ABOUT Company Contact FAQs Pricing RESOURCES Blog Made with Programa Editorial Testimonials Help Centre Interior Design Software Guide How to Choose FF&E Specification Software What i",
+    "shot": "docs-design-references-programa-S05-relative.png"
+  }
+]
