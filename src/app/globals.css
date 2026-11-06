@@ -2,350 +2,44 @@
 @import "tw-animate-css";
 @import "shadcn/tailwind.css";
 
-@custom-variant dark (&:is(.dark *));
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-
-  /* ABC Social type system (loaded via next/font/local in layout.tsx) */
-  --font-sans: var(--font-abc-social), "ABC Social", Arial, sans-serif;
-  --font-mono: var(--font-abc-mono), "ABC Social Mono", ui-monospace, monospace;
-  --font-extended: var(--font-abc-extended), "ABC Social Extended", Arial, sans-serif;
-  --font-condensed: var(--font-abc-condensed), "ABC Social Condensed", Arial, sans-serif;
-  --font-heading: var(--font-abc-social), "ABC Social", Arial, sans-serif;
-
-  /* ---- Ditto brand palette ---- */
-  --color-ditto-cream: #f7f5f3;
-  --color-ditto-ink: #000000;
-  --color-ditto-muted: #6a6559;
-  --color-ditto-beige: #dcd8cf;
-  --color-ditto-surface: #efede9;
-  --color-ditto-yellow: #ffdd33;
-  --color-ditto-orange: #ff6137;
-  --color-ditto-orange-bright: #ff5124;
-  --color-ditto-blue: #1345eb;
-  --color-ditto-blue-bright: #146ef5;
-  --color-ditto-purple: #b26dc2;
-  --color-ditto-purple-soft: #dac3df;
-  --color-ditto-green: #64a727;
-  --color-ditto-olive: #bbb809;
-  --color-ditto-pink: #f5c4cc;
-  --color-ditto-pink-soft: #ffdede;
-  --color-ditto-lightblue: #9bd1ee;
-
-  /* shadcn token bridge */
-  --color-sidebar-ring: var(--sidebar-ring);
-  --color-sidebar-border: var(--sidebar-border);
-  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
-  --color-sidebar-accent: var(--sidebar-accent);
-  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
-  --color-sidebar-primary: var(--sidebar-primary);
-  --color-sidebar-foreground: var(--sidebar-foreground);
-  --color-sidebar: var(--sidebar);
-  --color-chart-5: var(--chart-5);
-  --color-chart-4: var(--chart-4);
-  --color-chart-3: var(--chart-3);
-  --color-chart-2: var(--chart-2);
-  --color-chart-1: var(--chart-1);
-  --color-ring: var(--ring);
-  --color-input: var(--input);
-  --color-border: var(--border);
-  --color-destructive: var(--destructive);
-  --color-accent-foreground: var(--accent-foreground);
-  --color-accent: var(--accent);
-  --color-muted-foreground: var(--muted-foreground);
-  --color-muted: var(--muted);
-  --color-secondary-foreground: var(--secondary-foreground);
-  --color-secondary: var(--secondary);
-  --color-primary-foreground: var(--primary-foreground);
-  --color-primary: var(--primary);
-  --color-popover-foreground: var(--popover-foreground);
-  --color-popover: var(--popover);
-  --color-card-foreground: var(--card-foreground);
-  --color-card: var(--card);
-  --radius-sm: calc(var(--radius) * 0.6);
-  --radius-md: calc(var(--radius) * 0.8);
-  --radius-lg: var(--radius);
-  --radius-xl: calc(var(--radius) * 1.4);
-  --radius-2xl: calc(var(--radius) * 1.8);
-  --radius-3xl: calc(var(--radius) * 2.2);
-  --radius-4xl: calc(var(--radius) * 2.6);
-
-  /* ---- programa.design ---- */
-  --font-rhymes: var(--font-rhymes), "Rhymes Display", Georgia, serif;
-  --font-inter: var(--font-inter), Inter, system-ui, sans-serif;
-  --color-programa-ink: #1a1a1a;
-  --color-programa-ink2: #1a1916;
-  --color-programa-muted: #7b736c;
-  --color-programa-faint: #aaa59c;
-  --color-programa-cream: #f8f6f3;
-  --color-programa-cream2: #fcfbf9;
-  --color-programa-border: #eeece6;
-  --color-programa-yellow: #fdffa2;
-  --color-programa-pink: #ff427b;
-
-  /* ---- jasper.ai ---- */
-  --font-abcrom: var(--font-abcrom), "ABC ROM", Arial, sans-serif;
-  --font-abcrom-mono: var(--font-abcrom-mono), "ABC ROM Mono", monospace;
-  --font-feature: var(--font-feature), Feature, Georgia, serif;
-  --color-jasper-ink: #262627;
-  --color-jasper-navy: #00063d;
-  --color-jasper-red: #fa4028;
-  --color-jasper-purple: #9146ff;
-  --color-jasper-purple-deep: #6724c9;
-  --color-jasper-purple-soft: #bd95ff;
-  --color-jasper-lilac: #f5f0fc;
-  --color-jasper-green: #207a00;
-  --color-jasper-green-bright: #45ff00;
-  --color-jasper-green-deep: #103a00;
-  --color-jasper-cloud: #f9f9f9;
-  --color-jasper-cloud2: #f2f2f3;
-  --color-jasper-efeff: #efefff;
-
-  /* ---- creatorwith.com (with creator) ---- */
-  --font-cw: var(--font-cw), "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
-  --color-cw-accent: #d97706;
-  --color-cw-accent-hover: #b45309;
-  --color-cw-cta: #f07832;
-  --color-cw-cta-hover: #e56d28;
-  --color-cw-ink: #1e1e1e;
-  --color-cw-muted: #6b6b6b;
-  --color-cw-bg: #f7fafc;
-  --color-cw-bg2: #fdfdfd;
-  --color-cw-border: #e8eef2;
-  --color-cw-amber: #f59e0b;
-  --color-cw-amber-bg: #fef3c7;
-  --color-cw-violet: #8b5cf6;
-  --color-cw-violet-bg: #ede9fe;
-  --color-cw-pink: #ec4899;
-  --color-cw-pink-bg: #fce7f3;
-  --color-cw-cyan: #06b6d4;
-  --color-cw-cyan-bg: #cffafe;
-
-  /* ---- pally.com ---- */
-  --font-neue: var(--font-neue), "Neue Montreal", Arial, Helvetica, sans-serif;
-  --color-pally-ink: #121212;
-  --color-pally-muted: #6b7280;
-  --color-pally-blue: #007aff;
-  --color-pally-blue-mid: #3a6ea5;
-  --color-pally-bg: #ffffff;
-  --color-pally-bg2: #fafafa;
-  --color-pally-border: #ececec;
-
-  /* marquee + reveal animations */
-  --animate-marquee: marquee 60s linear infinite;
-  --animate-spin-slow: spin 12s linear infinite;
-}
-
-/* pally thread animations */
-@keyframes thread-draw {
-  to {
-    stroke-dashoffset: 0;
-  }
-}
-
-@keyframes thread-flow {
-  to {
-    stroke-dashoffset: -340px;
-  }
-}
-
-/* solid strand — draws itself in once, then stays as a faint base line */
-.thread-strand {
-  fill: none;
-  stroke: url(#thread-grad);
-  stroke-width: 1.4;
-  stroke-linecap: round;
-  stroke-dasharray: 1;
-  stroke-dashoffset: 1;
-  opacity: 0.5;
-  animation: thread-draw 2.6s ease 0.18s forwards;
-}
-
-/* bright comet trail — a long streak of light glides along each curve,
-   glowing so it reads against the faint base strand */
-.thread-flow {
-  fill: none;
-  stroke: url(#thread-grad);
-  stroke-width: 2.4;
-  stroke-linecap: round;
-  stroke-dasharray: 80px 260px;
-  filter: drop-shadow(0 0 5px rgba(0, 122, 255, 0.6));
-  animation: thread-flow 4.5s linear infinite;
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .thread-strand,
-  .thread-flow {
-    animation: none;
-    stroke-dashoffset: 0;
-  }
-}
-
-@keyframes marquee {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(-100%);
-  }
-}
-
-@keyframes fade-up {
-  from {
-    opacity: 0;
-    transform: translateY(28px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@keyframes get-answers-shimmer-band {
-  0% {
-    transform: translateX(-130%) skewX(-12deg);
-    opacity: 0;
-  }
-  15% {
-    opacity: 1;
-  }
-  85% {
-    opacity: 1;
-  }
-  100% {
-    transform: translateX(330%) skewX(-12deg);
-    opacity: 0;
-  }
-}
-
-@keyframes get-answers-glow-pulse {
-  0%,
-  100% {
-    opacity: 0.42;
-  }
-  50% {
-    opacity: 0.78;
-  }
-}
-
-:root {
-  /* Ditto light theme mapped onto shadcn tokens */
-  --background: #f7f5f3;
-  --foreground: #000000;
-  --card: #ffffff;
-  --card-foreground: #000000;
-  --popover: #ffffff;
-  --popover-foreground: #000000;
-  --primary: #000000;
-  --primary-foreground: #f7f5f3;
-  --secondary: #efede9;
-  --secondary-foreground: #000000;
-  --muted: #efede9;
-  --muted-foreground: #6a6559;
-  --accent: #ffdd33;
-  --accent-foreground: #000000;
-  --destructive: #ff6137;
-  --border: #e0ddd9;
-  --input: #e0ddd9;
-  --ring: #6a6559;
-  --chart-1: #ff6137;
-  --chart-2: #1345eb;
-  --chart-3: #64a727;
-  --chart-4: #b26dc2;
-  --chart-5: #ffdd33;
-  --radius: 0.75rem;
-  --sidebar: #f7f5f3;
-  --sidebar-foreground: #000000;
-  --sidebar-primary: #000000;
-  --sidebar-primary-foreground: #f7f5f3;
-  --sidebar-accent: #efede9;
-  --sidebar-accent-foreground: #000000;
-  --sidebar-border: #e0ddd9;
-  --sidebar-ring: #6a6559;
-}
-
-.dark {
-  --background: #000000;
-  --foreground: #f7f5f3;
-  --card: #111111;
-  --card-foreground: #f7f5f3;
-  --popover: #111111;
-  --popover-foreground: #f7f5f3;
-  --primary: #f7f5f3;
-  --primary-foreground: #000000;
-  --secondary: #1a1a1a;
-  --secondary-foreground: #f7f5f3;
-  --muted: #1a1a1a;
-  --muted-foreground: #aaa79e;
-  --accent: #ffdd33;
-  --accent-foreground: #000000;
-  --destructive: #ff6137;
-  --border: rgba(255, 255, 255, 0.12);
-  --input: rgba(255, 255, 255, 0.15);
-  --ring: #6a6559;
-  --sidebar: #000000;
-  --sidebar-foreground: #f7f5f3;
-  --sidebar-primary: #f7f5f3;
-  --sidebar-primary-foreground: #000000;
-  --sidebar-accent: #1a1a1a;
-  --sidebar-accent-foreground: #f7f5f3;
-  --sidebar-border: rgba(255, 255, 255, 0.12);
-  --sidebar-ring: #6a6559;
-}
-
-@layer base {
-  * {
-    @apply border-border outline-ring/50;
-  }
-  body {
-    @apply bg-background text-foreground;
-    font-family: var(--font-sans);
-    -webkit-font-smoothing: antialiased;
-  }
-  html {
-    @apply font-sans;
-  }
-}
-
-@layer utilities {
-  /* horizontal marquee track helper */
-  .animate-marquee {
-    animation: var(--animate-marquee);
-  }
-  .animate-spin-slow {
-    animation: var(--animate-spin-slow);
-  }
-  .pause-on-hover:hover .animate-marquee {
-    animation-play-state: paused;
-  }
-
-  /* scroll reveal (toggled by IntersectionObserver adding .is-visible) */
-  .reveal {
-    opacity: 0;
-    transform: translateY(28px);
-    transition: opacity 0.6s ease, transform 0.6s ease;
-  }
-  .reveal.is-visible {
-    opacity: 1;
-    transform: translateY(0);
-  }
-
-  /* dotted halftone background (build-your-system) */
-  .bg-dot-grid {
-    background-image: radial-gradient(rgba(0, 0, 0, 0.08) 1.5px, transparent 1.5px);
-    background-size: 18px 18px;
-  }
-
-  /* creatorwith.com signature dot-grid */
-  .bg-cw-dots {
-    background-color: #fdfdfd;
-    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.06) 1px, transparent 1px);
-    background-size: 24px 24px;
-  }
-
-  .text-balance {
-    text-wrap: balance;
-  }
+:root { color-scheme: light; --background: #f9f7f0; --foreground: #26241e; }
+* { box-sizing: border-box; }
+html { background: var(--background); color: var(--foreground); font-family: Arial, Helvetica, sans-serif; }
+body { margin: 0; }
+a { color: inherit; text-decoration: none; }
+a:focus-visible { outline: 2px solid #915006; outline-offset: 6px; }
+.site-shell { max-width: 1680px; min-height: 100svh; margin: 0 auto; padding: 0 5%; display: flex; flex-direction: column; }
+.site-header { display: flex; align-items: center; justify-content: space-between; padding: 30px 0; border-bottom: 1px solid #d8d5cb; }
+.wordmark { font-size: 38px; font-weight: 700; letter-spacing: -2px; line-height: 1; }
+.wordmark span { color: #a55609; }
+.text-link { font-size: 14px; }
+.text-link span { margin-left: 12px; }
+.text-link:hover, .site-footer a:hover { text-decoration: underline; text-underline-offset: 5px; }
+.hero { flex: 1; padding: 65px 0 60px; }
+.eyebrow { display: flex; align-items: center; gap: 10px; margin: 0 0 30px; font-size: 12px; letter-spacing: .08em; text-transform: uppercase; }
+.status-dot { width: 7px; height: 7px; border-radius: 50%; background: #a55609; }
+h1 { font-family: Georgia, "Times New Roman", serif; font-size: clamp(76px, 10.5vw, 158px); line-height: .94; letter-spacing: -.065em; font-weight: 400; margin: 0; }
+h1 span { color: #a55609; }
+.hero-bottom { display: flex; align-items: end; justify-content: space-between; gap: 40px; margin-top: 50px; }
+.intro { font-size: clamp(19px, 2vw, 26px); line-height: 1.4; letter-spacing: -.025em; margin: 0; }
+.launch { min-width: 245px; }
+.launch p { margin: 0 0 16px; font-size: 13px; color: #645f54; }
+.contact-button { display: flex; justify-content: space-between; gap: 40px; align-items: center; min-height: 52px; padding: 15px 20px; background: #26241e; color: #f9f7f0; border-radius: 4px; font-size: 14px; }
+.contact-button:hover { background: #73420f; }
+.site-footer { display: flex; justify-content: space-between; gap: 20px; border-top: 1px solid #d8d5cb; padding: 22px 0; color: #645f54; font-size: 12px; }
+.site-footer a { color: #26241e; }
+.skip-link { position: absolute; left: 5%; top: -80px; background: #26241e; color: #fff; padding: 12px 18px; z-index: 10; }
+.skip-link:focus { top: 12px; }
+@media (min-width: 1600px) { .hero { padding-top: 80px; } }
+@media (max-width: 600px) {
+  .site-shell { padding: 0 24px; }
+  .site-header { padding: 24px 0; }
+  .wordmark { font-size: 32px; }
+  .hero { padding: 48px 0; }
+  .eyebrow { font-size: 10px; margin-bottom: 30px; }
+  h1 { font-size: clamp(64px, 15vw, 90px); }
+  .hero-bottom { flex-direction: column; align-items: stretch; gap: 34px; margin-top: 34px; }
+  .intro { font-size: 20px; }
+  .launch { min-width: 0; }
+  .site-footer { flex-direction: column; gap: 10px; padding: 22px 0; font-size: 11px; }
 }
