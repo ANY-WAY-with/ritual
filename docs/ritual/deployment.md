@@ -23,5 +23,14 @@ Vercel's project-specific recommended records, read on 2026-11-06:
 
 Recheck Vercel's domain configuration before future DNS changes; recommended values can change.
 
-Initial state: GoDaddy `@` record is Parked, `www` points to `madeinritual.com`.
-Domain ownership is verified in Vercel; DNS cutover and HTTPS verification are pending.
+## Verified connection
+
+Verified on 2026-11-06 at 18:07 KST after the user updated GoDaddy DNS:
+
+- Apex resolves to both recommended A records; `www` resolves to the project CNAME.
+- Vercel reports `misconfigured: false` with no conflicts for both domains.
+- `https://madeinritual.com` returns HTTP 200 with the Ritual launch page and canonical URL.
+- HTTPS certificate validation succeeds for both hostnames.
+- `https://www.madeinritual.com` returns HTTP 308 to `https://madeinritual.com/`.
+
+The domain connection is complete. GitHub pushes to `main` deploy automatically through Vercel.
