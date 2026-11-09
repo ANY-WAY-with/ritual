@@ -50,3 +50,18 @@ Source assets remain study-only and are not used on the Ritual home page. Their 
 - Ritual retains its own copy and working email/company links; it has no search box, authentication buttons, sponsorship UI, or timed topic/content replacement.
 - The isolated source study uses one fixed layout with eight elements, not the source's complete rotating library/entrance transitions. It is a motion/layout study, not a completed full-site clone.
 - The user requested a soft pointer response: no tilt, zoom, cursor follower, or dramatic scroll animation was added.
+
+## Preset-cycle correction — 2026-11-09
+
+The requested bar is an animated example, not an editable chat. Reinspection of the live hero and its public declarations established:
+
+- Five topics, in order: scroll animations → hover states → side panels → command menus → drag interactions. Target topic advances every 5 seconds.
+- Erase 16 ms/character, blank pause 250 ms, type 40 ms/character. Cards switch only after the new phrase is fully typed.
+- Three alternating layout presets, independent of the five-topic loop. Desktop has 8–9 cards, mobile 4–5. Layouts are scaled from 1440×900 and 375×812 spaces with a central text exclusion zone.
+- Cards leave radially outward from their position (260 px × depth factor; 320 ms); arrivals start farther out (340 px × depth factor; 760 ms), with 8 px blur, 1.04 scale and distance-based stagger. Near/mid/far travel factors are 1.7/1/.55.
+- Pointer spring remains stiffness 60 / damping 20, with 26/11/4 px depth response; nested 9–14 s horizontal and 11–15 s vertical drifts remain subtle.
+- Pause holds text, scene clock, card travel, drift and media. Hidden/offscreen hero holds its clock; reverse scrolling resumes it. Reduced motion keeps a static preset.
+
+Implementation: shared scene engine in `src/components/hero/`, isolated source study at `/reference/marked-hero`, Ritual adaptation at `/`. Ritual retains its agreed headline and uses five creative-search presets and original creative images. The earlier functional chat prototype has been removed.
+
+Remaining differences: Ritual uses six original still images and its own creative phrases rather than Marked's live tagged video library. The source study uses a finite extracted media sample rather than its full catalog. Ritual preserves its own header, copy and spacing; lower-page illustrations remain simplified as documented in `full-landing.md`.

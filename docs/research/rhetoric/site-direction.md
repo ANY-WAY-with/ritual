@@ -22,3 +22,7 @@ This document belongs to the separate Ritual website repository; Rhetoric's serv
 - User approved the initial hero as a first run and requested the complete Marked landing-page structure for Ritual. Explore/Collections/MCP application pages are outside this request.
 - Add a GPT-like hero composer opening a usable chat panel. User explicitly selected interface-first; no AI backend or external message requests. Sample replies must be labeled.
 - Expand the lower page: feature grid, category tabs, alternating demo/reference sections, carousel, FAQ, footer and responsive navigation. Keep concept copy honest; do not import Marked’s customer counts or partner claims into Ritual.
+
+### 2026-11-09 — superseding hero clarification
+
+User clarified that the chat-looking bar is a timed preset display. Remove the working chat demo. The bar types preset search phrases; the matching creative-image set, layout, and radial entrance/exit directions change together after typing. Keep soft pointer depth, pause, mobile-specific arrangements and static reduced-motion behavior. The complete Ritual landing page remains in scope. No AI connection or interactive chat is requested for this version.
