@@ -16,3 +16,9 @@ This document belongs to the separate Ritual website repository; Rhetoric's serv
 - Final brand photography and the exact long-term headline.
 - Product app/sign-up destination. Until supplied, use the existing contact email and Rhetoric link; do not show fake login/search controls.
 - Source topic rotation and typed search are outside the requested motion scope.
+
+## First full version — 2026-11-09
+
+- User approved the initial hero as a first run and requested the complete Marked landing-page structure for Ritual. Explore/Collections/MCP application pages are outside this request.
+- Add a GPT-like hero composer opening a usable chat panel. User explicitly selected interface-first; no AI backend or external message requests. Sample replies must be labeled.
+- Expand the lower page: feature grid, category tabs, alternating demo/reference sections, carousel, FAQ, footer and responsive navigation. Keep concept copy honest; do not import Marked’s customer counts or partner claims into Ritual.
