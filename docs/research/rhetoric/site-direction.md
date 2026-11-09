@@ -30,3 +30,15 @@ User clarified that the chat-looking bar is a timed preset display. Remove the w
 ### 2026-11-09 — warm off-white trial
 
 User requested a warm off-white version while keeping the same floating images and animation. Apply warm paper (#f6f4ee), charcoal type, pale stone controls and subtle olive accents across the Ritual landing page. Keep the source study dark. Retain all six image assets, five phrase presets, scene layouts, timing, blur, pointer spring and pause behavior. Reduce opacity of distant/foreground cards to retain optical depth on paper, with a soft shadow on clear cards.
+
+### 2026-11-09 — product localization and aesthetic discussion
+
+User clarified that the reference is an aesthetic-reference aggregator while Ritual is an AI app for content creators, and requested research in `with_ai` plus discussion of product fit and aesthetics. Reviewed the local product/design evidence and current warm website. Proposed positioning, page narrative and three aesthetic options are recorded in `ritual-product-direction.md`. These remain proposals; the user has not selected a final aesthetic or authorized the next redesign. Preserve the current warm version and floating-motion behavior while discussing the next direction.
+
+### 2026-11-09 — audience confirmed
+
+User selected creators across all content formats. Use format-neutral headline, supporting copy and animated prompts; show varied creator examples. Video/channel-aware workflows are one supported evidence area, not the entire audience. This audience decision does not establish equal feature maturity across formats or approve an aesthetic candidate.
+
+### 2026-11-09 — editorial studio comparison authorized
+
+User selected editorial studio for exploration and requested working all-sans / serif hero options with existing floating imagery and animation, plus a broader attractiveness plan. Comparison lives at `/studio?type=sans` and `/studio?type=serif`; main warm version remains the baseline. Both candidates use identical creator-focused copy and task presets. Serif is Newsreader only on the second headline line, with Inter elsewhere. Neither typography option is selected yet. Full website narrative/art-direction sequencing is recorded in `editorial-studio-plan.md`; that later implementation remains a proposal.

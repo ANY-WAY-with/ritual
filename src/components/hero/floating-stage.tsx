@@ -22,9 +22,9 @@ export interface FloatingMedia {
 export interface HeroPreset { phrase: string; media: readonly FloatingMedia[] }
 const PresetContext = createContext({ text: "", paused: false });
 
-export function PresetSearch() {
+export function PresetSearch({ prefix = "Search for" }: { prefix?: string }) {
   const { text, paused } = useContext(PresetContext);
-  return <div className={styles.search} aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5" /><path d="m16 16 5 5" /></svg><span>Search for <strong>{text}</strong><i data-still={paused} /></span><kbd>/</kbd></div>;
+  return <div className={styles.search} aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5" /><path d="m16 16 5 5" /></svg><span>{prefix} <strong>{text}</strong><i data-still={paused} /></span><kbd>/</kbd></div>;
 }
 
 interface FloatingStageProps {

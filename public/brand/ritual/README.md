@@ -11,3 +11,5 @@ The selected PNG outputs were inspected, resized to 768px wide, and encoded as W
 `inter-latin.woff2` is Inter's Latin variable subset observed on marked.dev. Inter is licensed under the SIL Open Font License; the license is included as `Inter-LICENSE.txt`, sourced from https://raw.githubusercontent.com/rsms/inter/master/LICENSE.txt.
 
 Additional preset imagery (2026-11-09): `sculpture.webp`, `night.webp`, and `desert.webp` are original AI-generated creative studies, optimized from 1536×1024 PNG masters to 768×512 WebP. These expand the timed hero presets; they are illustrative, not client work or product screenshots.
+
+Editorial study font: `newsreader-variable.ttf` is the unmodified Newsreader variable font already evaluated in the Ritual app repository (`with_ai/packages/heli-ui/src/styles/fonts/newsreader/`). Its SIL OFL license is bundled as `Newsreader-LICENSE.txt`. Loaded only by the `/studio` route; the main site remains Inter. This is a typography candidate, not a final brand decision.
