@@ -26,3 +26,7 @@ This document belongs to the separate Ritual website repository; Rhetoric's serv
 ### 2026-11-09 — superseding hero clarification
 
 User clarified that the chat-looking bar is a timed preset display. Remove the working chat demo. The bar types preset search phrases; the matching creative-image set, layout, and radial entrance/exit directions change together after typing. Keep soft pointer depth, pause, mobile-specific arrangements and static reduced-motion behavior. The complete Ritual landing page remains in scope. No AI connection or interactive chat is requested for this version.
+
+### 2026-11-09 — warm off-white trial
+
+User requested a warm off-white version while keeping the same floating images and animation. Apply warm paper (#f6f4ee), charcoal type, pale stone controls and subtle olive accents across the Ritual landing page. Keep the source study dark. Retain all six image assets, five phrase presets, scene layouts, timing, blur, pointer spring and pause behavior. Reduce opacity of distant/foreground cards to retain optical depth on paper, with a soft shadow on clear cards.

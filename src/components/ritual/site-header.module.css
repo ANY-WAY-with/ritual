@@ -1,32 +1,32 @@
 .header { position: fixed; z-index: 30; inset: 0 0 auto; min-height: 74px; display: flex; justify-content: space-between; align-items: center; padding: 17px 28px; background: transparent; transition: background .2s, border-color .2s; border-bottom: 1px solid transparent; }
-.header[data-scrolled="true"] { background: #050505d9; border-bottom-color: #ffffff0b; backdrop-filter: blur(18px); }
+.header[data-scrolled="true"] { background: #f6f4eee8; border-bottom-color: #29261c0b; backdrop-filter: blur(18px); }
 .left { display: flex; align-items: center; gap: 40px; }
-.wordmark { color: #f5f5f5; font-size: 29px; line-height: 1; font-weight: 650; letter-spacing: -1.7px; }
-.wordmark span { color: #999; }
+.wordmark { color: #272922; font-size: 29px; line-height: 1; font-weight: 650; letter-spacing: -1.7px; }
+.wordmark span { color: #7b7e72; }
 .desktopNav { display: flex; gap: 26px; align-items: center; }
-.desktopNav a, .byline { color: #929292; font-size: 13px; transition: color .2s; }
-.desktopNav a:hover, .byline:hover { color: #fff; }
+.desktopNav a, .byline { color: #6b6e63; font-size: 13px; transition: color .2s; }
+.desktopNav a:hover, .byline:hover { color: #272922; }
 .right { display: flex; gap: 24px; align-items: center; }
 .byline { font-size: 11px; }
-.tryButton, .drawerCTA { display: inline-flex; gap: 16px; align-items: center; justify-content: center; border: 0; border-radius: 30px; background: #fafafa; color: #111; font: inherit; font-size: 12px; font-weight: 500; padding: 12px 20px; min-height: 40px; cursor: pointer; }
-.tryButton:hover, .drawerCTA:hover { background: #ddd; }
+.tryButton, .drawerCTA { display: inline-flex; gap: 16px; align-items: center; justify-content: center; border: 0; border-radius: 30px; background: #2b2e25; color: #faf9f5; font: inherit; font-size: 12px; font-weight: 500; padding: 12px 20px; min-height: 40px; cursor: pointer; }
+.tryButton:hover, .drawerCTA:hover { background: #454a3b; }
 .menuButton { display: none; }
-.drawer { position: fixed; inset: 0 0 0 auto; margin: 0; padding: 0; max-width: none; max-height: none; height: 100svh; width: min(310px, 84vw); background: #171717e8; backdrop-filter: blur(24px); color: #eee; border: 0; border-left: 1px solid #ffffff13; }
-.drawer::backdrop { background: #0006; backdrop-filter: blur(7px); }
+.drawer { position: fixed; inset: 0 0 0 auto; margin: 0; padding: 0; max-width: none; max-height: none; height: 100svh; width: min(310px, 84vw); background: #f6f4eef2; backdrop-filter: blur(24px); color: #272922; border: 0; border-left: 1px solid #29261c13; }
+.drawer::backdrop { background: #29261c26; backdrop-filter: blur(7px); }
 .drawerPanel { min-height: 100%; display: flex; flex-direction: column; padding: 26px 28px; }
 .drawerTop { display: flex; align-items: center; justify-content: space-between; }
 .drawerTop h2 { font-size: 22px; letter-spacing: -1px; font-weight: 550; margin: 0; }
-.drawerTop button { display: grid; place-items: center; background: transparent; border: 0; color: #aaa; padding: 5px; cursor: pointer; }
+.drawerTop button { display: grid; place-items: center; background: transparent; border: 0; color: #73766b; padding: 5px; cursor: pointer; }
 .drawer nav { display: grid; gap: 5px; margin-top: 25px; }
-.drawer nav a { font-size: 13px; padding: 15px 0; color: #bbb; }
-.drawer nav a:hover { color: white; }
+.drawer nav a { font-size: 13px; padding: 15px 0; color: #5e6356; }
+.drawer nav a:hover { color: #272922; }
 .drawer nav a span { margin-left: 12px; }
 .drawerCTA { margin-top: 25px; width: 100%; }
-.header button:focus-visible, .drawer button:focus-visible { outline: 2px solid #fff; outline-offset: 4px; }
+.header button:focus-visible, .drawer button:focus-visible { outline: 2px solid #272922; outline-offset: 4px; }
 @media (max-width:760px) {
   .header { padding: 20px 22px; min-height: 68px; }
   .wordmark { font-size: 28px; }
   .desktopNav, .right { display: none; }
-  .menuButton { display: grid; place-items: center; border: 0; background: transparent; color: #ccc; cursor: pointer; padding: 2px; }
+  .menuButton { display: grid; place-items: center; border: 0; background: transparent; color: #555b4d; cursor: pointer; padding: 2px; }
 }
 @media (prefers-reduced-motion:reduce) { .header, .desktopNav a, .byline { transition: none; } }

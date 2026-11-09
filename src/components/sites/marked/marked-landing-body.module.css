@@ -207,3 +207,36 @@
   .categoryVisual { animation: none; }
   .shelf { scroll-behavior: auto; }
 }
+
+/* Palette-only Ritual adaptation. Layout, assets and motion remain shared. */
+.body[data-variant="ritual"] { background: #f6f4ee; color: #272922; }
+.body[data-variant="ritual"] :is(button,a):focus-visible { outline-color: #41483a; }
+.body[data-variant="ritual"] :is(.heading span + span,.logoWall,.logoNames,.featureCopy p,.featureProof span,.categoryCaption p,.assistantBubble,.sectionNote,.faqAnswer p,.footer,.footerBottom,.dialogCopy p) { color: #74776c; }
+.body[data-variant="ritual"] :is(.featureCard,.categoryPanel,.agentDemo,.stackBack,.stackMiddle,.stackFront) { background: #fdfcf8; border-color: #e2dfd6; }
+.body[data-variant="ritual"] :is(.featureCopy h3,.footerLogo,.footerTop h3) { color: #272922; }
+.body[data-variant="ritual"] :is(.featureIcon,.iconGroup,.workflowIcons,.footerSymbols) { color: #858a7a; }
+.body[data-variant="ritual"] .blueIcon { color: #758468; }
+.body[data-variant="ritual"] :is(.imageMosaic img,.categoryVisual > img,.shelfImage) { border-color: #dedbd2; }
+.body[data-variant="ritual"] :is(.miniSearch,.saveCard) { background: #f9f8f3; border-color: #dedbd2; box-shadow: 0 8px 28px #29261c12; color: #4d5345; }
+.body[data-variant="ritual"] .miniSearch kbd { background: #eae7df; }
+.body[data-variant="ritual"] :is(.saveCard span,.saveCard small,.tabs button,.shelfCard p,.stackTitle small,.dialogCopy > p:first-child) { color: #787c70; }
+.body[data-variant="ritual"] .proofIcon { background: #e6e6db; color: #535f45; }
+.body[data-variant="ritual"] .whiteButton { background: #2b2e25; color: #faf9f5; }
+.body[data-variant="ritual"] .whiteButton:hover { background: #454a3b; }
+.body[data-variant="ritual"] .darkButton { background: #eae7df; color: #41463a; }
+.body[data-variant="ritual"] .darkButton:hover { background: #dedbd1; }
+.body[data-variant="ritual"] .tabs button[aria-selected="true"] { background: #e9e6dd; color: #272922; }
+.body[data-variant="ritual"] .tabs button:hover { color: #272922; }
+.body[data-variant="ritual"] .userBubble { background: #eae7df; border-color: #e2dfd6; }
+.body[data-variant="ritual"] :is(.demoTag,.demoNote) { color: #85897c; }
+.body[data-variant="ritual"] .roundMark { background: #e1e5d7; color: #4e5c40; }
+.body[data-variant="ritual"] .shelfImage { background: #ebe8df; }
+.body[data-variant="ritual"] .shelfControls button { background: #eae7df; border-color: #29261c08; color: #6c7362; }
+.body[data-variant="ritual"] .shelfControls button:hover:not(:disabled) { background: #dedbd1; color: #272922; }
+.body[data-variant="ritual"] :is(.faqList,.faqItem) { border-color: #dedbd2; }
+.body[data-variant="ritual"] .footer a:hover { color: #272922; }
+.body[data-variant="ritual"] .footerBottom a { color: #606755; }
+.body[data-variant="ritual"] .detailDialog { background: #f6f4ee; border-color: #dedbd2; color: #272922; }
+.body[data-variant="ritual"] .detailDialog::backdrop { background: #29261c55; }
+.body[data-variant="ritual"] .dialogClose { background: #f6f4eee8; border-color: #29261c18; color: #272922; }
+.body[data-variant="ritual"] .dialogImage { background: #eae7df; }

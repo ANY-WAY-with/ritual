@@ -27,3 +27,6 @@ a:focus-visible { outline: 2px solid #f7f7f7; outline-offset: 6px; }
   .header-contact { font-size: 11px; }
   .site-footer { padding: 22px; flex-direction: column; align-items: flex-start; gap: 10px; font-size: 10px; }
 }
+
+:root:has(.ritual-site) { color-scheme: light; --background: #f6f4ee; --foreground: #272922; }
+.ritual-site a:focus-visible { outline-color: #41483a; }

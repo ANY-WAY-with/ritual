@@ -14,3 +14,9 @@ Local rendered checks:
 - `npm run check` passes (ESLint, TypeScript, production build).
 
 Remaining differences are deliberate adaptation choices: Ritual's own headline/header, six original creative stills and five creative phrases, versus Marked's interaction phrases and tagged video catalog. The source study has a finite media sample. Lower-page illustration simplifications remain listed in `full-landing.md`.
+
+## Warm off-white trial — 2026-11-09
+
+Palette-only update for Ritual: paper background, charcoal text, pale stone controls, light cards/dialogs and mobile drawer. Original six image files, preset definitions, layout maps and animation code are unchanged. Optical layer opacity is reduced on the light background; blur/travel/drift timings are unchanged. The isolated source study remains dark.
+
+Rendered at 1440×900 and 390×844; checked category tabs, detail dialog, mobile drawer and image loading. Mobile has no horizontal overflow. `npm run check` passes. Remaining differences from the approved dark version are the palette, subtle card shadows and optical layer opacity.
