@@ -10,7 +10,10 @@ function subscribeScroll(callback: () => void) { window.addEventListener("scroll
 function getScrolled() { return window.scrollY > 30; }
 function serverScrolled() { return false; }
 
-export function SiteHeader() {
+export function SiteHeader({ variant = "default" }: { variant?: "default" | "wireframe" }) {
+  const wireframe = variant === "wireframe";
+  const navigation = wireframe ? [{ label: "How it works", href: "#how-it-works" }, { label: "Ways to create", href: "#ways-to-create" }, { label: "Questions", href: "#questions" }] : links;
+  const cta = wireframe ? { href: "#early-access", label: "Join early access" } : { href: "#features", label: "Discover Ritual" };
   const scrolled = useSyncExternalStore(subscribeScroll, getScrolled, serverScrolled);
   const menu = useRef<HTMLDialogElement>(null);
   const close = () => menu.current?.close();
@@ -23,17 +26,17 @@ export function SiteHeader() {
   return <>
     <header className={styles.header} data-scrolled={scrolled}>
       <div className={styles.left}>
-        <Link className={styles.wordmark} href="/" aria-label="Ritual home">ritual<span aria-hidden="true">.</span></Link>
-        <nav aria-label="Main navigation" className={styles.desktopNav}>{links.map(link => <a key={link.href} href={link.href}>{link.label}</a>)}</nav>
+        <Link className={styles.wordmark} href={wireframe ? "/wireframe" : "/"} aria-label="Ritual home">ritual<span aria-hidden="true">.</span></Link>
+        <nav aria-label="Main navigation" className={styles.desktopNav}>{navigation.map(link => <a key={link.href} href={link.href}>{link.label}</a>)}</nav>
       </div>
-      <div className={styles.right}><a href="https://rhetoric.so" className={styles.byline}>By Rhetoric</a><a href="#features" className={styles.tryButton}>Discover Ritual <span aria-hidden="true">↗</span></a></div>
+      <div className={styles.right}>{!wireframe && <a href="https://rhetoric.so" className={styles.byline}>By Rhetoric</a>}<a href={cta.href} className={styles.tryButton}>{cta.label} <span aria-hidden="true">↗</span></a></div>
       <button className={styles.menuButton} type="button" aria-label="Open navigation" onClick={() => menu.current?.showModal()}><Menu size={22} /></button>
     </header>
     <dialog ref={menu} className={styles.drawer} aria-labelledby="navigation-title" onClick={event => { if (event.target === event.currentTarget) close(); }}>
       <div className={styles.drawerPanel}>
         <div className={styles.drawerTop}><h2 id="navigation-title">ritual.</h2><button type="button" aria-label="Close navigation" onClick={close}><X size={20} /></button></div>
-        <nav aria-label="Mobile navigation">{links.map(link => <a href={link.href} key={link.href} onClick={close}>{link.label}</a>)}<a href="#features" onClick={close}>A first look</a><a href="https://rhetoric.so">Rhetoric <span aria-hidden="true">↗</span></a><a href="mailto:contact@rhetoric.so">Contact</a></nav>
-        <div onClick={close}><a href="#features" className={styles.drawerCTA}>Discover Ritual <span aria-hidden="true">↗</span></a></div>
+        <nav aria-label="Mobile navigation">{navigation.map(link => <a href={link.href} key={link.href} onClick={close}>{link.label}</a>)}{!wireframe && <a href="#features" onClick={close}>A first look</a>}<a href="https://rhetoric.so">Rhetoric <span aria-hidden="true">↗</span></a><a href="mailto:contact@rhetoric.so">Contact</a></nav>
+        <div onClick={close}><a href={cta.href} className={styles.drawerCTA}>{cta.label} <span aria-hidden="true">↗</span></a></div>
       </div>
     </dialog>
   </>;

@@ -26,7 +26,7 @@ const studioPresets: readonly HeroPreset[] = [
   { ...presets[4], phrase: "explore a direction" },
 ];
 
-export function RitualHero({ typography = "original", reducedMotion = false }: { typography?: "original" | "sans" | "serif"; reducedMotion?: boolean }) {
+export function RitualHero({ typography = "original", reducedMotion = false, earlyAccess = false }: { typography?: "original" | "sans" | "serif"; reducedMotion?: boolean; earlyAccess?: boolean }) {
   const studio = typography !== "original";
   return (
     <FloatingStage media={creativeReferences} presets={studio ? studioPresets : presets} reducedMotion={reducedMotion}>
@@ -38,8 +38,8 @@ export function RitualHero({ typography = "original", reducedMotion = false }: {
       </> : <h1 className={styles.title}>Good work starts<br />with a ritual.</h1>}
       <PresetSearch prefix={studio ? "Ask Ritual to" : "Search for"} />
       <div className={styles.actions}>
-        <a className={styles.primary} href="#features">Discover Ritual</a>
-        <a className={styles.secondary} href="#explore">Explore ideas</a>
+        <a className={styles.primary} href={earlyAccess ? "#early-access" : "#features"}>{earlyAccess ? "Join early access" : "Discover Ritual"}</a>
+        <a className={styles.secondary} href={earlyAccess ? "#how-it-works" : "#explore"}>{earlyAccess ? "See Ritual in action" : "Explore ideas"}</a>
       </div>
       </div>
     </FloatingStage>

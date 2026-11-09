@@ -25,6 +25,8 @@ Ritual should feel like a calm studio where a creator thinks and develops work. 
 
 ## Sequence for the full site
 
+**Superseded sequencing:** the user subsequently deferred typography selection and prioritized full-site content/layout planning. Use `website-blueprint.md` for the current sequence and early-access conversion goal; the A/B studies below remain available for later review.
+
 ### 1. Select the hero's typographic voice
 
 Review both candidates at desktop and mobile, with the same held scene and with motion running. Evaluate warmth, clarity, visual balance, line wrapping and the space between the headline and imagery. Select A/B or a bounded refinement; neither is automatically the final brand.

@@ -42,3 +42,11 @@ User selected creators across all content formats. Use format-neutral headline, 
 ### 2026-11-09 — editorial studio comparison authorized
 
 User selected editorial studio for exploration and requested working all-sans / serif hero options with existing floating imagery and animation, plus a broader attractiveness plan. Comparison lives at `/studio?type=sans` and `/studio?type=serif`; main warm version remains the baseline. Both candidates use identical creator-focused copy and task presets. Serif is Newsreader only on the second headline line, with Inter elsewhere. Neither typography option is selected yet. Full website narrative/art-direction sequencing is recorded in `editorial-studio-plan.md`; that later implementation remains a proposal.
+
+### 2026-11-09 — website story and structure before typography
+
+User deferred the sans/serif choice and requested planning the whole website's direction, overall layout and content first. They confirmed **Join early access** as the main action. This supersedes the earlier typography-first sequence. `website-blueprint.md` proposes a lean homepage with hero → flagship creative demonstration → creator-context difference → cross-format examples → practical FAQ → one early-access form, plus necessary policy pages. Section order, detailed content and layout remain proposals for discussion. No implementation or deployment was performed in this planning phase.
+
+### 2026-11-09 — full-page wireframe authorized
+
+User requested a working full-page wireframe using the proposed structure and realistic copy/examples, preserving the floating hero and deferring final font choice. Built `/wireframe` with neutral sans type, the original floating assets/motion, a coherent old-train-ticket story, interactive angle/research/draft states, creator-context illustration, writing/recorded/visual examples, FAQ and a clearly labeled local early-access form preview. The full signup backend and public policy details remain outside this wireframe phase. Details and evidence: `full-page-wireframe.md`.
