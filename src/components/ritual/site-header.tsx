@@ -10,9 +10,9 @@ function subscribeScroll(callback: () => void) { window.addEventListener("scroll
 function getScrolled() { return window.scrollY > 30; }
 function serverScrolled() { return false; }
 
-export function SiteHeader({ variant = "default" }: { variant?: "default" | "wireframe" }) {
-  const wireframe = variant === "wireframe";
-  const navigation = wireframe ? [{ label: "How it works", href: "#how-it-works" }, { label: "Ways to create", href: "#ways-to-create" }, { label: "Questions", href: "#questions" }] : links;
+export function SiteHeader({ variant = "default" }: { variant?: "default" | "wireframe" | "creator" }) {
+  const wireframe = variant !== "default";
+  const navigation = wireframe ? [{ label: "How it works", href: "#how-it-works" }, { label: variant === "creator" ? "Creator styles" : "Ways to create", href: variant === "creator" ? "#creator-styles" : "#ways-to-create" }, { label: "Questions", href: "#questions" }] : links;
   const cta = wireframe ? { href: "#early-access", label: "Join early access" } : { href: "#features", label: "Discover Ritual" };
   const scrolled = useSyncExternalStore(subscribeScroll, getScrolled, serverScrolled);
   const menu = useRef<HTMLDialogElement>(null);
@@ -26,7 +26,7 @@ export function SiteHeader({ variant = "default" }: { variant?: "default" | "wir
   return <>
     <header className={styles.header} data-scrolled={scrolled}>
       <div className={styles.left}>
-        <Link className={styles.wordmark} href={wireframe ? "/wireframe" : "/"} aria-label="Ritual home">ritual<span aria-hidden="true">.</span></Link>
+        <Link className={styles.wordmark} href={variant === "creator" ? "/preview" : wireframe ? "/wireframe" : "/"} aria-label="Ritual home">ritual<span aria-hidden="true">.</span></Link>
         <nav aria-label="Main navigation" className={styles.desktopNav}>{navigation.map(link => <a key={link.href} href={link.href}>{link.label}</a>)}</nav>
       </div>
       <div className={styles.right}>{!wireframe && <a href="https://rhetoric.so" className={styles.byline}>By Rhetoric</a>}<a href={cta.href} className={styles.tryButton}>{cta.label} <span aria-hidden="true">↗</span></a></div>

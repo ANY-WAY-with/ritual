@@ -50,3 +50,13 @@ User deferred the sans/serif choice and requested planning the whole website's d
 ### 2026-11-09 — full-page wireframe authorized
 
 User requested a working full-page wireframe using the proposed structure and realistic copy/examples, preserving the floating hero and deferring final font choice. Built `/wireframe` with neutral sans type, the original floating assets/motion, a coherent old-train-ticket story, interactive angle/research/draft states, creator-context illustration, writing/recorded/visual examples, FAQ and a clearly labeled local early-access form preview. The full signup backend and public policy details remain outside this wireframe phase. Details and evidence: `full-page-wireframe.md`.
+
+### 2026-11-10 — tech-forward mood and creator-specific expression
+
+User explicitly rejected nostalgic still-life photography and clarified that the earlier, more tech-forward website is closer to the desired mood. Preserve the contemporary Marked-influenced floating hero and animation. Editorial refinement means deliberate composition, spacing and hierarchy, not a nostalgic/lifestyle visual identity. New still-life concepts generated during exploration have not been integrated and must not be used for this direction.
+
+Creator style should be explored through the references, visual material, voice, angles and creative outputs inside a consistent Ritual product frame. Proposed next composition: a tech-forward base with a small number of creator-world examples demonstrating how the same creative task develops differently with different references and preferences. Exact examples and UI presentation remain proposals. The old-ticket wireframe story is illustrative and should not drive the final site's art direction.
+
+### 2026-11-10 — tech-forward full-page refinement authorized
+
+User authorized trying this direction across the full page. Implemented `/preview`: original floating hero and animation, same-idea creator comparison with three authored styles, context diagram, varied creative artifacts, FAQ and local early-access preview. Use neutral charcoal and restrained accents within a consistent Ritual frame. Font choice remains open. Details, checks, remaining limits and visual evidence: `tech-creator-refinement.md`.

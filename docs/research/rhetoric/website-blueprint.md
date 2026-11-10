@@ -173,3 +173,9 @@ Rhythm: atmospheric hero → concrete large demonstration → quieter contextual
 5. Build the selected design, connect the early-access flow, verify actual controls, responsive layouts, motion and product claims, then review for release.
 
 This planning baseline was followed by an explicitly authorized full-page wireframe. That review implements the section structure with illustrative content and a local-only signup preview; it does not add AI behavior, backend form integration or a public launch. See `full-page-wireframe.md`.
+
+## Art-direction correction — 2026-11-10
+
+Retain the earlier tech-forward website mood. Do not translate “editorial studio” into nostalgic still-life imagery or a lifestyle magazine. Keep the six original floating hero images and motion; refine composition, spacing, visual contrast and product demonstrations. The old-ticket story was a wireframe content device, not an approved creative identity.
+
+Proposed creator-style demonstration: keep Ritual's product frame consistent while showing how references, creator preferences and point of view affect the angle, wording and resulting work. Show a few distinct contemporary creator worlds rather than a universal decorative style. The demonstration should be illustrative and grounded in actual supported behavior; it must not imply automatic theme changes, account access or a fully implemented style-learning capability.
