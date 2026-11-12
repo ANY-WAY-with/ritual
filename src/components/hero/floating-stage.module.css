@@ -1,0 +1,75 @@
+.stage { --pointer-x: 0; --pointer-y: 0; position: relative; isolation: isolate; display: flex; align-items: center; justify-content: center; min-height: max(100svh, 760px); overflow: hidden; background: #050505; color: #f7f7f7; }
+.images { position: absolute; inset: 0; overflow: hidden; pointer-events: none; contain: strict; mask-image: linear-gradient(to bottom, transparent, #000 110px, #000 calc(100% - 110px), transparent); }
+.layer { position: absolute; inset: 0; transform: translate3d(calc(var(--pointer-x) * var(--parallax) * -1), calc(var(--pointer-y) * var(--parallax) * -1), 0); }
+.layer[data-depth="far"] { --parallax: 4px; z-index: 1; }
+.layer[data-depth="mid"] { --parallax: 11px; z-index: 2; }
+.layer[data-depth="near"] { --parallax: 26px; z-index: 3; }
+.placement { position: absolute; width: var(--width); height: var(--height); left: var(--left); top: var(--top); transform: translate(-50%, -50%); }
+.driftX, .driftY, .frame { width: 100%; height: 100%; }
+.driftX { animation: drift-x var(--duration-x, 11s) ease-in-out infinite alternate; animation-delay: var(--delay, -4s); }
+.driftY { animation: drift-y var(--duration-y, 13s) ease-in-out infinite alternate; animation-delay: var(--delay, -4s); }
+.frame { border-radius: 22px; overflow: hidden; background: #131313; box-shadow: inset 0 0 0 1px #ffffff0a; }
+.frame img, .frame video { width: 100%; height: 100%; object-fit: cover; display: block; }
+.layer[data-depth="far"] .frame { filter: brightness(.42) blur(1.5px); border-radius: 15px; }
+.layer[data-depth="near"] .frame { filter: blur(12px); }
+.content { position: relative; z-index: 4; text-align: center; width: min(540px, calc(100% - 40px)); padding-top: 45px; }
+.pause { position: absolute; z-index: 5; bottom: 28px; right: 28px; width: 42px; height: 42px; display: grid; place-items: center; border: 1px solid #ffffff0b; border-radius: 50%; background: #181818; color: #999; cursor: pointer; }
+.pause:hover { color: #fff; background: #242424; }
+.pause:disabled { cursor: default; opacity: .45; }
+.pause svg { width: 20px; height: 20px; fill: currentColor; }
+.pause:focus-visible { outline: 2px solid #fff; outline-offset: 5px; }
+.stage[data-paused="true"] .driftX, .stage[data-paused="true"] .driftY, .stage[data-visible="false"] .driftX, .stage[data-visible="false"] .driftY { animation-play-state: paused; }
+.stage[data-reduced="true"] .driftX, .stage[data-reduced="true"] .driftY { animation: none; }
+.stage[data-reduced="true"] .layer { transform: none; }
+@keyframes drift-x { from { translate: -12px 0; } to { translate: 12px 0; } }
+@keyframes drift-y { from { translate: 0 -10px; } to { translate: 0 10px; } }
+@media (max-width: 760px) {
+  .stage { min-height: max(100svh, 780px); }
+  .content { width: calc(100% - 40px); padding-top: 12px; }
+  .images { mask-image: linear-gradient(to bottom, transparent, #000 110px, #000 calc(100% - 70px), transparent); }
+  .frame { border-radius: 17px; }
+  .pause { right: 20px; bottom: 24px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .driftX, .driftY { animation: none; }
+  .layer { transform: none; }
+}
+
+.scene { position: absolute; inset: 0; }
+.placement[hidden] { display: none; }
+.travel { width: 100%; height: 100%; animation: arrive .76s cubic-bezier(.16,1,.3,1) var(--arrival-delay, 0s) both; }
+.scene[data-exit="true"] .travel { animation: leave .32s cubic-bezier(.5,0,.75,0) var(--exit-delay, 0s) both; }
+@keyframes arrive { from { transform: translate(var(--enter-x), var(--enter-y)) scale(1.04); opacity: 0; filter: blur(8px); } to { transform: translate(0,0) scale(1); opacity: 1; filter: blur(0); } }
+@keyframes leave { from { transform: translate(0,0); opacity: 1; filter: blur(0); } to { transform: translate(var(--exit-x), var(--exit-y)); opacity: 0; filter: blur(8px); } }
+.stage[data-paused="true"] .travel, .stage[data-visible="false"] .travel, .stage[data-paused="true"] .search i, .stage[data-visible="false"] .search i { animation-play-state: paused; }
+.stage[data-reduced="true"] .travel { animation: none; }
+.search { display: flex; align-items: center; gap: 12px; width: min(100%, 440px); min-height: 54px; margin: 28px auto 0; padding: 10px 14px 10px 20px; border: 1px solid #ffffff12; border-radius: 999px; background: #181818; box-shadow: inset 0 0 0 1px #ffffff03; text-align: left; font-size: 17px; letter-spacing: -.035em; color: #868686; }
+.search svg { flex: 0 0 21px; width: 21px; height: 21px; fill: none; stroke: currentColor; stroke-width: 1.8; }
+.search > span { flex: 1; white-space: nowrap; }
+.search strong { color: #f4f4f4; font-weight: 500; }
+.search i { display: inline-block; vertical-align: -.14em; height: 1.1em; width: 1px; margin-left: 2px; background: #bcbcbc; animation: caret 1s steps(1) infinite; }
+.search i[data-still="true"] { animation: none; }
+.search kbd { display: grid; place-items: center; width: 25px; height: 26px; border: 1px solid #ffffff10; border-radius: 7px; background: #292929; font: inherit; color: #999; }
+@keyframes caret { 0%, 50% { opacity: 1; } 51%, 100% { opacity: 0; } }
+@media (max-width: 760px) { .search { gap: 9px; font-size: 14px; min-height: 52px; padding-left: 15px; } .search svg { width: 18px; flex-basis: 18px; } .search kbd { width: 22px; } }
+@media (prefers-reduced-motion: reduce) { .travel, .search i { animation: none; } }
+
+/* Ritual's warm paper palette; the isolated reference study stays dark. */
+.stage[data-reference="false"] { background: var(--ritual-canvas, #f6f4ee); color: var(--ritual-ink, #272922); }
+.stage[data-reference="false"] .frame { background: var(--ritual-wash, #e8e5dc); box-shadow: 0 10px 32px #29261c12, inset 0 0 0 1px #29261c0a; }
+.stage[data-reference="false"] .layer[data-depth="far"] .frame { filter: blur(1.5px); opacity: .4; }
+.stage[data-reference="false"] .layer[data-depth="near"] .frame { opacity: .23; }
+.stage[data-reference="false"] .search { background: #ebe8e0; color: #72746b; border-color: #29261c0e; box-shadow: inset 0 1px 0 #ffffff80; }
+.stage[data-reference="false"] .search strong { color: #272922; }
+.stage[data-reference="false"] .search i { background: #55584e; }
+.stage[data-reference="false"] .search kbd { background: #e0ddd4; border-color: #29261c0a; color: #73756b; }
+.stage[data-reference="false"] .pause { background: var(--ritual-wash, #eae7df); border-color: #29261c0a; color: var(--ritual-muted, #686b60); }
+.stage[data-reference="false"] .pause:hover { background: var(--ritual-panel, #dedbd1); color: var(--ritual-ink, #272922); }
+.stage[data-reference="false"] .pause:focus-visible { outline-color: #272922; }
+
+/* A niche change while paused should reveal its first scene immediately. */
+[data-niche] .stage[data-paused="true"][data-scene="0"] .travel { animation: none; }
+
+.featuredLayer { position: absolute; inset: 0; z-index: 5; pointer-events: none; }
+.featuredPlacement { pointer-events: auto; }
+.featuredPlacement:not([style]) { visibility: hidden; }

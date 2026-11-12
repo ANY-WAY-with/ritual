@@ -1,0 +1,62 @@
+[
+  {
+    "description": "Hover\nCards that lift, links that reveal, cursors that react.\nExplore",
+    "label": "Hover9",
+    "url": "/explore?tag=hover"
+  },
+  {
+    "description": "Scroll\nSections that pin, images that fly in, text that unfolds.\nExplore",
+    "label": "Scroll9",
+    "url": "/explore?tag=scroll,parallax"
+  },
+  {
+    "description": "Drag\nStacks to shuffle, items to sort, things to throw around.\nExplore",
+    "label": "Drag7",
+    "url": "/explore?tag=drag,stack"
+  },
+  {
+    "description": "Menus\nPickers, palettes and actions that unfold in place.\nExplore",
+    "label": "Menus13",
+    "url": "/explore?tag=menu,command,picker,popover"
+  },
+  {
+    "description": "Panels\nSide panels and sheets that make room for more.\nExplore",
+    "label": "Panels12",
+    "url": "/explore?tag=panel"
+  },
+  {
+    "description": "Feedback\nLoaders, states and confirmations that keep you posted.\nExplore",
+    "label": "Feedback17",
+    "url": "/explore?tag=feedback,loading,states"
+  },
+  {
+    "description": "Cards\nCards that flip, expand, stack and lift.\nExplore",
+    "label": "Cards12",
+    "url": "/explore?tag=card"
+  },
+  {
+    "description": "Canvas\nBoards to pan, zoom and draw on.\nExplore",
+    "label": "Canvas5",
+    "url": "/explore?tag=canvas"
+  },
+  {
+    "description": "Reveal\nContent that appears as you go.\nExplore",
+    "label": "Reveal4",
+    "url": "/explore?tag=reveal,open"
+  },
+  {
+    "description": "AI\nPrompts, suggestions and agents at work.\nExplore",
+    "label": "AI30",
+    "url": "/explore?tag=ai"
+  },
+  {
+    "description": "Lists\nLists that stagger, sort and reorder.\nExplore",
+    "label": "Lists10",
+    "url": "/explore?tag=list"
+  },
+  {
+    "description": "Data\nCharts, tables and numbers that move.\nExplore",
+    "label": "Data17",
+    "url": "/explore?tag=data,chart,table"
+  }
+]

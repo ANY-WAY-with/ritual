@@ -1,5 +1,8 @@
 import type { Metadata } from "next";
+import localFont from "next/font/local";
 import "./globals.css";
+
+const inter = localFont({ src: "../../public/brand/ritual/inter-latin.woff2", variable: "--font-inter", weight: "100 900", display: "swap" });
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://madeinritual.com"),
@@ -18,7 +21,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en">
+    <html lang="en" className={inter.variable}>
       <body>{children}</body>
     </html>
   );

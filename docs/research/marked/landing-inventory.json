@@ -1,0 +1,341 @@
+{
+  "footer": "marked.dev\n\nGive your agent taste.\n\nProduct\nExplore\nCollections\nMCP\nChangelog\nCompany\nManifesto\nSponsor\nContact\nGive feedback\nLegal\nPrivacy\nTerms\nMade with  by the design team at Eno.",
+  "images": [
+    "https://marked.dev/_next/image?url=%2Fseed%2Favatars%2Fcmnijhof.jpg&w=64&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Favatars%2Falvish.jpg&w=64&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Favatars%2F_adamboyle.jpg&w=64&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Favatars%2Fsucodeee.jpg&w=64&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Favatars%2Fflohoeller.jpg&w=64&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Favatars%2Fflohoeller.jpg&w=64&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Favatars%2Fmaximepodgorski.jpg&w=64&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Favatars%2Fkosta4a.jpg&w=64&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Favatars%2Fflohoeller.jpg&w=64&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Fmedia%2Fpreview%2Fx-maximepodgorski-2117693543594819791.jpg&w=384&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Favatars%2Fmaximepodgorski.jpg&w=32&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Fmedia%2Fpreview%2Fx-_heyrico-2117330211067052053.jpg&w=384&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Favatars%2F_heyrico.jpg&w=32&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Fmedia%2Fpreview%2Fx-eliakuratli-2109299245891416065.jpg&w=384&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Favatars%2Feliakuratli.jpg&w=32&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Fmedia%2Fpreview%2Fx-maximepodgorski-2115158086604427503.jpg&w=384&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Favatars%2Fmaximepodgorski.jpg&w=32&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Fmedia%2Fx-cmnijhof-2117294733487645032.jpg&w=384&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Favatars%2Fcmnijhof.jpg&w=32&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Fmedia%2Fpreview%2Fx-gabriell_lab-2117611847805272267.jpg&w=384&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Favatars%2Fgabriell_lab.jpg&w=32&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Fmedia%2Fpreview%2Fx-ChloMaillott-2117329393827602734.jpg&w=384&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Favatars%2FChloMaillott.jpg&w=32&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Fmedia%2Fpreview%2Fx-keviduk-2114295013735866729-1.jpg&w=384&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Favatars%2Fkeviduk.jpg&w=32&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Fmedia%2Fx-chroxify-2115932185073266892.jpg&w=384&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Favatars%2Fchroxify.jpg&w=32&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Fmedia%2Fpreview%2Fx-maximepodgorski-2117330400410493227.jpg&w=384&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Favatars%2Fmaximepodgorski.jpg&w=32&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Fmedia%2Fpreview%2Fx-cabralorenzo-2116111013502472331.jpg&w=384&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Favatars%2Fcabralorenzo.jpg&w=32&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Fmedia%2Fx-Osha_Lion-2112943089316970817-1.jpg&w=384&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Fmedia%2Fpreview%2Fx-Nomandsign-2117712985804484770.jpg&w=384&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Favatars%2FNomandsign.jpg&w=32&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Fmedia%2Fx-_heyrico-2117603212266221863.jpg&w=384&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Favatars%2F_heyrico.jpg&w=32&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Fmedia%2Fpreview%2Fx-flohoeller-2117589078581612582.jpg&w=384&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Favatars%2Fflohoeller.jpg&w=32&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Fmedia%2Fpreview%2Fx-Nomandsign-2117336092651430266.jpg&w=384&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Favatars%2FNomandsign.jpg&w=32&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Fmedia%2Fpreview%2Fx-0xDani-2117277855923274067.jpg&w=384&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Fmedia%2Fx-cmnijhof-2117263963431850209.jpg&w=384&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Favatars%2Fcmnijhof.jpg&w=32&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Fmedia%2Fx-zahragr8r-2117175984453820816.jpg&w=384&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Favatars%2Fzahragr8r.jpg&w=32&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Fmedia%2Fpreview%2Fx-cabralorenzo-2117168584594227254.jpg&w=384&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Favatars%2Fcabralorenzo.jpg&w=32&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Fmedia%2Fx-amihai-2117167699058884767-1.jpg&w=384&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Fmedia%2Fx-zahragr8r-2116888488520126832.jpg&w=96&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Fmedia%2Fx-leyeConnect-2116897185694462002.png&w=96&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Fmedia%2Fpreview%2Fx-pmalay694-2116940898798108851.jpg&w=96&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Fmedia%2Fpreview%2Fx-cabralorenzo-2117060371311907129.jpg&w=96&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Fmedia%2Fpreview%2Fx-Nomandsign-2117712985804484770.jpg&w=48&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Fmedia%2Fpreview%2Fx-maximepodgorski-2117693543594819791.jpg&w=48&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Fmedia%2Fpreview%2Fx-gabriell_lab-2117611847805272267.jpg&w=48&q=75",
+    "https://marked.dev/landing/agents/claude.svg",
+    "https://marked.dev/landing/agents/openai.svg",
+    "https://marked.dev/landing/agents/cursor.svg",
+    "https://marked.dev/_next/image?url=%2Fseed%2Fmedia%2Fpreview%2Fx-flohoeller-2117589078581612582.jpg&w=96&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Fmedia%2Fpreview%2Fx-Nomandsign-2117336092651430266.jpg&w=96&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Fmedia%2Fpreview%2Fx-maximepodgorski-2117330400410493227.jpg&w=96&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Fmedia%2Fpreview%2Fx-maximepodgorski-2111158230424367229.jpg&w=640&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Favatars%2Fmaximepodgorski.jpg&w=48&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Fmedia%2Fpreview%2Fx-maximepodgorski-2117693543594819791.jpg&w=640&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Favatars%2Fmaximepodgorski.jpg&w=48&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Fmedia%2Fpreview%2Fx-_heyrico-2117330211067052053.jpg&w=640&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Favatars%2F_heyrico.jpg&w=48&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Fmedia%2Fpreview%2Fx-maximepodgorski-2111158230424367229.jpg&w=640&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Favatars%2Fmaximepodgorski.jpg&w=48&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Fmedia%2Fpreview%2Fx-maximepodgorski-2117693543594819791.jpg&w=640&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Favatars%2Fmaximepodgorski.jpg&w=48&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Fmedia%2Fpreview%2Fx-_heyrico-2117330211067052053.jpg&w=640&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Favatars%2F_heyrico.jpg&w=48&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Fmedia%2Fpreview%2Fx-noechague-2115156581566619957.jpg&w=640&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Favatars%2Fnoechague.jpg&w=48&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Fmedia%2Fpreview%2Fx-arthurhilhorst.jpg&w=640&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Favatars%2Farthurhilhorst.jpg&w=48&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Fmedia%2Fpreview%2Fx-Nomandsign-2117336092651430266.jpg&w=640&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Favatars%2FNomandsign.jpg&w=48&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Fmedia%2Fpreview%2Fx-noechague-2115156581566619957.jpg&w=640&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Favatars%2Fnoechague.jpg&w=48&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Fmedia%2Fpreview%2Fx-arthurhilhorst.jpg&w=640&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Favatars%2Farthurhilhorst.jpg&w=48&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Fmedia%2Fpreview%2Fx-Nomandsign-2117336092651430266.jpg&w=640&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Favatars%2FNomandsign.jpg&w=48&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Fmedia%2Fpreview%2Fx-gabriell_lab-2117611847805272267.jpg&w=640&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Favatars%2Fgabriell_lab.jpg&w=48&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Fmedia%2Fpreview%2Fx-eliakuratli-2109299245891416065.jpg&w=640&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Favatars%2Feliakuratli.jpg&w=48&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Fmedia%2Fpreview%2Fx-flohoeller-2117589078581612582.jpg&w=640&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Favatars%2Fflohoeller.jpg&w=48&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Favatars%2Fcmnijhof.jpg&w=48&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Fmedia%2Fpreview%2Fx-gabriell_lab-2117611847805272267.jpg&w=640&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Favatars%2Fgabriell_lab.jpg&w=48&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Fmedia%2Fpreview%2Fx-eliakuratli-2109299245891416065.jpg&w=640&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Favatars%2Feliakuratli.jpg&w=48&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Fmedia%2Fpreview%2Fx-flohoeller-2117589078581612582.jpg&w=640&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Favatars%2Fflohoeller.jpg&w=48&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Favatars%2Fcmnijhof.jpg&w=48&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Favatars%2Fnoechague.jpg&w=48&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Fmedia%2Fpreview%2Fx-Nomandsign-2117712985804484770.jpg&w=640&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Favatars%2FNomandsign.jpg&w=48&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Fmedia%2Fpreview%2Fx-maximepodgorski-2117330400410493227.jpg&w=640&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Favatars%2Fmaximepodgorski.jpg&w=48&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Favatars%2Fcmnijhof.jpg&w=48&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Favatars%2Fnoechague.jpg&w=48&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Fmedia%2Fpreview%2Fx-Nomandsign-2117712985804484770.jpg&w=640&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Favatars%2FNomandsign.jpg&w=48&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Fmedia%2Fpreview%2Fx-maximepodgorski-2117330400410493227.jpg&w=640&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Favatars%2Fmaximepodgorski.jpg&w=48&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Favatars%2Fcmnijhof.jpg&w=48&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Fmedia%2Fpreview%2Fx-ShumoshitaLNQ-2110515067544543265.jpg&w=640&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Favatars%2FShumoshitaLNQ.jpg&w=48&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Fmedia%2Fx-_heyrico-2117603212266221863.jpg&w=640&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Favatars%2F_heyrico.jpg&w=48&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Favatars%2Fzahragr8r.jpg&w=48&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Fmedia%2Fpreview%2Fx-ShumoshitaLNQ-2110515067544543265.jpg&w=640&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Favatars%2FShumoshitaLNQ.jpg&w=48&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Fmedia%2Fx-_heyrico-2117603212266221863.jpg&w=640&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Favatars%2F_heyrico.jpg&w=48&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Favatars%2Fzahragr8r.jpg&w=48&q=75",
+    "https://marked.dev/landing/agents/claude.svg",
+    "https://marked.dev/landing/agents/openai.svg",
+    "https://marked.dev/landing/agents/cursor.svg",
+    "https://marked.dev/landing/agents/figma.svg",
+    "https://marked.dev/landing/agents/grok.svg",
+    "https://marked.dev/landing/agents/marked-ai.svg",
+    "https://marked.dev/_next/image?url=%2Fseed%2Fmedia%2Fpreview%2Fx-Nomandsign-2117712985804484770.jpg&w=384&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Favatars%2FNomandsign.jpg&w=48&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Fmedia%2Fpreview%2Fx-maximepodgorski-2117693543594819791.jpg&w=384&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Favatars%2Fmaximepodgorski.jpg&w=48&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Fmedia%2Fpreview%2Fx-gabriell_lab-2117611847805272267.jpg&w=384&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Favatars%2Fgabriell_lab.jpg&w=48&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Fmedia%2Fx-_heyrico-2117603212266221863.jpg&w=384&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Favatars%2F_heyrico.jpg&w=48&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Fmedia%2Fpreview%2Fx-flohoeller-2117589078581612582.jpg&w=384&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Favatars%2Fflohoeller.jpg&w=48&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Favatars%2Fnoechague.jpg&w=64&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Favatars%2Fmaximepodgorski.jpg&w=64&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Favatars%2Fflohoeller.jpg&w=64&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Favatars%2Fmaximepodgorski.jpg&w=64&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Fmedia%2Fpreview%2Fx-maximepodgorski-2117693543594819791.jpg&w=384&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Fmedia%2Fpreview%2Fx-maximepodgorski-2117330400410493227.jpg&w=384&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Fmedia%2Fpreview%2Fx-maximepodgorski-2115158086604427503.jpg&w=384&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Fmedia%2Fpreview%2Fx-maximepodgorski-2114795950212542578.jpg&w=384&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Fmedia%2Fpreview%2Fx-maximepodgorski-2112246400608014795.jpg&w=384&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Favatars%2Fnoechague.jpg&w=64&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Fmedia%2Fpreview%2Fx-noechague-2115518972879909281.jpg&w=384&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Fmedia%2Fpreview%2Fx-noechague-2115156581566619957.jpg&w=384&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Fmedia%2Fpreview%2Fx-noechague-2114794194342408328.jpg&w=384&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Fmedia%2Fpreview%2Fx-noechague-2113299346099781879.jpg&w=384&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Fmedia%2Fpreview%2Fx-noechague-2112970832444096888.jpg&w=384&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Favatars%2Fzahragr8r.jpg&w=64&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Fmedia%2Fx-zahragr8r-2117175984453820816.jpg&w=384&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Fmedia%2Fx-zahragr8r-2117097045647606168.jpg&w=384&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Fmedia%2Fx-zahragr8r-2116888488520126832.jpg&w=384&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Favatars%2F_heyrico.jpg&w=64&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Fmedia%2Fx-_heyrico-2117603212266221863.jpg&w=384&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Fmedia%2Fpreview%2Fx-_heyrico-2117330211067052053.jpg&w=384&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Fmedia%2Fx-_heyrico-2109329192714457493.jpg&w=384&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Favatars%2FNomandsign.jpg&w=32&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Favatars%2Fmaximepodgorski.jpg&w=32&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Favatars%2Fgabriell_lab.jpg&w=32&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Favatars%2Fflohoeller.jpg&w=32&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Favatars%2FNomandsign.jpg&w=32&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Favatars%2Fmaximepodgorski.jpg&w=32&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Favatars%2F_heyrico.jpg&w=32&q=75",
+    "https://marked.dev/_next/image?url=%2Fseed%2Favatars%2FChloMaillott.jpg&w=32&q=75"
+  ],
+  "sections": [
+    {
+      "class": "hero",
+      "rect": {
+        "bottom": -3204,
+        "height": 720,
+        "left": 0,
+        "right": 1265,
+        "top": -3924,
+        "width": 1265,
+        "x": 0,
+        "y": -3924
+      },
+      "text": "Show your agent\nthe refs you saved\nSearch for\ncommand menus\n/\nJoin for free\nExplore refs"
+    },
+    {
+      "class": "logo-wall",
+      "rect": {
+        "bottom": -3008.5,
+        "height": 195.5,
+        "left": 0,
+        "right": 1265,
+        "top": -3204,
+        "width": 1265,
+        "x": 0,
+        "y": -3204
+      },
+      "text": "Patterns you'll recognize from\n\nLinear, Arc, Perplexity, Vercel, Figma, Supabase, Stripe, Notion, Lovable, Raycast, Cursor, Resend\n\nArc\nFigma\nNotion"
+    },
+    {
+      "class": "bento",
+      "rect": {
+        "bottom": -2028.703125,
+        "height": 979.796875,
+        "left": 92.5,
+        "right": 1172.5,
+        "top": -3008.5,
+        "width": 1080,
+        "x": 92.5,
+        "y": -3008.5
+      },
+      "text": "You saved it.\nYour agent never saw it.\nhover\n/\nFind by interaction\n\nType what moves: hover, scroll, drag. Every ref you saved, from X, Pinterest or any site, answers.\n\nA workspace overview with tasks and deadlines\nSaved from\nWeb\nJust now\nAn invoice activity timeline with agent execution details\nSaved from\nPinterest\n2m\nA color swatch picker with an inline hex value\nSaved from\nX\n9m\nA context meter with a compact view\nSaved from\nWeb\n1h\nSave from anywhere\n\nPaste a link: the video, the author and the source come with it, filed in the collection you pick.\n\nPrivate collections\n\nOne per project, pattern or client. A ref can live in several.\n\nCredited authors\n\nEvery ref keeps its maker and links back to the original post.\n\nRead by your agent\n\nClaude Code, Codex and Cursor read your collections through MCP, then build from them.\n\nRefs from 56 makers, each credited\nEvery ref links back to the person who made it.\nJoin for free"
+    },
+    {
+      "class": "interactions",
+      "rect": {
+        "bottom": -1443.90625,
+        "height": 584.796875,
+        "left": 92.5,
+        "right": 1172.5,
+        "top": -2028.703125,
+        "width": 1080,
+        "x": 92.5,
+        "y": -2028.703125
+      },
+      "text": "Browse by what moves.\nHover, scroll, drag, and more.\nHover\n9\nScroll\n9\nDrag\n7\nMenus\n13\nPanels\n12\nFeedback\n17\nCards\n12\nCanvas\n5\nReveal\n4\nAI\n30\nLists\n10\nData\n17\nDrag\nStacks to shuffle, items to sort, things to throw around.\nExplore"
+    },
+    {
+      "class": "agent",
+      "rect": {
+        "bottom": -983.90625,
+        "height": 460,
+        "left": 92.5,
+        "right": 1172.5,
+        "top": -1443.90625,
+        "width": 1080,
+        "x": 92.5,
+        "y": -1443.90625
+      },
+      "text": "Ask for a screen.\nGet it in your taste.\nJoin for free\n\nShow me the pickers I saved that make choosing feel effortless\n\nSearching your refs…\nGathering insights…\nFound 5 refs"
+    },
+    {
+      "class": "makers",
+      "rect": {
+        "bottom": -577.90625,
+        "height": 406,
+        "left": 92.5,
+        "right": 1172.5,
+        "top": -983.90625,
+        "width": 1080,
+        "x": 92.5,
+        "y": -983.90625
+      },
+      "text": "Every ref credits\nits maker.\n\n56 makers, linked from every ref\n\nExplore refs\nMax Podgorski\n7 refs in the library\nNoe\n6 refs in the library\nZahra\n3 refs in the library\nrico\n3 refs in the library"
+    },
+    {
+      "class": "shelf",
+      "rect": {
+        "bottom": -19.609375,
+        "height": 558.296875,
+        "left": 92.5,
+        "right": 1172.5,
+        "top": -577.90625,
+        "width": 1080,
+        "x": 92.5,
+        "y": -577.90625
+      },
+      "text": "Refs that move.\nWatch them before you save them.\nAn AI prompt that fills a deal spreadsheet\nNoman\nAn empty state that reacts to cursor proximity\nMax Podgorski\nStacked row tags that expand on hover\nGabriel\nAn AI agent checkpoint timeline\nFlo\nA teammate profile card below an avatar group\nNoman\nA feedback banner that lights on hover and hides on scroll\nMax Podgorski\nAce Studio website with an animated typographic hero\nrico\nAn AI chat auto-scroll threshold comparison\nChloé🧚🏻‍♀️\nPlasma One onboarding with animated currency icons\nDaniel\nA list with animated loading skeletons\nsucodee"
+    },
+    {
+      "class": "faq",
+      "rect": {
+        "bottom": 530.390625,
+        "height": 550,
+        "left": 92.5,
+        "right": 1172.5,
+        "top": -19.609375,
+        "width": 1080,
+        "x": 92.5,
+        "y": -19.609375
+      },
+      "text": "Questions,\nanswered.\n\nSomething else? We read every message.\n\nContact us\nWhat is marked?\nHow do I save a ref?\nPaste a link. marked pulls the media, plays it in place and credits the person who made it.\nHow does my agent read my refs?\nAre my collections private?\nWho gets the credit?\nIs it free?"
+    }
+  ],
+  "videos": [
+    {
+      "poster": "https://marked.dev/seed/media/preview/x-flohoeller-2111035604175593870.jpg",
+      "src": "https://marked.dev/seed/media/preview/x-flohoeller-2111035604175593870.mp4"
+    },
+    {
+      "poster": "https://marked.dev/seed/media/preview/x-flohoeller-2108086094176596019.jpg",
+      "src": "https://marked.dev/seed/media/preview/x-flohoeller-2108086094176596019.mp4"
+    },
+    {
+      "poster": "https://marked.dev/seed/media/preview/x-maximepodgorski-2115158086604427503.jpg",
+      "src": "https://marked.dev/seed/media/preview/x-maximepodgorski-2115158086604427503.mp4"
+    },
+    {
+      "poster": "https://marked.dev/seed/media/preview/x-Nomandsign-2117712985804484770.jpg",
+      "src": "https://marked.dev/seed/media/preview/x-Nomandsign-2117712985804484770.mp4"
+    },
+    {
+      "poster": "https://marked.dev/seed/media/preview/x-maximepodgorski-2117693543594819791.jpg",
+      "src": "https://marked.dev/seed/media/preview/x-maximepodgorski-2117693543594819791.mp4"
+    },
+    {
+      "poster": "https://marked.dev/seed/media/preview/x-gabriell_lab-2117611847805272267.jpg",
+      "src": "https://marked.dev/seed/media/preview/x-gabriell_lab-2117611847805272267.mp4"
+    },
+    {
+      "poster": "https://marked.dev/seed/media/preview/x-flohoeller-2117589078581612582.jpg",
+      "src": "https://marked.dev/seed/media/preview/x-flohoeller-2117589078581612582.mp4"
+    },
+    {
+      "poster": "https://marked.dev/seed/media/preview/x-Nomandsign-2117336092651430266.jpg",
+      "src": "https://marked.dev/seed/media/preview/x-Nomandsign-2117336092651430266.mp4"
+    },
+    {
+      "poster": "https://marked.dev/seed/media/preview/x-maximepodgorski-2117330400410493227.jpg",
+      "src": "https://marked.dev/seed/media/preview/x-maximepodgorski-2117330400410493227.mp4"
+    },
+    {
+      "poster": "https://marked.dev/seed/media/preview/x-_heyrico-2117330211067052053.jpg",
+      "src": "https://marked.dev/seed/media/preview/x-_heyrico-2117330211067052053.mp4"
+    },
+    {
+      "poster": "https://marked.dev/seed/media/preview/x-ChloMaillott-2117329393827602734.jpg",
+      "src": "https://marked.dev/seed/media/preview/x-ChloMaillott-2117329393827602734.mp4"
+    },
+    {
+      "poster": "https://marked.dev/seed/media/preview/x-0xDani-2117277855923274067.jpg",
+      "src": "https://marked.dev/seed/media/preview/x-0xDani-2117277855923274067.mp4"
+    },
+    {
+      "poster": "https://marked.dev/seed/media/preview/x-sucodeee-2117262394707853618.jpg",
+      "src": "https://marked.dev/seed/media/preview/x-sucodeee-2117262394707853618.mp4"
+    }
+  ]
+}
