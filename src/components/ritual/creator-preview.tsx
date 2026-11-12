@@ -1,12 +1,12 @@
 "use client";
 
 import { useState } from "react";
-import { ArrowDown, ArrowUpRight } from "lucide-react";
 import { FloatingStage } from "@/components/hero/floating-stage";
 import { CreatorSite } from "./creator-site";
 import { workspaces, type Niche } from "./niche-workspaces";
 import { SiteHeader } from "./site-header";
 import styles from "./creator-preview.module.css";
+import hero from "./ritual-hero.module.css";
 
 interface NichePickerProps {
   active: Niche;
@@ -43,19 +43,21 @@ export function CreatorPreview({ reducedMotion }: { reducedMotion: boolean }) {
           media={workspace.media}
           presets={workspace.presets}
           reducedMotion={reducedMotion}
-          extraContentClearance={28}
+          extraContentClearance={16}
         >
-          <div className={styles.hero}>
-            <p className={styles.creator} aria-live="polite">{workspace.creator}</p>
-            <h1>Your niche.<br />Your workspace.</h1>
-            <p className={styles.description}>{workspace.description}</p>
+          <div className={hero.heroCopy} data-typography="sans">
+            <p className={hero.eyebrow} aria-live="polite">{workspace.creator} workspace</p>
+            <h1 className={hero.title}>
+              <span>An AI partner for</span>
+              <span className={hero.emphasis}>your creative world.</span>
+            </h1>
+            <p className={hero.studioDescription}>Explore ideas, research what matters, and shape your next piece—in your voice.</p>
             <div className={styles.choose}>
-              <span>Choose your niche</span>
               <NichePicker active={niche} onSelect={setNiche} />
             </div>
-            <div className={styles.actions}>
-              <a href="#creator-styles">Explore workspace <ArrowDown size={15} aria-hidden="true" /></a>
-              <a href="#early-access">Join early access <ArrowUpRight size={15} aria-hidden="true" /></a>
+            <div className={hero.actions}>
+              <a className={hero.primary} href="#early-access">Join early access</a>
+              <a className={hero.secondary} href="#creator-styles">Explore workspace</a>
             </div>
           </div>
         </FloatingStage>

@@ -28,13 +28,18 @@ export interface NicheWorkspace {
 
 const image = (name: string) => `/brand/ritual/workspaces/${name}.webp`;
 
-function workspace(data: Omit<NicheWorkspace, "media" | "presets">): NicheWorkspace {
-  const media = data.references.map((reference) => ({ src: reference.image, kind: "image" as const }));
+function workspace(
+  data: Omit<NicheWorkspace, "media" | "presets">,
+  { featured, ambient }: { featured?: readonly string[]; ambient: readonly string[] },
+): NicheWorkspace {
+  const images = featured ?? data.references.map((reference) => reference.image);
+  const heroMedia = images.map((src) => ({ src, kind: "image" as const }));
+  const ambientMedia = ambient.map((src) => ({ src, kind: "image" as const }));
   const presets = data.references.map((reference, index) => ({
     phrase: reference.title,
-    media: [...media.slice(index), ...media.slice(0, index)],
+    media: [...heroMedia.slice(index), ...heroMedia.slice(0, index)],
   }));
-  return { ...data, media, presets };
+  return { ...data, media: [...ambientMedia, ...heroMedia], presets };
 }
 
 export const workspaces: Record<Niche, NicheWorkspace> = {
@@ -74,6 +79,9 @@ export const workspaces: Record<Niche, NicheWorkspace> = {
     angle: "Use the show as your first frame. Then take the proportions into your own wardrobe, keeping the principle and changing the clothes.",
     opening: "Pause on that silhouette. The thing that makes it work is where the volume sits. Here’s how I’d try it with three pieces I already own.",
     outline: ["Freeze the runway frame and point out the proportion.", "Show three versions with pieces from your wardrobe.", "End with a side-by-side so the difference reads instantly."],
+  }, {
+    featured: [image("runway"), "/brand/ritual/fabric.webp", image("blazy-show")],
+    ambient: ["/brand/ritual/sculpture.webp", "/brand/ritual/night.webp", "/brand/ritual/desert.webp"],
   }),
   science: workspace({
     id: "science",
@@ -111,7 +119,7 @@ export const workspaces: Record<Niche, NicheWorkspace> = {
     angle: "Start with a launch, then use a spinning globe to show how an eastward launch can benefit from Earth’s rotation.",
     opening: "This rocket is already moving before the engines fire. The launchpad looks still, but the whole planet is turning under it.",
     outline: ["Open on a real liftoff and ask where the motion starts.", "Mark the pad on a spinning globe and trace an eastward launch.", "Explain why the target orbit matters more than any one rule."],
-  }),
+  }, { ambient: ["/brand/ritual/alpine.webp", "/brand/ritual/coast.webp", "/brand/ritual/desert.webp"] }),
   beauty: workspace({
     id: "beauty",
     label: "Beauty",
@@ -148,5 +156,5 @@ export const workspaces: Record<Niche, NicheWorkspace> = {
     angle: "Shoot the application and evening check-in by the same window. Use close-ups to show where the finish held and where it changed.",
     opening: "Here’s one pump at nine in the morning. I’ll come back to this exact window at five so you can see what actually changed.",
     outline: ["Swatch the shade and show one side applied.", "Film an unfiltered check-in in the same light.", "Give a verdict for your skin type and routine."],
-  }),
+  }, { ambient: ["/brand/ritual/sculpture.webp", "/brand/ritual/desert.webp", "/brand/ritual/fabric.webp"] }),
 };

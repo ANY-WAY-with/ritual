@@ -14,6 +14,7 @@ function Workspace({ workspace, picker }: { workspace: NicheWorkspace; picker: R
         <div>
           <p className={styles.eyebrow}>{workspace.creator}</p>
           <h2 id="creator-title">Inside your workspace</h2>
+          <p className={workspaceStyles.workspaceDescription}>{workspace.description}</p>
         </div>
         {picker}
       </div>
