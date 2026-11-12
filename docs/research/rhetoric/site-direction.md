@@ -60,3 +60,9 @@ Creator style should be explored through the references, visual material, voice,
 ### 2026-11-10 — tech-forward full-page refinement authorized
 
 User authorized trying this direction across the full page. Implemented `/preview`: original floating hero and animation, same-idea creator comparison with three authored styles, context diagram, varied creative artifacts, FAQ and local early-access preview. Use neutral charcoal and restrained accents within a consistent Ritual frame. Font choice remains open. Details, checks, remaining limits and visual evidence: `tech-creator-refinement.md`.
+
+### 2026-11-12 — creator niche defines the workspace
+
+The user asked for a workspace that reflects the creator’s niche, with relevant floating media, colour, mood, and references. The preview leads with a Fashion, Science, or Beauty choice. The same selection controls the hero imagery, source links, and a niche-specific brief and draft. Retain the floating layouts, pointer depth, pause, and reduced-motion behavior. The initial sets are curated. Live news and trend discovery remain open product work, as does the final font choice.
+
+Fashion uses the [CHANEL Spring–Summer 2027 runway](https://www.youtube.com/watch?v=weNFjc2l1Hw), [HauteLeMode’s format](https://www.youtube.com/watch?v=U_e4pvIc9c8), and [Matthieu Blazy’s appointment](https://www.chanel.com/au/fashion/event/chanel-fashion-new-artistic-director/) with a still from the [Fall–Winter 2026 show](https://www.youtube.com/watch?v=kCKqS97hV98). Science uses [Vsauce](https://www.youtube.com/watch?v=K0-GxoJ_Pcg), [SpaceX](https://www.youtube.com/watch?v=hI9HQfCAw64), and [NASA](https://www.nasa.gov/image-article/apollo-17-blue-marble/). Beauty uses [Fenty Beauty](https://fentybeauty.com/products/softlit-naturally-luminous-longwear-foundation-420), [Fayy Lenee](https://www.youtube.com/watch?v=OxGT-dDOTUI), and [Valentina](https://www.youtube.com/watch?v=sP3jbtAwyDc).

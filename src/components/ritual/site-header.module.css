@@ -1,5 +1,5 @@
 .header { position: fixed; z-index: 30; inset: 0 0 auto; min-height: 74px; display: flex; justify-content: space-between; align-items: center; padding: 17px 28px; background: transparent; transition: background .2s, border-color .2s; border-bottom: 1px solid transparent; }
-.header[data-scrolled="true"] { background: #f6f4eee8; border-bottom-color: #29261c0b; backdrop-filter: blur(18px); }
+.header[data-scrolled="true"] { background: color-mix(in srgb, var(--ritual-canvas, #f6f4ee) 91%, transparent); border-bottom-color: #29261c0b; backdrop-filter: blur(18px); }
 .left { display: flex; align-items: center; gap: 40px; }
 .wordmark { color: #272922; font-size: 29px; line-height: 1; font-weight: 650; letter-spacing: -1.7px; }
 .wordmark span { color: #7b7e72; }
@@ -8,10 +8,10 @@
 .desktopNav a:hover, .byline:hover { color: #272922; }
 .right { display: flex; gap: 24px; align-items: center; }
 .byline { font-size: 11px; }
-.tryButton, .drawerCTA { display: inline-flex; gap: 16px; align-items: center; justify-content: center; border: 0; border-radius: 30px; background: #2b2e25; color: #faf9f5; font: inherit; font-size: 12px; font-weight: 500; padding: 12px 20px; min-height: 40px; cursor: pointer; }
-.tryButton:hover, .drawerCTA:hover { background: #454a3b; }
+.tryButton, .drawerCTA { display: inline-flex; gap: 16px; align-items: center; justify-content: center; border: 0; border-radius: 30px; background: var(--ritual-accent, #2b2e25); color: #faf9f5; font: inherit; font-size: 12px; font-weight: 500; padding: 12px 20px; min-height: 40px; cursor: pointer; }
+.tryButton:hover, .drawerCTA:hover { background: var(--ritual-hover, #454a3b); }
 .menuButton { display: none; }
-.drawer { position: fixed; inset: 0 0 0 auto; margin: 0; padding: 0; max-width: none; max-height: none; height: 100svh; width: min(310px, 84vw); background: #f6f4eef2; backdrop-filter: blur(24px); color: #272922; border: 0; border-left: 1px solid #29261c13; }
+.drawer { position: fixed; inset: 0 0 0 auto; margin: 0; padding: 0; max-width: none; max-height: none; height: 100svh; width: min(310px, 84vw); background: color-mix(in srgb, var(--ritual-canvas, #f6f4ee) 95%, transparent); backdrop-filter: blur(24px); color: #272922; border: 0; border-left: 1px solid #29261c13; }
 .drawer::backdrop { background: #29261c26; backdrop-filter: blur(7px); }
 .drawerPanel { min-height: 100%; display: flex; flex-direction: column; padding: 26px 28px; }
 .drawerTop { display: flex; align-items: center; justify-content: space-between; }

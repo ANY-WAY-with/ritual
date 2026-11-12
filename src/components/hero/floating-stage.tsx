@@ -22,6 +22,10 @@ export interface FloatingMedia {
 export interface HeroPreset { phrase: string; media: readonly FloatingMedia[] }
 const PresetContext = createContext({ text: "", paused: false });
 
+function initialCycle(presets?: readonly HeroPreset[]) {
+  return { presets, text: presets?.[0]?.phrase ?? "", turn: 0, previous: -1 };
+}
+
 export function PresetSearch({ prefix = "Search for" }: { prefix?: string }) {
   const { text, paused } = useContext(PresetContext);
   return <div className={styles.search} aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5" /><path d="m16 16 5 5" /></svg><span>{prefix} <strong>{text}</strong><i data-still={paused} /></span><kbd>/</kbd></div>;
@@ -33,27 +37,31 @@ interface FloatingStageProps {
   children: ReactNode;
   reducedMotion?: boolean;
   reference?: boolean;
+  extraContentClearance?: number;
 }
 
 // Placement, drift and optical depth live in CSS. Only the shared pointer
 // offset is updated per animation frame; pointer movement never rerenders React.
-export function FloatingStage({ media, presets, children, reducedMotion = false, reference = false }: FloatingStageProps) {
+export function FloatingStage({ media, presets, children, reducedMotion = false, reference = false, extraContentClearance = 0 }: FloatingStageProps) {
   const stage = useRef<HTMLElement>(null);
   const [paused, setPaused] = useState(false);
   const prefersReduced = useSyncExternalStore(subscribeReduced, getReduced, getServerReduced);
   const reduced = prefersReduced || reducedMotion;
 
-  const [cycle, setCycle] = useState({ text: presets?.[0].phrase ?? "", turn: 0, previous: -1 });
-  const elapsed = useRef(0);
+  const [cycle, setCycle] = useState(() => initialCycle(presets));
+  if (cycle.presets !== presets) setCycle(initialCycle(presets));
+
+  const elapsed = useRef({ presets, time: 0 });
   const running = useRef(true);
   useEffect(() => {
+    if (elapsed.current.presets !== presets) elapsed.current = { presets, time: 0 };
     if (!presets?.length || reduced || paused) return;
     let frame = 0;
     let last = 0;
     const tick = (now: number) => {
-      if (last && running.current && !document.hidden) elapsed.current += Math.min(now - last, 100);
+      if (last && running.current && !document.hidden) elapsed.current.time += Math.min(now - last, 100);
       last = now;
-      const time = elapsed.current;
+      const time = elapsed.current.time;
       const targetTurn = Math.floor(time / 5000);
       const target = presets[targetTurn % presets.length].phrase;
       const old = presets[(targetTurn - 1 + presets.length) % presets.length].phrase;
@@ -64,7 +72,7 @@ export function FloatingStage({ media, presets, children, reducedMotion = false,
       const completeAt = eraseEnd + 250 + (target.length - 1) * 40;
       const turn = targetTurn > 0 && phase < completeAt ? targetTurn - 1 : targetTurn;
       const previous = targetTurn > 0 && phase >= completeAt && phase < completeAt + 650 ? turn - 1 : -1;
-      setCycle(value => value.text === text && value.turn === turn && value.previous === previous ? value : { text, turn, previous });
+      setCycle(value => value.presets !== presets || (value.text === text && value.turn === turn && value.previous === previous) ? value : { presets, text, turn, previous });
       frame = requestAnimationFrame(tick);
     };
     frame = requestAnimationFrame(tick);
@@ -76,6 +84,7 @@ export function FloatingStage({ media, presets, children, reducedMotion = false,
     if (!root) return;
     const layout = () => {
       const mobile = root.clientWidth <= 760;
+      const verticalClearance = (mobile ? 170 : 166) + extraContentClearance;
       const scale = mobile ? Math.max(.85, Math.min(1.15, root.clientWidth / 375, root.clientHeight / 812)) : Math.max(.78, Math.min(1.25, root.clientWidth / 1440, root.clientHeight / 900));
       root.querySelectorAll<HTMLElement>(`.${styles.scene}`).forEach(scene => {
         const placements = (mobile ? mobileLayouts : desktopLayouts)[Number(scene.dataset.layout)];
@@ -90,9 +99,9 @@ export function FloatingStage({ media, presets, children, reducedMotion = false,
             const width = pw * scale, height = ph * scale;
             let x = px * scale, y = py * scale;
             const overlapX = (mobile ? 190 : 290) + width / 2 - Math.abs(x);
-            const overlapY = (mobile ? 170 : 166) + height / 2 - Math.abs(y);
+            const overlapY = verticalClearance + height / 2 - Math.abs(y);
             if (overlapX > 0 && overlapY > 0) {
-              if (overlapY <= overlapX) y = Math.sign(y || 1) * ((mobile ? 170 : 166) + height / 2);
+              if (overlapY <= overlapX) y = Math.sign(y || 1) * (verticalClearance + height / 2);
               else x = Math.sign(x || 1) * ((mobile ? 190 : 290) + width / 2);
             }
             const distance = Math.hypot(px, py) || 1;
@@ -107,7 +116,7 @@ export function FloatingStage({ media, presets, children, reducedMotion = false,
     const observer = new ResizeObserver(layout);
     observer.observe(root);
     return () => observer.disconnect();
-  }, [cycle.turn, cycle.previous]);
+  }, [cycle.turn, cycle.previous, presets, extraContentClearance]);
 
   useEffect(() => {
     const root = stage.current;
@@ -182,7 +191,7 @@ export function FloatingStage({ media, presets, children, reducedMotion = false,
       document.removeEventListener("visibilitychange", updateMedia);
       videos.forEach(video => video.pause());
     };
-  }, [paused, reduced, cycle.turn]);
+  }, [paused, reduced, cycle.turn, media, presets]);
 
   return (
     <section ref={stage} className={styles.stage} data-scene={cycle.turn} data-paused={paused} data-reduced={reduced} data-reference={reference} aria-label={reference ? "Reference hero study" : "Ritual introduction"}>

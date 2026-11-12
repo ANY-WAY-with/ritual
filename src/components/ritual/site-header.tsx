@@ -12,7 +12,7 @@ function serverScrolled() { return false; }
 
 export function SiteHeader({ variant = "default" }: { variant?: "default" | "wireframe" | "creator" }) {
   const wireframe = variant !== "default";
-  const navigation = wireframe ? [{ label: "How it works", href: "#how-it-works" }, { label: variant === "creator" ? "Creator styles" : "Ways to create", href: variant === "creator" ? "#creator-styles" : "#ways-to-create" }, { label: "Questions", href: "#questions" }] : links;
+  const navigation = wireframe ? [{ label: "How it works", href: "#how-it-works" }, { label: variant === "creator" ? "Workspaces" : "Ways to create", href: variant === "creator" ? "#creator-styles" : "#ways-to-create" }, { label: "Questions", href: "#questions" }] : links;
   const cta = wireframe ? { href: "#early-access", label: "Join early access" } : { href: "#features", label: "Discover Ritual" };
   const scrolled = useSyncExternalStore(subscribeScroll, getScrolled, serverScrolled);
   const menu = useRef<HTMLDialogElement>(null);
