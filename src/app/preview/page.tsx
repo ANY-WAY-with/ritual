@@ -7,7 +7,8 @@ export const metadata: Metadata = {
   robots: { index: false, follow: false },
 };
 
-export default async function PreviewPage({ searchParams }: { searchParams: Promise<{ motion?: string }> }) {
-  const { motion } = await searchParams;
-  return <CreatorPreview reducedMotion={motion === "reduce"} />;
+export default async function PreviewPage({ searchParams }: { searchParams: Promise<{ motion?: string; niche?: string }> }) {
+  const { motion, niche } = await searchParams;
+  const initialNiche = niche === "science" || niche === "beauty" ? niche : "fashion";
+  return <CreatorPreview initialNiche={initialNiche} reducedMotion={motion === "reduce"} />;
 }

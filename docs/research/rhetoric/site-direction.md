@@ -70,3 +70,11 @@ Fashion uses the [CHANEL Spring–Summer 2027 runway](https://www.youtube.com/wa
 ### 2026-11-12 — quieter visual treatment of niche workspaces
 
 The user prefers the earlier visual treatment and the newer niche-based concept. The current comparison restores the earlier hero headline, scale, and button hierarchy. It uses quieter niche tints and replaces prominent video cover art with frames from the linked sources. Fashion mixes runway stills with the earlier fabric image. The linked workspace examples remain the same so the visual treatment can be judged separately.
+
+### 2026-11-12 — show the work inside each creator’s environment
+
+The user wants each niche to read as a recognizable workspace, with enough visible context to understand what a creator is doing. The next design proposal uses one science episode in progress and gives its clips, source notes and draft a role in the work. See [creator workspace benchmarks](creator-workspace-benchmarks.md) for observed references and a proposed first scene.
+
+### 2026-11-12 — one interactive science scene authorized
+
+The Science workspace preview centers on “Why do rockets launch east?” Open Starship liftoff from the floating hero to review an eight-second opening shot alongside its voiceover, edit note, and NASA source. The author can try editing the sample voiceover while the panel is open. The scene uses a trimmed, silent excerpt and matching still from [Anne Toal’s Starship flight test footage](https://commons.wikimedia.org/wiki/File:SpaceX_Starship_integrated_flight_test_-5_-_launch_and_catch_-_13_October_2024.webm), licensed [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/).

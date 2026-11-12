@@ -187,3 +187,16 @@
 }
 
 .preview[data-motion="reduce"] :global(header) { transition: none; }
+
+.activeProject {
+  margin: 15px auto 0;
+  color: var(--ritual-ink);
+  font-size: 12px;
+  line-height: 1.5;
+}
+.activeProject > span {
+  margin-right: 5px;
+  color: var(--ritual-muted);
+  font-size: 10px;
+}
+.activeProject + .choose { margin-top: 15px; }

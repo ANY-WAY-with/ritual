@@ -69,3 +69,7 @@
 
 /* A niche change while paused should reveal its first scene immediately. */
 [data-niche] .stage[data-paused="true"][data-scene="0"] .travel { animation: none; }
+
+.featuredLayer { position: absolute; inset: 0; z-index: 5; pointer-events: none; }
+.featuredPlacement { pointer-events: auto; }
+.featuredPlacement:not([style]) { visibility: hidden; }

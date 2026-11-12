@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState, useSyncExternalStore, createContext, useContext, type ReactNode } from "react";
-import { desktopLayouts, mobileLayouts, type Depth } from "./scene-layouts";
+import { desktopLayouts, mobileLayouts, type Depth, type Placement } from "./scene-layouts";
 import styles from "./floating-stage.module.css";
 
 const reducedQuery = "(prefers-reduced-motion: reduce)";
@@ -38,12 +38,15 @@ interface FloatingStageProps {
   reducedMotion?: boolean;
   reference?: boolean;
   extraContentClearance?: number;
+  featured?: ReactNode;
 }
 
 // Placement, drift and optical depth live in CSS. Only the shared pointer
 // offset is updated per animation frame; pointer movement never rerenders React.
-export function FloatingStage({ media, presets, children, reducedMotion = false, reference = false, extraContentClearance = 0 }: FloatingStageProps) {
+export function FloatingStage({ media, presets, children, reducedMotion = false, reference = false, extraContentClearance = 0, featured }: FloatingStageProps) {
   const stage = useRef<HTMLElement>(null);
+  const featuredCard = useRef<HTMLDivElement>(null);
+  const hasFeatured = Boolean(featured);
   const [paused, setPaused] = useState(false);
   const prefersReduced = useSyncExternalStore(subscribeReduced, getReduced, getServerReduced);
   const reduced = prefersReduced || reducedMotion;
@@ -86,42 +89,56 @@ export function FloatingStage({ media, presets, children, reducedMotion = false,
       const mobile = root.clientWidth <= 760;
       const verticalClearance = (mobile ? 170 : 166) + extraContentClearance;
       const scale = mobile ? Math.max(.85, Math.min(1.15, root.clientWidth / 375, root.clientHeight / 812)) : Math.max(.78, Math.min(1.25, root.clientWidth / 1440, root.clientHeight / 900));
+      const layouts = mobile ? mobileLayouts : desktopLayouts;
+      const position = (element: HTMLElement, place: Placement | undefined, index: number) => {
+        element.hidden = !place;
+        if (!place) return;
+        const [depth, px, py, pw, ph] = place;
+        const width = pw * scale, height = ph * scale;
+        let x = px * scale, y = py * scale;
+        const overlapX = (mobile ? 190 : 290) + width / 2 - Math.abs(x);
+        const overlapY = verticalClearance + height / 2 - Math.abs(y);
+        if (overlapX > 0 && overlapY > 0) {
+          if (overlapY <= overlapX) y = Math.sign(y || 1) * (verticalClearance + height / 2);
+          else x = Math.sign(x || 1) * ((mobile ? 190 : 290) + width / 2);
+        }
+        if (element === featuredCard.current) {
+          const edge = Math.max(0, (root.clientWidth - width) / 2 - 16);
+          x = Math.max(-edge, Math.min(edge, x));
+        }
+        const distance = Math.hypot(px, py) || 1;
+        const push = depth === "near" ? 1.7 : depth === "far" ? .55 : 1;
+        const values = { "--width": `${width}px`, "--height": `${height}px`, "--left": `calc(50% + ${x}px)`, "--top": `calc(50% + ${y + 32}px)`, "--enter-x": `${px / distance * 340 * push}px`, "--enter-y": `${py / distance * 340 * push}px`, "--exit-x": `${px / distance * 260 * push}px`, "--exit-y": `${py / distance * 260 * push}px`, "--arrival-delay": `${(cycle.turn === 0 ? 0 : .32) + distance / 900 * 6 * .045}s`, "--exit-delay": `${distance / 900 * 4 * .045}s`, "--duration-x": `${9 + index % 5 * 1.3}s`, "--duration-y": `${11 + index % 4 * 1.1}s` };
+        Object.entries(values).forEach(([key, value]) => element.style.setProperty(key, value));
+      };
       root.querySelectorAll<HTMLElement>(`.${styles.scene}`).forEach(scene => {
-        const placements = (mobile ? mobileLayouts : desktopLayouts)[Number(scene.dataset.layout)];
+        const placements = layouts[Number(scene.dataset.layout)];
         scene.querySelectorAll<HTMLElement>(`.${styles.layer}`).forEach(layer => {
           const depth = layer.dataset.depth as Depth;
           const slots = placements.filter(place => place[0] === depth);
-          layer.querySelectorAll<HTMLElement>(`.${styles.placement}`).forEach((element, index) => {
-            const place = slots[index];
-            element.hidden = !place;
-            if (!place) return;
-            const [, px, py, pw, ph] = place;
-            const width = pw * scale, height = ph * scale;
-            let x = px * scale, y = py * scale;
-            const overlapX = (mobile ? 190 : 290) + width / 2 - Math.abs(x);
-            const overlapY = verticalClearance + height / 2 - Math.abs(y);
-            if (overlapX > 0 && overlapY > 0) {
-              if (overlapY <= overlapX) y = Math.sign(y || 1) * (verticalClearance + height / 2);
-              else x = Math.sign(x || 1) * ((mobile ? 190 : 290) + width / 2);
-            }
-            const distance = Math.hypot(px, py) || 1;
-            const push = depth === "near" ? 1.7 : depth === "far" ? .55 : 1;
-            const values = { "--width": `${width}px`, "--height": `${height}px`, "--left": `calc(50% + ${x}px)`, "--top": `calc(50% + ${y + 32}px)`, "--enter-x": `${px / distance * 340 * push}px`, "--enter-y": `${py / distance * 340 * push}px`, "--exit-x": `${px / distance * 260 * push}px`, "--exit-y": `${py / distance * 260 * push}px`, "--arrival-delay": `${(cycle.turn === 0 ? 0 : .32) + distance / 900 * 6 * .045}s`, "--exit-delay": `${distance / 900 * 4 * .045}s`, "--duration-x": `${9 + index % 5 * 1.3}s`, "--duration-y": `${11 + index % 4 * 1.1}s` };
-            Object.entries(values).forEach(([key, value]) => element.style.setProperty(key, value));
+          layer.querySelectorAll<HTMLElement>(`.${styles.placement}`).forEach(element => {
+            const index = Number(element.dataset.slot);
+            position(element, slots[index], index);
           });
         });
       });
+      if (featuredCard.current) {
+        const featuredSlot: Placement | undefined = !mobile && root.clientWidth < 1160
+          ? ["mid", 280, -280, 260, 168]
+          : layouts[0].find(([depth]) => depth === "mid");
+        position(featuredCard.current, featuredSlot, 0);
+      }
     };
     layout();
     const observer = new ResizeObserver(layout);
     observer.observe(root);
     return () => observer.disconnect();
-  }, [cycle.turn, cycle.previous, presets, extraContentClearance]);
+  }, [cycle.turn, cycle.previous, presets, extraContentClearance, hasFeatured]);
 
   useEffect(() => {
     const root = stage.current;
     if (!root) return;
-    const videos = root.querySelectorAll("video");
+    const videos = root.querySelectorAll<HTMLVideoElement>(`.${styles.images} video`);
     let visible = true;
     let frame = 0;
     let previousTime = 0;
@@ -197,10 +214,11 @@ export function FloatingStage({ media, presets, children, reducedMotion = false,
     <section ref={stage} className={styles.stage} data-scene={cycle.turn} data-paused={paused} data-reduced={reduced} data-reference={reference} aria-label={reference ? "Reference hero study" : "Ritual introduction"}>
       <div className={styles.images} aria-hidden="true">
         {(cycle.previous < 0 ? [cycle.turn] : [cycle.previous, cycle.turn]).map(turn => (
-          <div key={turn} className={styles.scene} data-layout={turn % 3} data-exit={turn !== cycle.turn}>
+          <div key={turn} className={styles.scene} data-layout={hasFeatured ? 0 : turn % 3} data-exit={turn !== cycle.turn}>
             {(["far", "mid", "near"] as const).map((depth, layer) => (
               <div key={depth} className={styles.layer} data-depth={depth}>
                 {Array.from({ length: depth === "far" ? 4 : depth === "mid" ? 3 : 2 }, (_, index) => {
+                  if (hasFeatured && depth === "mid" && index === 0) return null;
                   const pool = depth === "mid" ? presets?.[turn % presets.length].media ?? media : media;
                   const item = pool[(index + layer + turn) % pool.length];
                   return <div key={index} className={styles.placement} data-slot={index}>
@@ -219,6 +237,7 @@ export function FloatingStage({ media, presets, children, reducedMotion = false,
           </div>
         ))}
       </div>
+      {hasFeatured && <div className={styles.featuredLayer}><div ref={featuredCard} className={`${styles.placement} ${styles.featuredPlacement}`}>{featured}</div></div>}
       <PresetContext.Provider value={{ text: cycle.text, paused: paused || reduced }}><div className={styles.content}>{children}</div></PresetContext.Provider>
       <button className={styles.pause} type="button" aria-label={reduced ? "Motion reduced" : paused ? "Resume motion" : "Pause motion"} aria-pressed={paused} disabled={reduced} onClick={() => setPaused(value => !value)}>
         {paused || reduced ? (
